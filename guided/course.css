@@ -225,6 +225,19 @@ textarea { min-height: 135px; resize: vertical; }
 .tool-photo-card figcaption { margin-top: 9px; color: var(--muted); font-size: .82rem; line-height: 1.45; }
 .tool-photo-credit { display: block; margin-top: 5px; font-size: .76rem; }
 .tool-photo-credit a { color: var(--steel-dark); font-weight: 750; }
+.plan-guidance { clear: both; margin: 30px 0 8px; padding-top: 26px; border-top: 2px solid var(--line); }
+.plan-guidance > h3 { font-size: clamp(1.45rem, 3vw, 2rem); }
+.plan-guidance > h4 { margin: 20px 0 8px; color: var(--steel-dark); }
+.plan-sheet-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-top: 24px; }
+.plan-sheet-card { min-width: 0; margin: 0; padding: 11px; border: 1px solid var(--line); border-radius: 14px; background: #f5f8f7; }
+.plan-preview-link { overflow: hidden; border: 1px solid #c7d1d0; border-radius: 10px; background: white; }
+.plan-preview-link img { width: 100%; aspect-ratio: 1.45 / 1; object-fit: contain; background: white; }
+.plan-sheet-card figcaption { margin-top: 10px; color: var(--muted); font-size: .84rem; line-height: 1.45; }
+.plan-sheet-card figcaption > strong, .plan-sheet-card figcaption > span { display: block; }
+.plan-sheet-card figcaption > strong { margin-bottom: 4px; color: var(--ink); }
+.plan-actions { display: flex !important; flex-wrap: wrap; gap: 8px 12px; margin-top: 10px; }
+.plan-open-link, .plan-download-link { color: var(--steel-dark); font-weight: 850; text-underline-offset: 3px; }
+.plan-open-link:focus-visible, .plan-download-link:focus-visible { outline: 3px solid var(--amber); outline-offset: 3px; }
 .callout { margin: 20px 0 0; padding: 16px 18px; border-radius: 12px; background: #e6f1f3; border-left: 5px solid var(--steel); font-weight: 750; }
 .check-group { margin-top: 26px; padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: #f8fbfb; }
 .check-group[id], #knowledge-checks { scroll-margin-top: 92px; }
@@ -326,6 +339,7 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
   .module-nav .btn { text-align: center; }
   .written-evidence textarea { min-height: 210px; }
   .tool-photo-gallery { grid-template-columns: 1fr; }
+  .plan-sheet-gallery { grid-template-columns: 1fr; }
   .nav-links { gap: 5px; }
   .nav-links a { padding: 7px 3px; font-size: .9rem; }
 }
@@ -338,6 +352,10 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
   .card { box-shadow: none; break-inside: avoid; border-color: #aaa; }
   #knowledge-checks, .check-group { break-inside: auto; }
   .check { break-inside: avoid; }
+  .plan-guidance { break-inside: auto; }
+  .plan-sheet-card { break-inside: avoid; box-shadow: none; }
+  .plan-preview-link img { max-height: 105mm; }
+  .plan-open-link::after { content: " (" attr(href) ")"; font-weight: 400; overflow-wrap: anywhere; }
   textarea { border: 1px solid #777; min-height: 90px; }
   .model-feedback.open { display: block; }
 }

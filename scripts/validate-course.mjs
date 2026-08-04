@@ -14,18 +14,28 @@ const workshopPhotoFiles = [
   "guided/images/metal-tools/tinmans-mallet.png",
   "guided/images/metal-tools/ball-pein-hammer.jpg"
 ];
+const bbqPlanFiles = [
+  "assets/plans/bbq-case/bbq-plan.png", "assets/plans/bbq-case/bbq-plan.dwg",
+  "assets/plans/bbq-case/bbq-case-base.png", "assets/plans/bbq-case/bbq-case-base.dwg",
+  "assets/plans/bbq-case/bbq-case-lid.png", "assets/plans/bbq-case/bbq-case-lid.dwg",
+  "assets/plans/bbq-case/bbq-case-handle-components.png", "assets/plans/bbq-case/bbq-case-handle-components.dwg"
+];
+const shovelPlanFiles = ["assembly", "handle", "head", "folded-head", "pivot", "pivot-angles"].flatMap((name) => [
+  `assets/plans/folding-camping-shovel/camping-shovel-${name}.png`,
+  `assets/plans/folding-camping-shovel/camping-shovel-${name}.pdf`
+]);
 
 const requiredFiles = [
   "index.html", "module.html", "folio.html", "exam.html",
   "assessment-task-1.html", "assessment-task-2.html", "assessment-task-3.html",
   "guided/data.js", "guided/course.js", "guided/exam.js",
-  "source-notes/VISUAL-SEMANTIC-AUDIT.md", "source-notes/QUESTION-BANK.json",
+  "source-notes/VISUAL-SEMANTIC-AUDIT.md", "source-notes/QUESTION-BANK.json", "source-notes/VERIFIED-PROJECT-PLANS.md",
   "assets/year10-metal-hero.png",
   ...Array.from({ length: 12 }, (_, index) => `assets/visuals/folio-card-${String(index + 1).padStart(2, "0")}.png`),
   "assets/exam/adjustable-clamp-plan-source.png", "assets/exam/vernier-source.png",
   "assets/exam/lathe-operation-1.png", "assets/exam/lathe-operation-2.png",
   "assets/exam/lathe-operation-3.png", "assets/exam/centre-lathe-source.jpg",
-  ...workshopPhotoFiles
+  ...workshopPhotoFiles, ...bbqPlanFiles, ...shovelPlanFiles
 ];
 requiredFiles.forEach((file) => must(fs.existsSync(path.join(repo, file)), `Missing ${file}`));
 
@@ -61,6 +71,21 @@ renderedSections.forEach((section) => {
   must((section.photos?.length || 0) === (expectedPhotoCounts.get(section.id) || 0), `Unexpected workshop-photo count for ${section.id}.`);
   (section.photos || []).forEach((photo) => must(photo.image && photo.alt && photo.caption && photo.credit, `Incomplete workshop-photo record in ${section.id}.`));
 });
+const planSections = new Map(renderedSections.map((section) => [section.id, section.planGuidance]).filter(([, guidance]) => guidance));
+must(planSections.size === 2, "Exactly two existing theory sections must carry verified project-plan guidance.");
+must(planSections.get("2.2")?.sheets?.length === 4, "Section 2.2 must contain the four verified BBQ and Case sheets.");
+must(planSections.get("10.1")?.sheets?.length === 6, "Section 10.1 must contain the six verified Folding Camping Shovel sheets.");
+for (const [id, guidance] of planSections) {
+  must(guidance.heading && guidance.paragraphs?.length === 3 && guidance.takeaways?.length === 3 && guidance.boundary, `Incomplete plan-specific theory in ${id}.`);
+  guidance.sheets.forEach((sheet) => {
+    must(sheet.title && sheet.date && sheet.preview && sheet.open && sheet.alt && sheet.caption, `Incomplete project-plan record in ${id}.`);
+    must(fs.existsSync(path.join(repo, sheet.preview)) && fs.existsSync(path.join(repo, sheet.open)), `Missing project-plan asset in ${id}: ${sheet.title}`);
+    if (sheet.original) must(fs.existsSync(path.join(repo, sheet.original)), `Missing original project drawing in ${id}: ${sheet.title}`);
+  });
+}
+bbqPlanFiles.filter((file) => file.endsWith(".dwg")).forEach((file) => must(fs.readFileSync(path.join(repo, file), { encoding: "ascii", flag: "r" }).startsWith("AC10"), `${file} is not an AutoCAD DWG.`));
+shovelPlanFiles.filter((file) => file.endsWith(".pdf")).forEach((file) => must(fs.readFileSync(path.join(repo, file)).subarray(0, 5).toString("ascii") === "%PDF-", `${file} is not a PDF.`));
+[...bbqPlanFiles, ...shovelPlanFiles].filter((file) => file.endsWith(".png")).forEach((file) => must(fs.readFileSync(path.join(repo, file)).subarray(0, 8).toString("hex") === "89504e470d0a1a0a", `${file} is not a PNG.`));
 
 const folio = read("folio.html");
 must((folio.match(/class="card folio-card"/g) || []).length === 12, "Folio must contain exactly 12 cards.");
@@ -71,6 +96,7 @@ must(courseScript.includes("zoomable-infographic"), "Detailed teaching visuals m
 must(courseScript.includes('target="_blank"') && courseScript.includes('visualLink.target = "_blank"'), "Module and folio infographics must open their full-resolution source in a new tab.");
 must(courseScript.includes("Open infographic in a new tab"), "Enlarged-image links must have an accessible name.");
 must(courseScript.includes("tool-photo-gallery") && courseScript.includes("Open full-size tool photograph in a new tab"), "Section tool photographs must render with accessible full-size links.");
+must(courseScript.includes("plan-sheet-gallery") && courseScript.includes("Open larger original sheet") && courseScript.includes("Download original DWG"), "Verified project plans must render with visible accessible full-resolution links.");
 
 const visualAudit = read("source-notes/VISUAL-SEMANTIC-AUDIT.md");
 must((visualAudit.match(/^\| (?:Hero|Card (?:0[1-9]|1[0-2])) \|/gm) || []).length === 13, "Visual semantic audit must cover the hero and all 12 folio cards.");

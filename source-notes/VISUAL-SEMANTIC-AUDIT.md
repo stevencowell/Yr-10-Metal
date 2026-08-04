@@ -1,7 +1,7 @@
 # Year 10 Metal visual semantic audit
 
 Audited: 4 August 2026
-Scope: course hero, all 12 folio infographics and six section-adjacent tool-identification photographs, opened at full resolution
+Scope: course hero, all 12 folio infographics, six section-adjacent tool-identification photographs and ten verified project-plan sheets, opened at full resolution
 Release rule: every icon, arrow, row, column, colour, scale, rating, swatch and sequence must have an explainable teaching purpose grounded in the course sources. Decorative pseudo-data, implied project facts and incomplete or ambiguous sequences fail the gate.
 
 | Asset | Purpose and complete visual reading | Source boundary | Audit decision |
@@ -65,3 +65,14 @@ These photographs identify visible tool forms beside matching theory. They do no
 | `guided/images/metal-tools/bossing-mallet.png` | `862C6213FAC5763F68961388EB6DAE60330A3DCFCF9E36F3994998383A83C25B` |
 | `guided/images/metal-tools/tinmans-mallet.png` | `63561DB8C12C94A0D445EFE2225E54F6ECAAB2ECB1B3A4336B505E2C96284540` |
 | `guided/images/metal-tools/ball-pein-hammer.jpg` | `0925D5D371F36831377FB7DADD68DE79A32174085676F80A78287F9B451A180B` |
+
+## Verified project-plan visual audit
+
+The ten plan previews were checked against their corresponding full-resolution teacher-issued DWG or PDF source. Each sheet is presented as a technical source rather than an infographic: its title block, views, notes, dimensions, labels and revision/date information retain their ordinary drawing meaning. No website colour, icon, scale, rating, swatch or sequence is overlaid. The shovel previews are rotated for screen readability only; no technical content is cropped or redrawn. The visible **Open larger original sheet** link is the authoritative full-resolution route, and the four BBQ sheets also retain their original DWG downloads.
+
+| Plan set | Adjacent teaching purpose | Source boundary | Audit decision |
+| --- | --- | --- | --- |
+| BBQ and Case â€” BBQ, Case Base, Case Lid and Case Handle Components | Students identify the drawing set, distinguish overall, developed-pattern and component information, read titles/notes, and decide which source must be checked before planning evidence. | The verified Drive DWGs control the drawing content. Current teacher-issued drawings, brief, SOPs and demonstrations control exact practical details. | PASS |
+| Folding Camping Shovel â€” assembly, Handle End Components, head flat pattern, Head After Folding, Pivot Components and Pivot Components: Assessment Task | Students navigate from the system/assembly sheet to matching component and changed-form sheets, read titles and notes, and connect the correct source to their next planned learning or evidence step. | The verified Drive PDFs control the drawing content. Current teacher-issued drawings, brief, SOPs and demonstrations control exact practical details. | PASS |
+
+Full source IDs, dates, visual verification notes and excluded superseded/unreliable drawings are recorded in `source-notes/VERIFIED-PROJECT-PLANS.md`.
