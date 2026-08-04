@@ -1,0 +1,9 @@
+.notice-main { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 90px; }
+.notice-banner { margin-bottom: 24px; border-left: 6px solid var(--amber); background: var(--amber-pale); }
+.notice-table { width: 100%; border-collapse: collapse; }
+.notice-table th, .notice-table td { padding: 11px 12px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.notice-table th { width: 34%; background: #edf3f1; }
+.notice-main h2 { margin-top: 34px; font-size: 1.7rem; }
+.criteria-list li, .evidence-list li { margin-bottom: 8px; }
+@media (max-width: 520px) { .notice-main { width: calc(100% - 22px); } .notice-table th, .notice-table td { display: block; width: 100%; } }
+@media print { .notice-main { width: 100%; padding: 0; } .notice-banner { border: 1px solid #777; } }
