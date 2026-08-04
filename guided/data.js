@@ -28,7 +28,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Reading the BBQ-and-case brief as a production contract",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-01.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "1.2",
@@ -49,7 +50,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for From hazard review to a task-specific WMS",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-02.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "1.3",
@@ -70,42 +72,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Inputs, processes and outputs as a planning model",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-03.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Classify an example as an authoritative requirement, evidence requirement or design preference.",
+          "question": "According to the theory, the approved project brief should be treated as what?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "A production contract",
+            "A list of optional ideas",
+            "A record completed after production"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "The theory describes the approved project brief as a production contract because it defines required outcomes, limits and the evidence that must be collected."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Before practical work begins, what should students create from the brief, drawings and evidence list?",
+          "options": [
+            "A final evaluation",
+            "A folio checklist",
+            "A new project design"
+          ],
+          "answerIndex": 1,
+          "explanation": "Translating the brief, drawings and evidence list into a folio checklist helps separate required actions from assumptions before production starts."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which example is identified as a project requirement?",
+          "options": [
+            "A personal preference for documentation",
+            "An identified function required by the brief",
+            "An unverified idea added during production"
+          ],
+          "answerIndex": 1,
+          "explanation": "The theory states that a project requirement is a condition that must be met, such as an identified function, specified evidence or a teacher-controlled feature."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should a student do if an important project detail is unclear?",
+          "options": [
+            "Invent a practical solution",
+            "Choose the option they prefer",
+            "Confirm the detail with the teacher"
+          ],
+          "answerIndex": 2,
+          "explanation": "The theory explains that unclear details should be confirmed with the teacher rather than being invented by the student."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which statement best describes a student preference?",
+          "options": [
+            "It can override required processes if practical",
+            "It may be considered only when the brief allows flexibility",
+            "It replaces teacher-controlled features"
+          ],
+          "answerIndex": 1,
+          "explanation": "Preferences are only acceptable where the brief allows flexibility and cannot override drawings, required processes or approval points."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What does planning the BBQ and case as a connected product system involve?",
+          "options": [
+            "Identifying shared requirements, interfaces and evidence",
+            "Assuming both products use the same construction",
+            "Guessing missing geometry before production"
+          ],
+          "answerIndex": 0,
+          "explanation": "The theory says the products should be planned together by identifying shared requirements, interfaces and evidence, not by guessing construction details."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "A student wants to change a teacher-controlled feature because they think it will work better. Based on the theory, what is the correct response?",
+          "options": [
+            "Proceed if the change seems reasonable",
+            "Treat the feature as fixed unless the teacher approves a change",
+            "Replace the feature with a personal preference"
+          ],
+          "answerIndex": 1,
+          "explanation": "Authorised requirements remain fixed unless the teacher approves a change. Personal preferences cannot override compulsory project conditions."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "How does a clear checklist support quality control?",
+          "options": [
+            "By replacing the need for evidence",
+            "By showing that production followed the approved brief",
+            "By allowing project requirements to change during production"
+          ],
+          "answerIndex": 1,
+          "explanation": "A checklist provides a record that practical work developed from the approved brief rather than from unverified personal interpretation."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which planning approach best matches the key takeaways?",
+          "options": [
+            "Mix compulsory conditions and personal preferences in one list",
+            "Ignore links between the BBQ and case until evaluation",
+            "Record allowable preferences separately from compulsory conditions"
+          ],
+          "answerIndex": 2,
+          "explanation": "Keeping allowable preferences separate from compulsory conditions helps ensure required project expectations remain clear and traceable."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the source boundary, where should unresolved project-specific details come from?",
+          "options": [
+            "The teacher-issued project documents and demonstrations",
+            "Student judgement during production",
+            "General assumptions based on similar projects"
+          ],
+          "answerIndex": 0,
+          "explanation": "The source boundary states that unresolved project-specific details are controlled by the teacher-issued project brief, drawings, SOPs, WMS template and demonstrations."
         },
         {
           "theoryIndex": 1,
-          "question": "Choose whether a given statement belongs in an SOP, WMS, hazard review or project plan.",
+          "question": "What is the main purpose of hazard identification during a task?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "To recognise what could cause harm",
+            "To approve the use of equipment",
+            "To describe the operating steps for a machine"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Hazard identification focuses on recognising sources of potential harm before work begins. It does not approve equipment use or replace operating procedures."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, what is the primary role of an SOP?",
+          "options": [
+            "To combine planning, permissions and hold points for a project",
+            "To provide the approved operating requirements for a particular tool, machine or process",
+            "To record evidence that production has been completed"
+          ],
+          "answerIndex": 1,
+          "explanation": "An SOP defines the approved operating requirements for a specific tool, machine or process. It has a different purpose from a WMS."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which combination best describes what a Year 10 Work Method Statement (WMS) records?",
+          "options": [
+            "Task sequence, hazards, controls, permission requirements and hold points",
+            "Only a list of general workshop hazards",
+            "Only the completed evidence collected after production"
+          ],
+          "answerIndex": 0,
+          "explanation": "A WMS organises the planned work into stages and records the task, hazards, controls, permission requirements and hold points for each stage."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why does the theory recommend planning safety decisions before practical work begins?",
+          "options": [
+            "To reduce the need for supervision",
+            "To avoid making hurried safety decisions during production",
+            "To replace the need for current demonstrations"
+          ],
+          "answerIndex": 1,
+          "explanation": "Planning ahead allows hazards, controls and checks to be considered before work starts instead of relying on rushed decisions during production."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A project includes cutting, drilling, machining, joining and finishing. What does the WMS help students identify?",
+          "options": [
+            "Which different SOPs or demonstrations apply at different stages",
+            "Which project dimensions should be changed",
+            "Which assessment result will be awarded"
+          ],
+          "answerIndex": 0,
+          "explanation": "The WMS links each stage of work with the relevant SOPs or demonstrations that apply to that part of the production process."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, why do lathe operations require particular attention in the WMS?",
+          "options": [
+            "Because lathe work is exempt from normal planning",
+            "Because lathe operations are specifically identified as requiring a WMS",
+            "Because lathe work never requires supervision"
+          ],
+          "answerIndex": 1,
+          "explanation": "The theory states that lathe operations require particular attention because the authorised scope specifically requires a WMS for this work."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A student finishes writing a complete WMS. What does the theory say this document provides?",
+          "options": [
+            "Automatic permission to begin using equipment",
+            "A replacement for teacher demonstrations",
+            "Evidence that planning has been completed"
+          ],
+          "answerIndex": 2,
+          "explanation": "A completed WMS is evidence of planning. It does not authorise equipment use or replace demonstrations, supervision or approved procedures."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which statement correctly distinguishes hazard reviews from SOPs?",
+          "options": [
+            "Hazard reviews identify risks, while SOPs define approved procedures",
+            "Hazard reviews replace SOPs once production starts",
+            "Hazard reviews and SOPs have exactly the same purpose"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hazard reviews focus on recognising risks, while SOPs specify the approved way to operate a particular tool, machine or process."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which situation best demonstrates the purpose of a hold point in a WMS?",
+          "options": [
+            "Skipping directly to the next stage once work feels complete",
+            "Stopping work at a planned point for checking or teacher authorisation",
+            "Recording the final project evaluation after production"
+          ],
+          "answerIndex": 1,
+          "explanation": "A hold point is a planned stage where work stops so required checks or teacher authorisation can occur before continuing."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the source boundary, where do unresolved task-specific safety and operating details come from?",
+          "options": [
+            "The student's previous project notes",
+            "The completed WMS alone",
+            "The current teacher-issued SOPs, WMS template and demonstrations"
+          ],
+          "answerIndex": 2,
+          "explanation": "The source boundary states that unresolved task-specific safety and operating details are controlled by the current teacher-issued SOPs, WMS template and demonstrations."
         },
         {
           "theoryIndex": 2,
-          "question": "Identify whether an item is an input, process, output or feedback/quality check.",
+          "question": "According to the input–process–output model, which item is an input?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "A completed component",
+            "Approved materials",
+            "Folio evidence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inputs are the resources needed before work begins, such as approved materials, drawings, information, equipment, time and teacher instructions. Completed components and folio evidence are outputs."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is the main purpose of a process in the input–process–output model?",
+          "options": [
+            "To transform inputs into products and evidence",
+            "To replace teacher instructions",
+            "To record only the finished project"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Processes are the controlled transformations applied to inputs. They produce both physical work and evidence recorded throughout production."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "A student creates a flowchart that simply lists tasks from top to bottom without showing connections or checks. Based on the theory, what is missing?",
+          "options": [
+            "The project dimensions",
+            "The equipment settings",
+            "The way stages connect through inputs, changes, checks and evidence"
+          ],
+          "answerIndex": 2,
+          "explanation": "The theory explains that a production flowchart should show how stages connect, including what enters each stage, what changes, what is checked and what evidence is recorded, rather than being only a task list."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is the purpose of a quality hold point?",
+          "options": [
+            "To pause production so quality or approval can be confirmed",
+            "To increase the number of production stages",
+            "To replace the production plan"
+          ],
+          "answerIndex": 0,
+          "explanation": "A quality hold point deliberately pauses production so accuracy, fit, alignment, completeness or approval can be checked before work continues."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "If a quality check identifies a problem, what does the feedback loop show should happen?",
+          "options": [
+            "Continue to the next stage anyway",
+            "Return to an earlier stage for correction or further planning",
+            "Start the entire project again"
+          ],
+          "answerIndex": 1,
+          "explanation": "A feedback loop directs the process back to an earlier stage so corrections, adjustments or additional planning can occur before production continues."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which group contains only examples of inputs mentioned in the theory?",
+          "options": [
+            "Approved materials, drawings and teacher instructions",
+            "Completed components, checked surfaces and folio evidence",
+            "Assembled work, completed components and checked surfaces"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inputs include approved materials, drawings, measurements, information, equipment, time and teacher instructions. The other options list outputs."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why does the theory describe the flowchart as a practical control document?",
+          "options": [
+            "Because it replaces teacher demonstrations",
+            "Because it helps coordinate resources, sequence work, document quality and prevent unnoticed errors moving forward",
+            "Because it contains all unresolved project-specific details"
+          ],
+          "answerIndex": 1,
+          "explanation": "The flowchart supports production by coordinating resources, sequencing work, documenting quality and reducing the chance of carrying errors into later stages."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which statement best describes an output in this planning model?",
+          "options": [
+            "Information needed before work begins",
+            "A resource that controls the exact production sequence",
+            "Completed work or evidence produced during production"
+          ],
+          "answerIndex": 2,
+          "explanation": "Outputs include completed components, assembled work, checked surfaces and folio evidence created throughout the production process."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the source boundary, where do the exact production sequence and unresolved project-specific details come from?",
+          "options": [
+            "The teacher-issued production plan, drawings and demonstrations",
+            "The student flowchart alone",
+            "The input–process–output model itself"
+          ],
+          "answerIndex": 0,
+          "explanation": "The source boundary states that the teacher-issued production plan, drawings and demonstrations control the exact sequence and any unresolved project-specific details."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should each stage of the BBQ and case production flowchart identify before work moves forward?",
+          "options": [
+            "Only the name of the task",
+            "The estimated completion date",
+            "What enters the process, what changes, what must be checked and what evidence should be recorded"
+          ],
+          "answerIndex": 2,
+          "explanation": "Each stage should identify its inputs, the transformation taking place, the required quality checks and the evidence to record before progressing to the next stage."
         }
       ],
       "written": [
@@ -158,7 +458,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Selecting stock form by function and manufacture",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-04.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "2.2",
@@ -179,7 +480,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Turning drawings into freehand sketches and a spreadsheet cutting list",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-05.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "2.3",
@@ -200,42 +502,355 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Datums, orientation and quality gates for rails and end caps",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-06.png"
-          }
+          },
+          "photos": [
+            {
+              "image": "guided/images/metal-tools/jenny-calipers.jpg",
+              "alt": "Two examples of Jenny callipers, each with one straight leg and one inward-pointing marking leg",
+              "caption": "Jenny callipers: identification reference beside datum-controlled marking. Tool selection remains teacher-directed.",
+              "credit": "Glenn McKechnie, CC BY-SA 3.0",
+              "source": "https://commons.wikimedia.org/wiki/File:OddlegCalipers.jpg"
+            },
+            {
+              "image": "guided/images/metal-tools/scribers.jpg",
+              "alt": "Assortment of straight and bent metalworking scribes with pointed steel tips",
+              "caption": "Metalworking scribes: identification reference only; the teacher demonstration controls selection and use.",
+              "credit": "Glenn McKechnie, CC BY-SA 3.0",
+              "source": "https://commons.wikimedia.org/wiki/File:Scribers.jpg"
+            }
+          ]
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Match a general performance need to the kind of stock-form evidence that should be checked.",
+          "question": "According to the theory, selecting metal stock involves choosing what?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Only a material",
+            "A form suited to function and manufacture",
+            "Only the lowest-waste option"
+          ],
+          "answerIndex": 1,
+          "explanation": "Choosing stock includes selecting a form that supports both the component's purpose and its manufacturing requirements."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Where must the exact stock grades and sizes be confirmed?",
+          "options": [
+            "The issued drawing and cutting information",
+            "The student's preferred design",
+            "General workshop experience"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "The theory states that exact grades and sizes come from the issued drawing and cutting information."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which factor should be considered when judging a suitable stock form?",
+          "options": [
+            "Personal preference",
+            "Workshop wall displays",
+            "Joining access"
+          ],
+          "answerIndex": 2,
+          "explanation": "Joining access affects whether components can be assembled effectively using the approved manufacturing approach."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should students identify usable offcuts before production?",
+          "options": [
+            "To reduce unnecessary waste through planning",
+            "To change the authorised specification",
+            "To avoid checking quantities"
+          ],
+          "answerIndex": 0,
+          "explanation": "Planning layouts and identifying usable offcuts improves efficiency without altering the authorised specification."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which statement best matches the theory about manufacturing efficiency?",
+          "options": [
+            "Reduce waste by changing specifications",
+            "Reduce waste through careful planning",
+            "Ignore offcuts if enough stock is available"
+          ],
+          "answerIndex": 1,
+          "explanation": "Efficiency comes from thoughtful planning, quantity checks and layout decisions rather than changing approved specifications."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should guide unresolved stock specifications and project details?",
+          "options": [
+            "Previous student projects",
+            "Supplier recommendations",
+            "Teacher-issued drawings, cutting information and demonstrations"
+          ],
+          "answerIndex": 2,
+          "explanation": "The source boundary assigns unresolved stock specifications and project-specific details to teacher-issued project information."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "A stock form seems suitable but blocks joining access. What does the theory suggest?",
+          "options": [
+            "Reassess the stock form because manufacture is affected",
+            "Use it anyway because function matters most",
+            "Ignore joining access if waste is low"
+          ],
+          "answerIndex": 0,
+          "explanation": "A suitable selection must support both function and practical manufacture, including adequate joining access."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which combination best reflects the key considerations when selecting stock form?",
+          "options": [
+            "Colour, cost and appearance",
+            "Function, properties and manufacturing needs",
+            "Weight, popularity and supplier"
+          ],
+          "answerIndex": 1,
+          "explanation": "The key takeaway emphasises balancing function, material properties and manufacturing requirements during selection."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which condition could make an otherwise suitable stock form impractical?",
+          "options": [
+            "It has a familiar appearance",
+            "It creates excessive waste",
+            "It matches the component's function"
+          ],
+          "answerIndex": 1,
+          "explanation": "The theory explains that excessive waste can make an otherwise suitable stock form impractical."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should available workshop processes be considered during stock selection?",
+          "options": [
+            "To confirm assessment marks",
+            "To choose the cheapest option",
+            "To ensure the stock can be processed accurately"
+          ],
+          "answerIndex": 2,
+          "explanation": "Available processes must be capable of accurately shaping, cutting, drilling or assembling the selected stock form."
         },
         {
           "theoryIndex": 1,
-          "question": "Identify the reliable source for a cutting-list field when a displayed drawing is resized or unclear.",
+          "question": "What should students do before marking or cutting material?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Measure the drawing image",
+            "Convert drawings into organised production information",
+            "Estimate missing component data"
+          ],
+          "answerIndex": 1,
+          "explanation": "Production information should be organised from verified drawings before any material is marked or cut."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should information be cross-checked across different drawing views?",
+          "options": [
+            "Different views can reveal different component features",
+            "Each view uses different measurement units",
+            "One view always contains incorrect information"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Cross-checking views combines their information and reduces the risk of overlooking an important feature."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the correct response when data appears to be missing from a drawing?",
+          "options": [
+            "Scale the image carefully",
+            "Use a reasonable allowance",
+            "Leave it unresolved until clarified"
+          ],
+          "answerIndex": 2,
+          "explanation": "Missing data must not be invented or measured from the image; teacher clarification controls unresolved information."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the main purpose of a freehand component sketch?",
+          "options": [
+            "Replace the formal drawing",
+            "Show how the component has been interpreted",
+            "Provide exact manufacturing tolerances"
+          ],
+          "answerIndex": 1,
+          "explanation": "A freehand sketch demonstrates understanding of general form, important features and relationships between drawing views."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which detail is appropriate to include on a freehand sketch?",
+          "options": [
+            "Brief annotations linked to verified dimensions or notes",
+            "Estimated quantities for production",
+            "Dimensions measured from the printed image"
+          ],
+          "answerIndex": 0,
+          "explanation": "Brief annotations can identify where confirmed drawing dimensions or notes apply without replacing the formal drawing."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which cutting-list entry should remain blank?",
+          "options": [
+            "A confirmed component name",
+            "A written drawing dimension",
+            "An unconfirmed material allowance"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unconfirmed quantities, allowances and tolerances must remain blank until authorised information or teacher clarification is provided."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which spreadsheet practice best supports accurate production information?",
+          "options": [
+            "Mixing units to match stock types",
+            "Using consistent units for every entry",
+            "Rounding written dimensions for convenience"
+          ],
+          "answerIndex": 1,
+          "explanation": "Consistent units help entries match written drawing information and reduce avoidable interpretation errors during production."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should be recorded when the drawing provides revision information?",
+          "options": [
+            "The current revision or issue date",
+            "The student's preferred version",
+            "The date material was collected"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recording the supplied revision or issue date helps ensure the cutting list uses the current authorised information."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "When should the spreadsheet cutting list be updated?",
+          "options": [
+            "Whenever a student notices a possible improvement",
+            "After material has already been cut",
+            "When an authorised drawing change occurs"
+          ],
+          "answerIndex": 2,
+          "explanation": "The spreadsheet must reflect authorised changes so outdated information does not guide later production decisions."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What final check should occur before practical work begins?",
+          "options": [
+            "Compare the cutting list only with stock available",
+            "Cross-check drawings, sketches, cutting list and teacher clarification",
+            "Measure every drawing view with a ruler"
+          ],
+          "answerIndex": 1,
+          "explanation": "Cross-checking all verified sources prevents an early information error from becoming wasted material during production."
         },
         {
           "theoryIndex": 2,
-          "question": "Select the most useful hold point before an irreversible cut or fit operation.",
+          "question": "What is a datum used for during marking out?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "A decorative edge",
+            "An agreed reference edge, face or point",
+            "A completed inspection record"
+          ],
+          "answerIndex": 1,
+          "explanation": "Using one agreed reference helps measurements stay consistent and reduces cumulative errors across related components."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should related components be marked from a consistent datum?",
+          "options": [
+            "To limit cumulative marking error",
+            "To increase material removal",
+            "To avoid using drawings"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Small marking differences can accumulate, so a consistent datum helps related parts align more accurately later."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which item can orientation marks identify?",
+          "options": [
+            "Surface finish quality",
+            "Matching parts",
+            "Production cost"
+          ],
+          "answerIndex": 1,
+          "explanation": "Orientation marks help keep matching components correctly paired and facing their intended direction throughout production."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is one purpose of marking the waste side of a line?",
+          "options": [
+            "To record inspection results",
+            "To confirm material grade",
+            "To reduce the chance of processing the wrong side"
+          ],
+          "answerIndex": 2,
+          "explanation": "Clearly identifying the waste side helps prevent removing material from the incorrect side of a marked line."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "When should a quality gate occur?",
+          "options": [
+            "Before irreversible work",
+            "After every component is finished",
+            "Only during final assembly"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inspection before irreversible work allows corrections while marks and component positions can still be changed."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should students compare at a quality gate?",
+          "options": [
+            "The component with the drawing",
+            "The drawing with another class",
+            "The workshop with the production plan"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comparing the component with the drawing helps confirm accuracy before permanent processing begins."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why is staged inspection more reliable than waiting until final assembly?",
+          "options": [
+            "It guarantees a perfect result",
+            "It prevents one early error being repeated",
+            "It removes the need for drawings"
+          ],
+          "answerIndex": 1,
+          "explanation": "Checking accuracy throughout production helps detect problems before they affect multiple related components."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the theory, what should also be confirmed at a quality gate besides the drawing?",
+          "options": [
+            "Workshop layout",
+            "Orientation and relationship to matching parts",
+            "Material price"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inspection should confirm orientation and matching relationships before processing makes changes difficult or impossible."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which practice best reduces cumulative error when marking related components?",
+          "options": [
+            "Using several different reference edges",
+            "Estimating positions visually",
+            "Transferring measurements from one consistent datum"
+          ],
+          "answerIndex": 2,
+          "explanation": "A single consistent datum reduces the build-up of small measurement differences across multiple components."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Where should unresolved rail, end-cap and inspection details be confirmed?",
+          "options": [
+            "The teacher-issued drawing, production plan and demonstration",
+            "Student assumptions from previous projects",
+            "Measurements scaled from printed images"
+          ],
+          "answerIndex": 0,
+          "explanation": "Project-specific details come only from the approved drawing, production plan and teacher demonstration, not assumptions."
         }
       ],
       "written": [
@@ -288,7 +903,16 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Hole location is a design feature, not just a mark",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-07.png"
-          }
+          },
+          "photos": [
+            {
+              "image": "guided/images/metal-tools/centre-punch.jpg",
+              "alt": "Single steel centre punch with a knurled body and pointed end",
+              "caption": "Centre punch example. This does not mean every hole is centre-punched; teacher-issued procedures control the process.",
+              "credit": "Luke Milburn, CC BY 2.0",
+              "source": "https://commons.wikimedia.org/wiki/File:Centre_Punch.jpg"
+            }
+          ]
         },
         {
           "id": "3.2",
@@ -309,7 +933,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Drill-press principles behind the teacher-issued SOP",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-08.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "3.3",
@@ -330,42 +955,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Inspecting drilled features and responding to faults",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-09.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Identify which reference should control a hole location and why scaling an image is unreliable.",
+          "question": "Why is a drilled hole treated as a designed feature?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Its location affects fit, alignment and function",
+            "It always improves the component's appearance",
+            "It removes unnecessary material"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Hole position influences how components fit and function, so its location must follow verified design information."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Where should the centre position for a hole be traced from?",
+          "options": [
+            "An unverified sample part",
+            "The teacher-issued drawing",
+            "The nearest visible edge"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hole locations should always come from verified drawing information rather than estimates or copied parts."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should students confirm before drilling begins?",
+          "options": [
+            "The correct drawing view, written information and component identity",
+            "The fastest drilling sequence",
+            "The appearance of similar components"
+          ],
+          "answerIndex": 0,
+          "explanation": "Checking the drawing view, written information and component identity helps prevent drilling the wrong feature or part."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the main purpose of a datum when locating a hole?",
+          "options": [
+            "To identify the drill bit",
+            "To decorate the workpiece",
+            "To provide the reference for centre locations"
+          ],
+          "answerIndex": 2,
+          "explanation": "Datums provide a consistent reference so measurements remain accurate and repeatable during marking out."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What can happen if measurements are taken from changing edges?",
+          "options": [
+            "Small errors can shift the feature",
+            "The hole automatically becomes stronger",
+            "The drawing no longer needs checking"
+          ],
+          "answerIndex": 0,
+          "explanation": "Changing reference edges allow small errors to accumulate, affecting later alignment and assembly."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why are orientation marks important before drilling?",
+          "options": [
+            "They increase drilling speed",
+            "They confirm the correct face, side or end is being processed",
+            "They replace the need for a datum"
+          ],
+          "answerIndex": 1,
+          "explanation": "Orientation marks reduce the chance of drilling an accurately marked feature into the wrong component face."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "A hole intended to align with another component should remain connected to what?",
+          "options": [
+            "Its design purpose",
+            "Its surface finish",
+            "Its manufacturing cost"
+          ],
+          "answerIndex": 0,
+          "explanation": "Understanding the design purpose helps ensure the hole is marked and checked correctly before drilling."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Before drilling becomes irreversible, which check should be completed?",
+          "options": [
+            "Compare the workpiece with the drawing, verify the datum, confirm the marked centre and check the part label",
+            "Estimate the centre position by eye",
+            "Copy the hole position from another component"
+          ],
+          "answerIndex": 0,
+          "explanation": "A complete verification confirms the feature is correctly planned before drilling permanently changes the workpiece."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should students be able to explain where a hole location came from?",
+          "options": [
+            "To justify changing the drawing",
+            "To show it was traced to verified design information",
+            "To avoid checking the marked centre"
+          ],
+          "answerIndex": 1,
+          "explanation": "Being able to explain the source shows the location was based on verified information rather than assumption."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why is recording the final pre-drilling check recommended?",
+          "options": [
+            "It proves the hole was drilled first",
+            "It provides evidence that accuracy was planned and controlled",
+            "It replaces the need to compare with the drawing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Recording the check documents that accuracy was verified before the irreversible drilling process began."
         },
         {
           "theoryIndex": 1,
-          "question": "Recognise which setup change requires stopping and seeking teacher direction.",
+          "question": "What does authorisation confirm before drill-press work begins?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The operator, workpiece and planned task are ready under required supervision",
+            "The hole location has already been drilled",
+            "The component no longer requires inspection"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Authorisation confirms readiness and supervision before work begins, rather than replacing the approved operating procedure."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, what is the main purpose of workholding?",
+          "options": [
+            "To improve the appearance of the component",
+            "To prevent the component moving or rotating during drilling",
+            "To identify the correct drawing view"
+          ],
+          "answerIndex": 1,
+          "explanation": "Workholding keeps the component stable so drilling forces do not cause unwanted movement or rotation."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why are guarding and tool-to-work clearance considered together?",
+          "options": [
+            "They reduce material waste",
+            "They replace the need for supervision",
+            "They help maintain separation from moving parts and avoid unwanted contact"
+          ],
+          "answerIndex": 2,
+          "explanation": "Guarding and suitable clearance support safe operation by preventing unintended contact with moving parts or the setup."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the purpose of controlled feed during drilling?",
+          "options": [
+            "To manage the cutting action instead of forcing it",
+            "To replace inspection after drilling",
+            "To determine the component identity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Controlled feed means the cutting action is managed deliberately rather than applying unnecessary force."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why must the operator remain aware of swarf?",
+          "options": [
+            "It identifies the correct datum",
+            "It can affect visibility, cutting quality and inspection",
+            "It confirms the drawing is accurate"
+          ],
+          "answerIndex": 1,
+          "explanation": "Swarf can influence how well the work can be seen, assessed and cut throughout the drilling process."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Where must the exact methods for managing drilling issues come from?",
+          "options": [
+            "Previous workshop experience",
+            "General machining knowledge",
+            "The current SOP and teacher demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "The theory states that exact operating methods are controlled by the current authorised procedure and demonstration."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "How does the theory describe stopping the drill press?",
+          "options": [
+            "As a deliberate stage before inspection",
+            "As the point where the drawing is selected",
+            "As an optional pause during marking out"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stopping is part of the planned process and prepares the machine for safe inspection of the work and result."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "After stopping, what does inspection check?",
+          "options": [
+            "Only whether the machine is clean",
+            "Whether the drilled feature matches the approved drawing and suits the next stage",
+            "Whether the operator remembers the procedure"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inspection verifies both the drilled feature and the component's readiness for the following production stage."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What does understanding drill-press principles NOT replace?",
+          "options": [
+            "Knowledge of design purpose",
+            "Authorisation, supervision and the demonstrated procedure",
+            "Inspection of completed work"
+          ],
+          "answerIndex": 1,
+          "explanation": "Understanding the concepts supports safe practice but never replaces authorised procedures or required supervision."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the key takeaways, what should students rely on during drill-press work?",
+          "options": [
+            "Memory from previous projects",
+            "General workshop knowledge",
+            "The current SOP rather than memory or general knowledge"
+          ],
+          "answerIndex": 2,
+          "explanation": "Current authorised procedures take priority because they provide the approved method for the specific task being completed."
         },
         {
           "theoryIndex": 2,
-          "question": "Distinguish an observed symptom from a supported cause and a teacher-approved correction.",
+          "question": "What is inspection mainly comparing after drilling?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The completed feature against the approved drawing or quality criterion",
+            "The component against similar student work",
+            "The drilling time against the production plan"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Inspection compares completed work with approved requirements rather than judging appearance or comparing with other components."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which observation best supports that a drilled feature is ready for later production stages?",
+          "options": [
+            "It has a clean appearance",
+            "It is suitable for later fitting or assembly",
+            "It matches a previous component"
+          ],
+          "answerIndex": 1,
+          "explanation": "Suitability for later fitting or assembly is confirmed by comparison with approved requirements, not visual similarity alone."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which evidence could be used during inspection according to the theory?",
+          "options": [
+            "Recorded measurements",
+            "Personal opinion",
+            "Estimated dimensions"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recorded measurements provide objective evidence that can be compared with approved drawings or quality criteria."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "A drilled feature is in the wrong location. What does this observation identify first?",
+          "options": [
+            "The exact cause",
+            "A fault category",
+            "The required rework method"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fault categories describe what was observed without proving why the problem occurred."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Before suggesting a correction, what should students do?",
+          "options": [
+            "Investigate the likely cause using available evidence",
+            "Begin rework immediately",
+            "Ignore earlier production records"
+          ],
+          "answerIndex": 0,
+          "explanation": "Evidence should be reviewed before proposing corrections because similar faults can have different causes."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which item may help investigate the cause of a drilling fault?",
+          "options": [
+            "The demonstrated process",
+            "A personal preference",
+            "The finished assembly only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Reviewing the demonstrated process can help identify likely causes without relying on unsupported assumptions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should assumptions not be presented as conclusions when investigating faults?",
+          "options": [
+            "Because several causes may produce a similar fault",
+            "Because every fault has only one possible cause",
+            "Because appearance always identifies the cause"
+          ],
+          "answerIndex": 0,
+          "explanation": "Different causes can create similar outcomes, so evidence is needed before reaching conclusions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should happen before any rework begins on a non-conforming feature?",
+          "options": [
+            "The feature should be corrected immediately",
+            "The feature should be recorded and referred to the teacher",
+            "The evidence should be removed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Recording the fault and obtaining teacher review preserves evidence before any authorised rework is considered."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why can unauthorised correction be a problem?",
+          "options": [
+            "It may remove evidence or worsen the fault",
+            "It always guarantees a better result",
+            "It automatically proves the original cause"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unauthorised changes may destroy useful evidence, worsen defects or affect later production stages."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What does careful inspection and reporting demonstrate during production?",
+          "options": [
+            "Quality was controlled throughout production",
+            "Final assembly corrects all earlier faults",
+            "Appearance is more important than evidence"
+          ],
+          "answerIndex": 0,
+          "explanation": "Careful inspection shows quality was managed throughout production rather than judged only at the end."
         }
       ],
       "written": [
@@ -418,7 +1341,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Reading a lathe operation through the WMS",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-10.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "4.2",
@@ -439,7 +1363,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Cutting action, reference surfaces and dimensional control",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-11.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "4.3",
@@ -460,42 +1385,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Surface quality, fit and documented teacher review",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-12.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Identify the action required when the actual setup differs from the approved WMS or demonstration.",
+          "question": "What is the main purpose of a lathe Work Method Statement according to the theory?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Connect the drawing requirement to the approved practical process",
+            "Replace the current lathe SOP during machining",
+            "Record final marks after production"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "A WMS links the drawing, approved process and workpiece to maintain traceability throughout the operation."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which item should a WMS identify before machining begins?",
+          "options": [
+            "The final inspection grade",
+            "The teacher-approved setup",
+            "The machine maintenance history"
+          ],
+          "answerIndex": 1,
+          "explanation": "The approved setup is identified before machining so the planned process matches authorised conditions and requirements."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why are hold points included in a lathe WMS?",
+          "options": [
+            "To estimate production time",
+            "To reduce material costs",
+            "To check work before irreversible stages continue"
+          ],
+          "answerIndex": 2,
+          "explanation": "Hold points provide deliberate checks so early errors are identified before they affect later machining stages."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which information is organised into controlled stages within the WMS?",
+          "options": [
+            "Planned tasks, hazards, controls, permissions and hold points",
+            "Replacement parts and maintenance records",
+            "Assessment marks and attendance details"
+          ],
+          "answerIndex": 0,
+          "explanation": "Controlled stages organise essential planning information so each part of the operation can be reviewed appropriately."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Teacher approval for continuing a task is based on what?",
+          "options": [
+            "How long the task has taken",
+            "The demonstrated process, current setup and present conditions",
+            "Whether the workpiece appears acceptable"
+          ],
+          "answerIndex": 1,
+          "explanation": "Approval depends on the demonstrated process, current setup and existing conditions rather than appearance or elapsed time."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should a student do if the approved setup changes during the task?",
+          "options": [
+            "Continue if the drawing is unchanged",
+            "Adjust the process without reporting it",
+            "Stop and report the change"
+          ],
+          "answerIndex": 2,
+          "explanation": "Changes to approved conditions require work to stop so the WMS and authorisation can be reviewed."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What does traceability mean in the context of the WMS?",
+          "options": [
+            "Linking the drawing to the completed work through the approved process",
+            "Remembering each step without written records",
+            "Comparing one student's work with another's"
+          ],
+          "answerIndex": 0,
+          "explanation": "Traceability links the drawing, approved process and completed feature instead of relying on memory or assumptions."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "When should the WMS be reviewed?",
+          "options": [
+            "Only after the final inspection",
+            "When the workpiece, drawing, equipment, setup or conditions change",
+            "Only at the start of the school year"
+          ],
+          "answerIndex": 1,
+          "explanation": "The WMS should be reviewed whenever approved conditions change rather than assumed to remain automatically valid."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which document does a completed WMS never replace?",
+          "options": [
+            "The approved drawing",
+            "Quality evidence",
+            "The current lathe SOP"
+          ],
+          "answerIndex": 2,
+          "explanation": "The WMS supports planning and evidence but does not replace the current SOP or demonstrated procedures."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the key takeaways, what should students do before irreversible machining stages continue?",
+          "options": [
+            "Use hold points for inspection",
+            "Estimate the remaining machining time",
+            "Rewrite the drawing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inspection hold points help confirm the workpiece or setup before irreversible machining continues to the next stage."
         },
         {
           "theoryIndex": 1,
-          "question": "Choose why progressive measurement is preferable to relying on a single final check.",
+          "question": "Why should material be removed progressively during lathe work?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "To preserve shape, dimensions and surface condition",
+            "To reduce the need for drawings",
+            "To make the workpiece rotate faster"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Progressive removal allows controlled decisions before each change permanently affects the developing component and its accuracy."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, what provides a consistent basis for locating and checking features?",
+          "options": [
+            "Surface appearance",
+            "Reference surfaces",
+            "Tool position alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Reference surfaces help keep later measurements and decisions connected to the same verified starting point throughout machining."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the main risk of changing references without a verified reason?",
+          "options": [
+            "Improved surface finish",
+            "Reduced machining time",
+            "Cumulative error and difficult measurement comparison"
+          ],
+          "answerIndex": 2,
+          "explanation": "Changing references can introduce cumulative error, making later measurements harder to compare with the approved drawing."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why are planned hold points included during machining?",
+          "options": [
+            "To compare the developing component with verified drawing information",
+            "To avoid using measuring equipment",
+            "To make the workpiece look smoother"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hold points allow deliberate checks before more material is removed, helping identify problems while correction may still be possible."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why are early dimensional checks more useful than finding a fault at the end?",
+          "options": [
+            "They guarantee a better surface finish",
+            "Removed material cannot simply be replaced",
+            "They eliminate the need for final inspection"
+          ],
+          "answerIndex": 1,
+          "explanation": "Early checks reduce the chance of irreversible errors because removed material cannot simply be restored later."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should final acceptance be based on?",
+          "options": [
+            "The component's overall appearance",
+            "How quickly machining was completed",
+            "Verified measurements, the approved drawing and teacher-controlled criteria"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dimensional acceptance depends on verified evidence rather than visual impressions or production speed."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which statement best describes machining in this theory section?",
+          "options": [
+            "A planned transformation",
+            "Cutting until the part looks correct",
+            "Removing as much material as possible"
+          ],
+          "answerIndex": 0,
+          "explanation": "Machining is presented as a controlled process where each step is guided by planned decisions and verification."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the purpose of recording dimensional checks?",
+          "options": [
+            "To replace the approved drawing",
+            "To provide evidence that quality was deliberately managed",
+            "To reduce the number of hold points"
+          ],
+          "answerIndex": 1,
+          "explanation": "Recorded checks demonstrate that quality was monitored systematically throughout machining rather than assumed afterwards."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What does the theory say about appearance during inspection?",
+          "options": [
+            "Appearance alone confirms dimensional accuracy",
+            "Appearance replaces verified measurements",
+            "Appearance can support inspection but cannot confirm accuracy alone"
+          ],
+          "answerIndex": 2,
+          "explanation": "Visual inspection is useful, but dimensional accuracy still requires verified measurements against approved requirements."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "When checking a developing component, what should later decisions remain connected to?",
+          "options": [
+            "The established datum or reference surface",
+            "The most recently machined surface",
+            "The tool's cutting direction"
+          ],
+          "answerIndex": 0,
+          "explanation": "Maintaining the same reference surface supports consistent measurements and reduces the likelihood of cumulative error."
         },
         {
           "theoryIndex": 2,
-          "question": "Select the strongest evidence for deciding whether a machined feature is ready for the next stage.",
+          "question": "Which combination should be used to assess a machined feature?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Colour, weight and cost",
+            "Size, form, surface condition and functional fit",
+            "Speed, noise and appearance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Quality depends on considering size, form, surface condition and functional fit together rather than any single characteristic."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why is appearance alone not enough to judge machining quality?",
+          "options": [
+            "A smooth-looking feature may still have incorrect size, form or function",
+            "Appearance always matches measurement",
+            "Visible finish determines every quality requirement"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "A good-looking surface does not guarantee the feature meets dimensional, form or functional requirements."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which inspection evidence is supported by the theory?",
+          "options": [
+            "Personal opinion only",
+            "Memory after machining",
+            "Approved measurements, observations, photographs or annotations"
+          ],
+          "answerIndex": 2,
+          "explanation": "Inspection records should use approved evidence that documents the observed quality of the machined feature."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should a student do if a suspected fault is found?",
+          "options": [
+            "Hide it until assembly",
+            "Identify it honestly",
+            "Polish it before recording"
+          ],
+          "answerIndex": 1,
+          "explanation": "Honest identification supports traceable quality decisions and prevents problems being concealed."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should doubtful work be separated from approved components?",
+          "options": [
+            "To stop it being accidentally used later",
+            "To make it easier to store",
+            "To improve its surface condition"
+          ],
+          "answerIndex": 0,
+          "explanation": "Separating doubtful components reduces the risk of unsuitable work entering later production stages."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is required before a component is accepted or rework begins?",
+          "options": [
+            "Another student agrees",
+            "The feature is polished",
+            "Teacher review"
+          ],
+          "answerIndex": 2,
+          "explanation": "Teacher review ensures acceptance or correction follows approved quality processes rather than assumptions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should improvised rework be avoided?",
+          "options": [
+            "It always improves appearance",
+            "It may remove evidence, alter another feature or worsen the problem",
+            "It reduces machining time"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unplanned rework can damage evidence or create additional faults that complicate quality assessment."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is the purpose of documenting the inspection result and teacher's direction?",
+          "options": [
+            "To create traceable evidence of controlled quality decisions",
+            "To replace approved measurements",
+            "To avoid further inspection"
+          ],
+          "answerIndex": 0,
+          "explanation": "Documentation provides a record showing quality decisions were based on controlled processes rather than guesses."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which statement best describes functional fit?",
+          "options": [
+            "Whether the feature has a shiny finish",
+            "Whether the feature can perform its intended role within the developing assembly",
+            "Whether the feature matches a photograph"
+          ],
+          "answerIndex": 1,
+          "explanation": "Functional fit considers whether the machined feature is suitable for its intended purpose in the assembly."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the source boundary, where do unresolved inspection, fit and rework details come from?",
+          "options": [
+            "Previous student projects",
+            "General workshop experience",
+            "The teacher-issued drawing, acceptance criteria, machining SOP and demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "Project-specific inspection, fit and rework requirements are controlled by the approved documents and teacher demonstration."
         }
       ],
       "written": [
@@ -548,7 +1771,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Planning plate work from verified references",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-01.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "5.2",
@@ -569,7 +1793,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Grills and guard: function, spacing and manufacturability",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-02.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "5.3",
@@ -590,42 +1815,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Fit-up before permanent joining",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-03.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Identify which information must be confirmed before an irreversible plate-processing step.",
+          "question": "What should planning plate work begin with?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Verified drawing information",
+            "Material cutting",
+            "Surface finishing"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Verified drawing information provides the authorised reference for identification, layout and later production decisions."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why are consistent datums used when marking a plate?",
+          "options": [
+            "To reduce cumulative error",
+            "To increase material thickness",
+            "To replace drawing notes"
+          ],
+          "answerIndex": 0,
+          "explanation": "A consistent datum keeps measurements linked to the same reference and reduces errors building across the layout."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the purpose of orientation marks on a plate?",
+          "options": [
+            "To improve surface appearance",
+            "To show how the plate relates to surrounding components",
+            "To confirm the material grade"
+          ],
+          "answerIndex": 1,
+          "explanation": "Orientation marks help maintain the correct relationship between the plate and associated components throughout production."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Before an irreversible process begins, what should be checked?",
+          "options": [
+            "The workshop temperature",
+            "The marking against the drawing",
+            "The production deadline"
+          ],
+          "answerIndex": 1,
+          "explanation": "Checking marked information against the drawing helps identify errors before they become difficult or impossible to correct."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "When planning material use, what must not change?",
+          "options": [
+            "Verified dimensions or specifications",
+            "The location of existing edges",
+            "The amount of supplied stock"
+          ],
+          "answerIndex": 0,
+          "explanation": "Material economy should reduce waste without changing any authorised dimensions or specifications from verified references."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why are planned quality hold points included during production?",
+          "options": [
+            "To increase production speed",
+            "To inspect identity, orientation, marking and condition",
+            "To avoid using drawings"
+          ],
+          "answerIndex": 1,
+          "explanation": "Quality hold points provide planned opportunities to verify important production information before work continues."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "If sequencing details are unresolved, which source remains authoritative?",
+          "options": [
+            "The teacher-issued plan",
+            "Previous student projects",
+            "Personal preference"
+          ],
+          "answerIndex": 0,
+          "explanation": "The teacher-issued plan controls unresolved sequencing and methods, ensuring production follows the approved process."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which action best maintains traceability throughout production?",
+          "options": [
+            "Estimating feature locations",
+            "Using clear component identification and recorded checks",
+            "Removing identification after marking"
+          ],
+          "answerIndex": 1,
+          "explanation": "Component identification and recorded checks link the workpiece back to verified drawing information through each stage."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "When positioning a plate within supplied stock, what should be considered?",
+          "options": [
+            "Usable areas, existing edges and other components' needs",
+            "Changing dimensions to fit",
+            "Ignoring remaining stock"
+          ],
+          "answerIndex": 0,
+          "explanation": "Planning stock use considers available material efficiently while preserving every authorised requirement from the drawing."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, what should students confirm before marking or processing material?",
+          "options": [
+            "The final surface finish",
+            "Any unresolved drawing details",
+            "The machine settings"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unresolved drawing details should be confirmed first so planning and marking remain based on verified information rather than assumptions."
         },
         {
           "theoryIndex": 1,
-          "question": "Choose the quality-control approach that best detects inconsistency across repeated components.",
+          "question": "Why should the grills and guard be judged together rather than as separate parts?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Because their function depends on consistency and alignment",
+            "Because they must always look identical",
+            "Because they are manufactured at the same time"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Related components should be assessed together because consistency and alignment influence their intended function and overall quality."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, what should spacing and alignment be checked against?",
+          "options": [
+            "Visual judgement",
+            "The teacher-issued drawing",
+            "The previous component"
+          ],
+          "answerIndex": 1,
+          "explanation": "Spacing and alignment should be verified against the approved drawing rather than estimated from appearance or another part."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the main purpose of using consistent datums, templates or approved references?",
+          "options": [
+            "To reduce repeated differences across related components",
+            "To make every component a different size",
+            "To avoid using drawings during production"
+          ],
+          "answerIndex": 0,
+          "explanation": "Consistent references reduce accumulated variation, helping related components remain aligned and function as intended."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A student spaces grill features by eye because they look evenly arranged. What does the theory recommend instead?",
+          "options": [
+            "Accept the result if it appears neat",
+            "Compare only after assembly",
+            "Use verified references from the drawing"
+          ],
+          "answerIndex": 2,
+          "explanation": "Appearance alone is not sufficient because verified references provide evidence that spacing matches the approved information."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What does manufacturability include besides producing the design accurately?",
+          "options": [
+            "Choosing decorative finishes",
+            "Considering access for processing, inspection and maintenance",
+            "Reducing the number of components"
+          ],
+          "answerIndex": 1,
+          "explanation": "Manufacturability considers practical access throughout production, inspection and later maintenance, not only accurate fabrication."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why can repeated small variations become a problem?",
+          "options": [
+            "They can affect overall fit, performance and presentation",
+            "They always improve manufacturability",
+            "They reduce the need for inspection"
+          ],
+          "answerIndex": 0,
+          "explanation": "Small differences can accumulate across related parts, influencing function, fit and the finished appearance."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "When should related components be compared at quality hold points?",
+          "options": [
+            "Only after final assembly",
+            "Before assembly makes correction more difficult",
+            "Only after surface finishing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Checking related parts before assembly helps identify and correct inconsistencies while changes are still practical."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which evidence can demonstrate that consistency was controlled throughout production?",
+          "options": [
+            "A completed assembly alone",
+            "An estimate based on appearance",
+            "Photographs, observations and verified checks"
+          ],
+          "answerIndex": 2,
+          "explanation": "Evidence gathered during production shows consistency was verified rather than judged only from the finished result."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A design feature looks suitable in a sketch but blocks inspection access. According to the theory, what does this suggest?",
+          "options": [
+            "The feature may be difficult to manufacture or inspect",
+            "The feature should be accepted because it looks correct",
+            "The drawing no longer matters"
+          ],
+          "answerIndex": 0,
+          "explanation": "Manufacturability includes practical access, so restricted inspection or processing access may make a design unsuitable."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Where must unresolved details about grills, guards and spacing ultimately come from?",
+          "options": [
+            "Student judgement",
+            "The teacher-issued drawings, approved quality criteria and demonstrations",
+            "Measurements from a completed BBQ"
+          ],
+          "answerIndex": 1,
+          "explanation": "Project-specific spacing and manufacturing details are controlled by approved drawings, quality criteria and teacher demonstrations."
         },
         {
           "theoryIndex": 2,
-          "question": "Identify the fault that should be resolved during fit-up rather than locked into the assembly.",
+          "question": "What is the main purpose of fit-up before permanent joining?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Decorate the assembly",
+            "Diagnose problems while parts can still be separated",
+            "Complete the final joining"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fit-up identifies issues before permanent joining, allowing components to be adjusted, repositioned or reviewed while changes remain practical."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which combination is specifically checked during fit-up?",
+          "options": [
+            "Orientation, contact, alignment, access and assembly sequence",
+            "Paint colour, surface gloss and packaging",
+            "Workshop timetable, attendance and storage"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Fit-up examines how related components work together, not unrelated workshop or presentation details."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should students consider the planned assembly sequence during fit-up?",
+          "options": [
+            "It determines the finished appearance",
+            "It may reveal that one correctly fitting part blocks later assembly",
+            "It replaces the need for approved references"
+          ],
+          "answerIndex": 1,
+          "explanation": "A component may fit individually yet prevent correct positioning or access during later assembly stages."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is the value of recording photographs and annotated observations during fit-up?",
+          "options": [
+            "They provide evidence that component relationships were examined before joining",
+            "They permanently approve the assembly",
+            "They replace the teacher-issued drawing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Photographs and annotations document that fit-up checks were completed before permanent joining began."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the theory, what can restraint do besides holding components together?",
+          "options": [
+            "Guarantee perfect alignment",
+            "Prevent the need for inspection",
+            "Mask poor contact or introduce movement when released"
+          ],
+          "answerIndex": 2,
+          "explanation": "Restraint can hide problems or allow movement after release, so fit-up must be evaluated carefully."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Where heat is involved in joining, what should students understand?",
+          "options": [
+            "Uneven heating and cooling may affect alignment or form",
+            "Heat always improves alignment",
+            "Heat removes the need for fit-up"
+          ],
+          "answerIndex": 0,
+          "explanation": "The theory explains that heating and cooling can change alignment or form and should be anticipated conceptually."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should happen if a mismatch or uncertainty is found during fit-up?",
+          "options": [
+            "Ignore it if the assembly appears close enough",
+            "Report it before permanent joining",
+            "Correct it using any preferred method"
+          ],
+          "answerIndex": 1,
+          "explanation": "Problems or uncertainty should be reported before joining makes corrections more difficult or irreversible."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which reference should be used when reviewing fit-up?",
+          "options": [
+            "Visual appearance alone",
+            "Verified references including the teacher-issued drawing",
+            "An unverified sample component"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fit-up decisions are checked against verified references rather than appearance or unverified examples."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should permanent joining not begin simply because the assembly looks correct?",
+          "options": [
+            "Appearance alone does not confirm compliance with verified references",
+            "The joining process automatically fixes errors",
+            "Inspection is only needed after joining"
+          ],
+          "answerIndex": 0,
+          "explanation": "Visual appearance alone cannot confirm correct fit, alignment or compliance with approved references."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the source boundary, what controls unresolved fit-up and joining details?",
+          "options": [
+            "Student preference and previous experience",
+            "General workshop practice",
+            "The teacher-issued drawing, approved joining method and demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "Project-specific fit-up and joining requirements come from the authorised drawing, method and teacher demonstration."
         }
       ],
       "written": [
@@ -678,7 +2201,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Stability begins with geometry and matched components",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-04.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "6.2",
@@ -699,7 +2223,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Assembly order, access and hold points",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-05.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "6.3",
@@ -720,42 +2245,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Quality assurance during structural assembly",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-06.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Choose the first evidence-based check when a trial assembly does not sit as expected.",
+          "question": "According to the theory, what does stable support begin with?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Accurate geometry",
+            "Final adjustment",
+            "Extra clamping"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Stable support is achieved through accurate geometry before final assembly, not by relying on later adjustment."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should leg components be prepared from consistent datums?",
+          "options": [
+            "To reduce cutting time",
+            "To prevent accumulated variation",
+            "To improve surface finish"
+          ],
+          "answerIndex": 1,
+          "explanation": "Using consistent reference points helps prevent small differences accumulating and affecting the completed assembly."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the purpose of orientation marks?",
+          "options": [
+            "To identify tool settings",
+            "To reduce waste material",
+            "To preserve the intended relationship between components"
+          ],
+          "answerIndex": 2,
+          "explanation": "Orientation marks help matching faces, edges or ends remain correctly related during assembly and inspection."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Before final assembly, what should students compare against the teacher-issued drawing and approved criteria?",
+          "options": [
+            "Related components and their geometry",
+            "Workshop layout",
+            "Available measuring tools"
+          ],
+          "answerIndex": 0,
+          "explanation": "Comparing related components against verified references helps identify problems before permanent assembly."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "If an assembly rocks, what does that symptom identify by itself?",
+          "options": [
+            "The incorrect orientation",
+            "Nothing about the exact cause",
+            "A damaged component"
+          ],
+          "answerIndex": 1,
+          "explanation": "Visible symptoms alone do not identify the underlying cause and require further inspection and measurement."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which of the following is identified as a possible cause of misalignment?",
+          "options": [
+            "Paint thickness",
+            "Incorrect orientation",
+            "Tool storage location"
+          ],
+          "answerIndex": 1,
+          "explanation": "Incorrect orientation is one possible cause, alongside inconsistent references, matched-component differences and accumulated assembly error."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should students do first when a stability problem is observed?",
+          "options": [
+            "Adjust the assembly immediately",
+            "Request replacement parts",
+            "Record the symptom and inspect the assembly"
+          ],
+          "answerIndex": 2,
+          "explanation": "Recording the symptom before inspection supports evidence-based diagnosis instead of guessing or making unnecessary changes."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should be used to locate the source of variation?",
+          "options": [
+            "Verified measurements",
+            "Visual estimation",
+            "Previous experience"
+          ],
+          "answerIndex": 0,
+          "explanation": "Verified measurements provide reliable evidence for locating variation instead of relying on assumptions."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Before making any proposed correction, what does the theory require?",
+          "options": [
+            "Reassemble the project twice",
+            "Teacher review",
+            "Additional orientation marks"
+          ],
+          "answerIndex": 1,
+          "explanation": "Teacher review helps ensure corrections are appropriate and protects component quality from unnecessary changes."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, stability should ultimately be achieved through what?",
+          "options": [
+            "Repeated adjustment",
+            "Trial and error",
+            "Controlled geometry"
+          ],
+          "answerIndex": 2,
+          "explanation": "The process demonstrates that stability comes from controlled geometry supported by measurement, inspection and review, not improvised adjustment."
         },
         {
           "theoryIndex": 1,
-          "question": "Identify a dependency and select where a teacher check should occur before access is lost.",
+          "question": "Why is the approved assembly sequence treated as a production decision rather than just a task list?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "It controls dependencies between components and processes",
+            "It reduces the number of components required",
+            "It guarantees the final appearance"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Assembly order manages dependencies that affect access, alignment, inspection and later production stages."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Before starting an assembly stage, what should students identify?",
+          "options": [
+            "The final project mark",
+            "What must already be complete and what access must remain",
+            "The fastest assembly method"
+          ],
+          "answerIndex": 1,
+          "explanation": "Checking prerequisites and remaining access helps prevent later assembly problems and supports controlled production."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, assembling a component too early may cause it to",
+          "options": [
+            "Improve surface finish automatically",
+            "Reduce the need for inspection",
+            "Restrict later positioning, inspection or processing"
+          ],
+          "answerIndex": 2,
+          "explanation": "A correctly fitted component can still create later difficulties if it blocks access or inspection."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why does the theory place a quality hold point before permanent assembly continues?",
+          "options": [
+            "Pause production for verified checks before continuing",
+            "Reduce the number of production stages",
+            "Replace the need for approved drawings"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hold points verify important features before errors become harder to correct in later assembly."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which combination is checked at a quality hold point?",
+          "options": [
+            "Production speed, cost and appearance",
+            "Component identity, orientation, contact, alignment and required evidence",
+            "Material weight, storage and packaging"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hold points compare verified features and evidence against approved requirements before production continues."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What risk does continuing without a hold point create?",
+          "options": [
+            "The assembly will always fail",
+            "Later stages become shorter",
+            "An unnoticed error may affect several completed components"
+          ],
+          "answerIndex": 2,
+          "explanation": "Missing a hold point allows undetected errors to carry into later work, increasing correction effort."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If the teacher authorises a sequence change, what should be updated?",
+          "options": [
+            "The production flowchart and folio record",
+            "Only the completed component",
+            "Only the final photograph"
+          ],
+          "answerIndex": 0,
+          "explanation": "Updating production records maintains traceability and documents the controlled change to the approved sequence."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should students consider inspection and finishing before assembly proceeds?",
+          "options": [
+            "To avoid using the approved sequence",
+            "Because later assembly may reduce access to important areas",
+            "To eliminate the need for drawings"
+          ],
+          "answerIndex": 1,
+          "explanation": "Some features become difficult to inspect or finish once additional components are assembled."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What maintains traceability after a teacher-approved sequence change?",
+          "options": [
+            "Replacing the original drawing",
+            "Restarting the entire project",
+            "Recording the reason, approval and effect of the change"
+          ],
+          "answerIndex": 2,
+          "explanation": "Traceability depends on documenting why the sequence changed, who approved it and its production impact."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which source controls unresolved sequencing, joining, access and inspection details?",
+          "options": [
+            "The teacher-issued assembly plan, drawings and demonstrations",
+            "General workshop experience",
+            "Student preference during assembly"
+          ],
+          "answerIndex": 0,
+          "explanation": "The supplied source boundary states that unresolved production details come from approved teacher documentation and demonstrations."
         },
         {
           "theoryIndex": 2,
-          "question": "Classify evidence as process quality control, final inspection or unsupported opinion.",
+          "question": "What is the main role of quality control during structural assembly?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Checking results at particular stages",
+            "Planning the entire project system",
+            "Writing the final project report"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Quality control focuses on checking results at specific stages before work progresses to the next step."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the theory, quality assurance is best described as what?",
+          "options": [
+            "A final inspection only",
+            "A system showing quality was planned, checked and maintained",
+            "A method for speeding up assembly"
+          ],
+          "answerIndex": 1,
+          "explanation": "Quality assurance links planning, checking, recording and maintaining quality across the whole project, not just one inspection."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which combination makes inspection evidence more traceable?",
+          "options": [
+            "An unlabelled final photograph",
+            "A written opinion without evidence",
+            "Photographs with annotations linked to checks"
+          ],
+          "answerIndex": 2,
+          "explanation": "Traceable photographs and annotations explain what was inspected, the evidence found and any required follow-up."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Traceable checks should connect each observation to which information?",
+          "options": [
+            "The relevant component, drawing requirement, production stage and teacher-issued criterion",
+            "Only the completed assembly",
+            "Only the student's opinion"
+          ],
+          "answerIndex": 0,
+          "explanation": "Traceable records link observations to approved references so inspection evidence can be followed through the project."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "How should a possible failure to meet approved criteria be recorded?",
+          "options": [
+            "Ignored until final inspection",
+            "As a non-conformance",
+            "As proof the assembly has failed completely"
+          ],
+          "answerIndex": 1,
+          "explanation": "A possible or confirmed issue should be recorded as a non-conformance rather than ignored or exaggerated."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Before affected work continues after a possible non-conformance, what must happen?",
+          "options": [
+            "The issue should be hidden",
+            "The work should be repainted",
+            "The teacher should review it"
+          ],
+          "answerIndex": 2,
+          "explanation": "Assembly should not continue past a possible non-conformance until the teacher has reviewed the affected work."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should a non-conformance report avoid doing?",
+          "options": [
+            "Claiming an unsupported cause",
+            "Describing the observed issue",
+            "Recording that further review was needed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Reports should record observed evidence without hiding issues or making unsupported claims about their cause."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is required before any rework begins?",
+          "options": [
+            "A final photograph",
+            "Teacher authorisation",
+            "Completion of the whole assembly"
+          ],
+          "answerIndex": 1,
+          "explanation": "Rework must be authorised by the teacher before it proceeds and should then be documented."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which information should be included in a documented rework record?",
+          "options": [
+            "Only the completed appearance",
+            "Only the date of assembly",
+            "The issue, approved response and later inspection result"
+          ],
+          "answerIndex": 2,
+          "explanation": "A complete rework record shows the issue, approved action and evidence from the later inspection."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the theory, what does documented rework help prove?",
+          "options": [
+            "Assembly quality was built through controlled decisions",
+            "Final appearance alone proves quality",
+            "Inspection records are unnecessary after rework"
+          ],
+          "answerIndex": 0,
+          "explanation": "Documented rework demonstrates that quality resulted from controlled, traceable decisions rather than appearance alone."
         }
       ],
       "written": [
@@ -808,7 +2631,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Surface condition controls finish performance",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-07.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "7.2",
@@ -829,7 +2653,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Selecting and applying a finish from authoritative information",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-08.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "7.3",
@@ -850,42 +2675,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Finish inspection, maintenance and environmental responsibility",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-09.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Identify which preparation fault is most likely to remain visible or weaken a finish.",
+          "question": "Why does finish performance begin with surface condition?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "It determines whether the finish can bond consistently",
+            "It shortens the curing process",
+            "It removes the need for inspection"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "A clean, consistently prepared surface supports bonding, appearance and protection before the specified finish is applied."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, applying more finish cannot correct:",
+          "options": [
+            "Slow curing",
+            "Poor surface preparation",
+            "Teacher review requirements"
+          ],
+          "answerIndex": 1,
+          "explanation": "Extra product cannot overcome burrs, contamination, scratches or uneven preparation that should have been addressed beforehand."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which stage produces the required surface condition before any finish is applied?",
+          "options": [
+            "Preparation",
+            "Application",
+            "Curing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Preparation creates the required surface condition before the specified finish is applied using the authorised method."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "A surface feels dry to the touch. What does the theory say may still be true?",
+          "options": [
+            "Preparation is incomplete",
+            "The finish has bonded permanently",
+            "The finish may not yet be fully cured"
+          ],
+          "answerIndex": 2,
+          "explanation": "Drying and curing are different stages, so a dry surface may still be developing its intended properties."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the main purpose of planned hold-point inspections before application?",
+          "options": [
+            "To identify surface issues requiring review",
+            "To confirm the finish has cured",
+            "To replace teacher instructions"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hold-point inspections help detect burrs, contamination, inconsistent texture or damage before the finish is applied."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which evidence best records surface condition before application?",
+          "options": [
+            "Memory after finishing",
+            "Photographs and annotated observations",
+            "An estimate of drying time"
+          ],
+          "answerIndex": 1,
+          "explanation": "Photographs with annotated observations provide traceable evidence that preparation was completed systematically before application."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which issue could reduce a finish's intended protection according to the theory?",
+          "options": [
+            "Following current product information",
+            "Consistent surface preparation",
+            "Contamination remaining on the surface"
+          ],
+          "answerIndex": 2,
+          "explanation": "Contamination can reduce adhesion and protection, making careful preparation essential before applying the specified finish."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should guide every stage of preparation, application, drying and curing?",
+          "options": [
+            "Current product information and teacher instructions",
+            "Personal preference from previous projects",
+            "Applying extra preparation whenever possible"
+          ],
+          "answerIndex": 0,
+          "explanation": "Current product information and teacher instructions control unresolved details throughout the finishing process."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which statement correctly distinguishes application from preparation?",
+          "options": [
+            "Application creates the required surface condition",
+            "Application places the specified finish onto the prepared surface",
+            "Application begins after curing is complete"
+          ],
+          "answerIndex": 1,
+          "explanation": "Preparation creates the surface, while application places the specified finish onto that prepared surface."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should unverified substitutions or rushed handling be avoided?",
+          "options": [
+            "They always reduce drying time",
+            "They guarantee a smoother appearance",
+            "They can affect appearance, adhesion and protection"
+          ],
+          "answerIndex": 2,
+          "explanation": "Following authorised instructions helps maintain the intended appearance, adhesion and protective performance of the finish."
         },
         {
           "theoryIndex": 1,
-          "question": "Choose the authoritative source for a question about product hazards, application or curing.",
+          "question": "What should primarily justify the selection of a finish?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Confirmed performance criteria",
+            "Personal colour preference",
+            "The lowest purchase cost"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "A suitable finish is justified by confirmed performance criteria, not appearance or other unrelated preferences alone."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which factor is identified as one consideration when selecting a finish?",
+          "options": [
+            "The teacher's favourite product",
+            "Future maintenance requirements",
+            "The number of coats previously used"
+          ],
+          "answerIndex": 1,
+          "explanation": "Future maintenance is one of several confirmed factors considered alongside protection, appearance and intended use conditions."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which source provides authoritative information about hazards, handling and storage?",
+          "options": [
+            "The product label",
+            "A completed folio",
+            "The Safety Data Sheet (SDS)"
+          ],
+          "answerIndex": 2,
+          "explanation": "The SDS provides authoritative information about hazards, handling, storage and other controls for the product."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Before claiming a finish is suitable, what should students do?",
+          "options": [
+            "Check reliable product information",
+            "Compare different paint colours",
+            "Estimate from previous experience"
+          ],
+          "answerIndex": 0,
+          "explanation": "Suitability claims should be supported by reliable product information rather than assumptions or past experience."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the main purpose of a product label?",
+          "options": [
+            "Record classroom assessment",
+            "Identify intended use and approved application requirements",
+            "Explain all hazard controls in detail"
+          ],
+          "answerIndex": 1,
+          "explanation": "The product label identifies intended use and approved application requirements, while hazard information is detailed in the SDS."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If the planned method differs from what was approved, what should students do?",
+          "options": [
+            "Continue carefully",
+            "Rely on memory",
+            "Stop and seek clarification"
+          ],
+          "answerIndex": 2,
+          "explanation": "Differences from the approved method require students to stop and seek clarification before continuing."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which combination best supports justified finish selection?",
+          "options": [
+            "Label, SDS and technical information",
+            "Appearance and personal opinion",
+            "Past projects and memory"
+          ],
+          "answerIndex": 0,
+          "explanation": "Current labels, SDS and technical information provide the evidence needed to justify finish selection."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should folio evidence explain about the selected finish?",
+          "options": [
+            "Why it was the quickest to apply",
+            "Why it meets the confirmed criteria",
+            "Why it was chosen by other students"
+          ],
+          "answerIndex": 1,
+          "explanation": "Folio evidence should explain how the specified finish satisfies the confirmed performance and maintenance criteria."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What controls unresolved handling, application, suitability and curing details?",
+          "options": [
+            "General workshop experience",
+            "Internet product reviews",
+            "Teacher-specified product information and demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "The current teacher-specified product information and demonstration control unresolved handling, application, suitability and curing details."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should current instructions be consulted and recorded in the folio?",
+          "options": [
+            "To create a traceable link between planning, protection and the completed result",
+            "To replace teacher authorisation",
+            "To avoid reading technical information"
+          ],
+          "answerIndex": 0,
+          "explanation": "Consulting current instructions supports traceability from production planning through material protection to the completed result."
         },
         {
           "theoryIndex": 2,
-          "question": "Distinguish a surface-quality observation from a verified environmental or service-life claim.",
+          "question": "What should finish inspection primarily compare the completed surface against?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Teacher-approved criteria",
+            "A general impression",
+            "Previous projects"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Inspection should compare the finish with approved criteria, producing evidence rather than relying on overall appearance."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which observation best supports a documented finish inspection?",
+          "options": [
+            "The finish looks professional",
+            "Annotated observations identifying inspected areas",
+            "A personal opinion about the colour"
+          ],
+          "answerIndex": 1,
+          "explanation": "Annotated observations identify what was inspected and clearly record any uncertainty needing teacher review."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should students inspect edges and corners as well as larger surfaces?",
+          "options": [
+            "They are less important than flat areas",
+            "They are easier to photograph",
+            "They may reveal defects or inconsistent coverage"
+          ],
+          "answerIndex": 2,
+          "explanation": "Edges and corners can show defects or uneven coverage that affect comparison with approved quality criteria."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is the main reason a finished surface should be protected while drying and curing?",
+          "options": [
+            "To prevent damage before intended properties develop",
+            "To improve the colour automatically",
+            "To reduce the need for inspection"
+          ],
+          "answerIndex": 0,
+          "explanation": "Protection during drying and curing helps prevent damage before the finish develops its intended properties."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Where must the required curing conditions come from?",
+          "options": [
+            "General workshop experience",
+            "Current product information and teacher directions",
+            "Student preference"
+          ],
+          "answerIndex": 1,
+          "explanation": "Curing conditions must always follow current product information together with teacher directions, not assumptions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "When evaluating a finish, what should students consider beyond appearance?",
+          "options": [
+            "Only how quickly it was applied",
+            "Only how glossy it appears",
+            "Maintenance, repairability and expected service life"
+          ],
+          "answerIndex": 2,
+          "explanation": "A sound evaluation considers ongoing maintenance, repairability and expected service life using confirmed information and evidence."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why might a finish needing frequent attention increase resource demands?",
+          "options": [
+            "It may require more maintenance or earlier replacement",
+            "It always improves durability",
+            "It eliminates future repairs"
+          ],
+          "answerIndex": 0,
+          "explanation": "Frequent maintenance or early replacement can increase material use and ongoing resource demands over time."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "How should leftover product and contaminated materials be managed?",
+          "options": [
+            "Disposed of whenever convenient",
+            "According to teacher directions and authorised school procedures",
+            "Stored without guidance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Waste management should follow authorised school procedures and teacher directions to support responsible practice."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What provides the strongest basis for an honest finish evaluation?",
+          "options": [
+            "Personal preference",
+            "Comparison with another student's work",
+            "Observed evidence supported by confirmed product information"
+          ],
+          "answerIndex": 2,
+          "explanation": "Observed evidence and confirmed product information provide a reliable basis for evaluating finish quality and performance."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should photographs included in finish inspection records demonstrate?",
+          "options": [
+            "What was inspected and any uncertainty requiring review",
+            "Only the completed appearance",
+            "Only the best-looking surface areas"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inspection photographs should show inspected areas and clearly identify any uncertainty requiring teacher review."
         }
       ],
       "written": [
@@ -938,7 +3061,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for From three-dimensional case to flat development",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-10.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "8.2",
@@ -959,7 +3083,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Bending sequence, accumulated error and case fit",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-11.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "8.3",
@@ -980,42 +3105,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Hinges and handle as an evidence-based design problem",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-12.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Identify why a development must be read from written drawing information rather than scaled from the displayed shape.",
+          "question": "What is the main purpose of a development?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "A flat representation of surfaces forming a three-dimensional case",
+            "A finished drawing showing the completed case only",
+            "A photograph of the assembled case"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "A development shows how flat surfaces relate before forming, helping students understand the completed three-dimensional case."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why must a development be read together with the teacher-issued case drawings?",
+          "options": [
+            "To estimate missing measurements",
+            "Because development lines may represent different features or production stages",
+            "To replace the approved formulas"
+          ],
+          "answerIndex": 1,
+          "explanation": "Development lines can represent different features or stages, so they must be interpreted alongside the approved case drawings."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the purpose of reference lines in a development?",
+          "options": [
+            "They establish where information is located and transferred",
+            "They decorate the drawing",
+            "They show the finished surface appearance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Reference lines organise and transfer information accurately between the development and the completed case."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What can happen if orientation marks are not preserved?",
+          "options": [
+            "The material becomes thicker",
+            "A correctly shaped area may be formed in the wrong direction",
+            "The approved formulas no longer apply"
+          ],
+          "answerIndex": 1,
+          "explanation": "Orientation marks help keep faces and edges correctly related, preventing correctly shaped areas from ending up incorrectly positioned."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, where must allowance values come from?",
+          "options": [
+            "Measurements estimated from an image",
+            "Student judgement during forming",
+            "The approved drawing, supplied formula and teacher demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "Allowance values are controlled by approved information rather than estimates or visual guesses."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why are allowances included in a development?",
+          "options": [
+            "To account for the material and geometry during transformation",
+            "To improve the appearance of the drawing",
+            "To replace reference lines"
+          ],
+          "answerIndex": 0,
+          "explanation": "Allowances account for how flat material changes when transformed into the required three-dimensional form."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why are planned hold points included in the production sequence?",
+          "options": [
+            "To reduce the number of drawing views",
+            "To confirm verified information before irreversible processing",
+            "To estimate missing allowance values"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hold points provide opportunities to verify important information before later operations make correction more difficult."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which statement best reflects the recommended way to read a development?",
+          "options": [
+            "As unrelated flat shapes",
+            "Only after forming begins",
+            "As connected surfaces that relate to the completed case"
+          ],
+          "answerIndex": 2,
+          "explanation": "A development should be interpreted as connected surfaces that together create the finished three-dimensional case."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why can later forming make correction more difficult?",
+          "options": [
+            "Some features may no longer remain visible or accessible",
+            "Reference lines automatically disappear from the drawing",
+            "Approved formulas become invalid"
+          ],
+          "answerIndex": 0,
+          "explanation": "Later forming can reduce access or visibility, making important checks and corrections more difficult to complete."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the source boundary, who controls unresolved development, allowance, forming and sequencing details?",
+          "options": [
+            "Students using prior experience",
+            "The teacher-issued drawings, approved formulas, SOPs and demonstrations",
+            "Photographs of completed cases"
+          ],
+          "answerIndex": 1,
+          "explanation": "The source boundary requires unresolved details to be controlled by approved documents and teacher guidance, not assumptions."
         },
         {
           "theoryIndex": 1,
-          "question": "Choose the most useful intermediate check before the next form reduces access or locks in error.",
+          "question": "Why should the teacher-issued bending sequence be followed?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "It changes the final colour",
+            "Early bends affect later geometry, access and alignment",
+            "It guarantees no measurements are needed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Following the approved sequence helps maintain geometry, access and alignment as each bend influences later forming stages."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the main purpose of using consistent datums during forming?",
+          "options": [
+            "To reduce accumulated error when comparing with the drawing",
+            "To increase the number of bends required",
+            "To avoid using reference lines"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Consistent datums provide stable references, reducing the chance that small differences build into larger alignment problems."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If checks are taken from changing references, what is the most likely result?",
+          "options": [
+            "Improved hardware alignment",
+            "Less need for hold points",
+            "Small differences may accumulate across the case"
+          ],
+          "answerIndex": 2,
+          "explanation": "Changing reference points can allow small variations to build until noticeable fit or geometry problems appear."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, what should be confirmed at planned hold points?",
+          "options": [
+            "Orientation, reference lines, developing geometry and trial fit",
+            "Only the finished appearance",
+            "Only hardware positions"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hold points help identify variation early by checking orientation, references, geometry and trial fit before irreversible work continues."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which outcome may indicate accumulated error even when no single mistake seems large?",
+          "options": [
+            "A smoother surface finish",
+            "Misaligned mating edges or uneven case geometry",
+            "Reduced drawing detail"
+          ],
+          "answerIndex": 1,
+          "explanation": "Accumulated error often appears as overall fit or alignment problems rather than one obvious large mistake."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What does the theory identify as springback?",
+          "options": [
+            "A permanent increase in material thickness",
+            "The approved bending sequence",
+            "Partial recovery towards the original shape after forming force is removed"
+          ],
+          "answerIndex": 2,
+          "explanation": "Springback describes a material's tendency to recover partly after forming, although its significance depends on the approved process."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "How should students respond to unexpected movement or accumulated error?",
+          "options": [
+            "Document it and refer it to the teacher before continuing",
+            "Adjust the setup until it seems correct",
+            "Estimate a compensation value and continue"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unexpected movement or mismatch should be recorded and referred rather than corrected through unapproved adjustments or guesses."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why are intermediate checks completed before another irreversible stage?",
+          "options": [
+            "To reduce the number of drawing views",
+            "To identify where variation first appeared",
+            "To confirm the final finish quality"
+          ],
+          "answerIndex": 1,
+          "explanation": "Intermediate checks help locate the first appearance of variation before further forming makes correction more difficult."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should students avoid doing when springback is suspected?",
+          "options": [
+            "Checking the approved process",
+            "Reporting unexpected movement",
+            "Guessing compensation values"
+          ],
+          "answerIndex": 2,
+          "explanation": "The theory states that compensation values must not be guessed because relevance depends on the confirmed material and approved process."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which statement best reflects the relationship between each bend and the developing case?",
+          "options": [
+            "Each bend can influence later features and references",
+            "Each bend is independent of later stages",
+            "Only the final bend affects case fit"
+          ],
+          "answerIndex": 0,
+          "explanation": "Each forming stage influences later geometry, reference points and alignment, making the approved sequence important throughout the process."
         },
         {
           "theoryIndex": 2,
-          "question": "Select the strongest decision: preference alone or a comparison supported by confirmed criteria and trial evidence.",
+          "question": "What should students do before generating hinge and handle arrangements?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Define confirmed constraints",
+            "Choose the easiest attachment",
+            "Begin manufacturing immediately"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Confirmed constraints from authorised sources establish what the design must resolve before alternatives are generated."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "How should an unverified assumption about the arrangement be treated?",
+          "options": [
+            "As a temporary project fact",
+            "As a question requiring confirmation",
+            "As evidence supporting selection"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unverified assumptions should remain recorded questions until confirmed through teacher-issued information or authorised review."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should students generate several possible arrangements?",
+          "options": [
+            "To avoid documenting decisions",
+            "To guarantee teacher approval",
+            "To compare alternatives before committing"
+          ],
+          "answerIndex": 2,
+          "explanation": "Generating alternatives allows students to evaluate different solutions against approved functional and manufacturing criteria."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which set contains only approved comparison criteria named in the theory?",
+          "options": [
+            "Movement, access and ergonomics",
+            "Cost, colour and popularity",
+            "Speed, weight and assessment marks"
+          ],
+          "answerIndex": 0,
+          "explanation": "Movement, access and ergonomics are identified criteria for comparing how effectively each arrangement may function."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is the main purpose of a comparison table or annotated sketches?",
+          "options": [
+            "To replace required testing",
+            "To make design reasoning visible",
+            "To prove the arrangement is safe"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tables, sketches and design notes show how alternatives were compared and why one may be preferred."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "When authorised, why can a prototype provide stronger evidence than appearance alone?",
+          "options": [
+            "It confirms every unresolved detail",
+            "It removes the need for approval",
+            "It can reveal practical difficulties"
+          ],
+          "answerIndex": 2,
+          "explanation": "A prototype may expose restricted movement, poor access, awkward handling or manufacturing problems hidden in sketches."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should students record after an approved trial fit?",
+          "options": [
+            "Results, problems and unresolved questions",
+            "Only evidence supporting their preferred design",
+            "A claim that the design is complete"
+          ],
+          "answerIndex": 0,
+          "explanation": "Honest documentation must include trial results, identified problems and any questions that remain unresolved."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which evidence best supports selecting a final arrangement?",
+          "options": [
+            "The most attractive sketch",
+            "Approved criteria and testing results",
+            "The first workable idea"
+          ],
+          "answerIndex": 1,
+          "explanation": "Selection should be justified through approved comparison criteria and evidence gathered from any authorised testing."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "When may an arrangement be described as safe, suitable or complete?",
+          "options": [
+            "After alternatives are sketched",
+            "When the student prefers it",
+            "After teacher review and required testing"
+          ],
+          "answerIndex": 2,
+          "explanation": "Such claims require teacher review and completion of the required testing, not student judgement alone."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What does recording alternatives, evidence and approval points demonstrate?",
+          "options": [
+            "A controlled design process",
+            "An improvised workshop decision",
+            "A completed manufacturing sequence"
+          ],
+          "answerIndex": 0,
+          "explanation": "These records demonstrate that the final decision developed systematically through comparison, testing and authorised approval."
         }
       ],
       "written": [
@@ -1068,7 +3491,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for PMI evaluation that moves beyond opinion",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-01.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "9.2",
@@ -1089,7 +3513,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Building the project report as an evidence chain",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-02.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "9.3",
@@ -1110,42 +3535,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Final quality assurance and authentic submission",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-03.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Choose the PMI statement that includes criterion, evidence and implication.",
+          "question": "What should a PMI evaluation judge the completed BBQ and case against?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Personal preferences",
+            "The teacher-issued brief and approved criteria",
+            "Other students' projects"
+          ],
+          "answerIndex": 1,
+          "explanation": "A PMI evaluation is evidence-based and compares the project with the approved expectations rather than personal opinion."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, what should support every Plus observation?",
+          "options": [
+            "Evidence such as photographs, measurements, testing records or folio notes",
+            "A personal opinion about quality",
+            "A prediction about future performance"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "A Plus is strengthened by evidence that demonstrates the successful feature or process outcome being described."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "When writing a Minus observation, what should students describe before suggesting a likely cause?",
+          "options": [
+            "The project's strongest feature",
+            "The effect of the problem",
+            "Another student's approach"
+          ],
+          "answerIndex": 1,
+          "explanation": "Describing the effect first separates observed evidence from later explanations about why the issue may have occurred."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "When should a cause be presented as confirmed?",
+          "options": [
+            "Whenever it seems reasonable",
+            "After discussing it with classmates",
+            "Only when supported by available evidence"
+          ],
+          "answerIndex": 2,
+          "explanation": "The theory requires causes to remain tentative unless evidence is sufficient to support the conclusion."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which statement best describes an Interesting observation?",
+          "options": [
+            "It identifies a meaningful result or relationship worth further consideration",
+            "It is another compliment about the finished project",
+            "It lists personal likes about the design"
+          ],
+          "answerIndex": 0,
+          "explanation": "Interesting observations extend evaluation by exploring meaningful findings rather than repeating praise or opinions."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "A production decision unexpectedly influenced both quality and the relationship between the BBQ and its case. Which PMI category best fits this finding?",
+          "options": [
+            "Plus",
+            "Interesting",
+            "Minus"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unexpected relationships between production decisions and outcomes are identified as Interesting observations in the PMI."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should conclude a strong PMI evaluation?",
+          "options": [
+            "A list of favourite features",
+            "A comparison with another project",
+            "One achievable improvement based on evidence"
+          ],
+          "answerIndex": 2,
+          "explanation": "The final improvement should respond to evidence, address a likely cause and remain realistic within project constraints."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which approach best follows the PMI process?",
+          "options": [
+            "Link each observation to approved criteria and evidence",
+            "Record only personal likes and dislikes",
+            "Avoid referring to project evidence"
+          ],
+          "answerIndex": 0,
+          "explanation": "PMI observations gain credibility when they are clearly connected to approved criteria and supporting evidence."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should proposed improvements be realistic within available processes and project constraints?",
+          "options": [
+            "To make the evaluation longer",
+            "So the recommendation can realistically be applied",
+            "To avoid using project evidence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Useful improvements are achievable and grounded in the project's available processes, evidence and constraints."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the source boundary, what controls unresolved judgements, results and improvement claims?",
+          "options": [
+            "General workshop experience",
+            "The teacher-issued brief, approved criteria and completed project evidence",
+            "Personal confidence in the conclusion"
+          ],
+          "answerIndex": 1,
+          "explanation": "Where uncertainty remains, the brief, approved criteria and completed project evidence determine justified evaluation claims."
         },
         {
           "theoryIndex": 1,
-          "question": "Identify which caption makes a photograph useful as assessment evidence.",
+          "question": "What is the main purpose of the project report?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Summarise personal opinions",
+            "Form an evidence chain from brief to evaluation",
+            "List every workshop activity"
+          ],
+          "answerIndex": 1,
+          "explanation": "The report should connect decisions, production evidence and evaluation into a traceable sequence rather than disconnected documents."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which item should begin the evidence chain?",
+          "options": [
+            "The approved brief",
+            "The final evaluation",
+            "Production photographs"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "The evidence chain starts with the approved brief before later planning, production and evaluation evidence is presented."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should production photographs be arranged chronologically?",
+          "options": [
+            "To reduce the number of images",
+            "To make the report longer",
+            "To show stages, hold points, problems and authorised responses in sequence"
+          ],
+          "answerIndex": 2,
+          "explanation": "Chronological order helps readers follow how production progressed and how important decisions affected outcomes."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should every production photograph include?",
+          "options": [
+            "A concise caption explaining its purpose",
+            "Only the date taken",
+            "A decorative border"
+          ],
+          "answerIndex": 0,
+          "explanation": "Captions should identify what is shown, why it matters and which requirement or decision the evidence supports."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If the completed project differs from the original plan, what should the report do?",
+          "options": [
+            "Ignore the difference",
+            "Record the as-built result and acknowledge the change",
+            "Replace the original plan with a new version"
+          ],
+          "answerIndex": 1,
+          "explanation": "An accurate report records what was actually made and openly acknowledges changes from earlier planning."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which sources should be identified when they informed decisions?",
+          "options": [
+            "Teacher-issued drawings, product information and demonstrations",
+            "Only internet searches",
+            "Only student opinions"
+          ],
+          "answerIndex": 0,
+          "explanation": "Identifying sources shows where important production decisions were informed by authoritative information."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should you do if evidence is missing?",
+          "options": [
+            "Estimate what probably happened",
+            "Leave it out without comment",
+            "Do not invent it or recreate it inaccurately"
+          ],
+          "answerIndex": 2,
+          "explanation": "Missing evidence must remain honest rather than being invented or reconstructed inaccurately."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Until verified, how should dates, teacher details, submission route and component allocations be labelled?",
+          "options": [
+            "Teacher to confirm",
+            "Final version",
+            "Approved evidence"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unverified administrative details should remain clearly marked as needing teacher confirmation before being treated as facts."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which sequence best reflects the intended organisation of the report?",
+          "options": [
+            "Evaluation, brief, production",
+            "Brief, production, evaluation",
+            "Production, evaluation, brief"
+          ],
+          "answerIndex": 1,
+          "explanation": "The report should logically progress from the brief through production evidence to the final evaluation."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the source boundary, what controls unresolved task details and evidence requirements?",
+          "options": [
+            "Student preference",
+            "Previous project reports",
+            "The current Task 1 handbook, teacher-issued brief, drawings and submission directions"
+          ],
+          "answerIndex": 2,
+          "explanation": "When information is unresolved, authoritative task documents determine the correct requirements rather than assumptions."
         },
         {
           "theoryIndex": 2,
-          "question": "Identify the action that best protects authenticity when the finished project differs from an earlier plan.",
+          "question": "What is the main purpose of final quality assurance?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Increase production speed",
+            "Check both the finished project and its supporting evidence",
+            "Redesign the completed project"
+          ],
+          "answerIndex": 1,
+          "explanation": "Final quality assurance verifies both the physical project and the folio accurately and consistently represent the completed work."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should the folio accurately represent?",
+          "options": [
+            "What was actually produced",
+            "Only the original design idea",
+            "The best possible outcome"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "The folio should match the as-built result rather than an earlier plan or an idealised version."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "If an approved change was made during production, what should happen?",
+          "options": [
+            "Remove the original evidence",
+            "Leave the change unmentioned",
+            "Identify the approved change"
+          ],
+          "answerIndex": 2,
+          "explanation": "Approved changes should be identified so the evidence accurately explains how the final result developed."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should photographs, sketches and quality checks form a consistent account?",
+          "options": [
+            "To support an accurate evidence chain",
+            "To improve the project's appearance",
+            "To reduce the number of folio pages"
+          ],
+          "answerIndex": 0,
+          "explanation": "Consistent evidence helps demonstrate that the folio truthfully documents the completed project from multiple sources."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should a student do if a fault remains unresolved?",
+          "options": [
+            "Hide it before submission",
+            "Report it honestly",
+            "Assume it passed inspection"
+          ],
+          "answerIndex": 1,
+          "explanation": "Honest reporting maintains the integrity of the submission even when problems remain unresolved."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "When may the folio state that a feature passed inspection?",
+          "options": [
+            "After an authorised confirmation",
+            "Whenever the student believes it passed",
+            "After comparing it with similar projects"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inspection claims must only be made after confirmation through the authorised process described by project requirements."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should teacher-issued drawings, demonstrations and approved references be acknowledged?",
+          "options": [
+            "To increase the folio length",
+            "To recognise sources that influenced decisions",
+            "To replace production evidence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Acknowledging sources makes it clear where important decisions or information came from and supports authentic work."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "How should help with planning or production be presented?",
+          "options": [
+            "Ignored if only minor",
+            "Described as the student's own work",
+            "Acknowledged honestly"
+          ],
+          "answerIndex": 2,
+          "explanation": "Assistance should always be acknowledged rather than presented as original student work."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Before submission, what should be checked about saved and printed evidence?",
+          "options": [
+            "Its completeness, readability and sequence",
+            "Its decorative layout",
+            "Its file size only"
+          ],
+          "answerIndex": 0,
+          "explanation": "Evidence should be complete, readable and correctly ordered so it can be followed and verified."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the source boundary, what controls unresolved inspection and submission details?",
+          "options": [
+            "The student's personal judgement",
+            "The teacher-issued brief, drawings, criteria, handbook and submission directions",
+            "Examples from previous students"
+          ],
+          "answerIndex": 1,
+          "explanation": "When details remain unresolved, the authorised project documents determine the correct inspection and submission requirements."
         }
       ],
       "written": [
@@ -1198,7 +3921,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Reading the folding-shovel system through its drawings",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-04.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "10.2",
@@ -1219,7 +3943,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for WMS planning for a multi-process product",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-05.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "10.3",
@@ -1240,42 +3965,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Societal and environmental criteria before manufacture",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-06.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Select which drawing information should control when views appear different or the screen image has been resized.",
+          "question": "What is the main purpose of an assembly drawing?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Show how major parts connect",
+            "Provide dimensions for one component",
+            "Replace all detail drawings"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Assembly drawings explain how major parts relate, while detail drawings provide information about individual components."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should students cross-reference assembly, detail and sectional views?",
+          "options": [
+            "To estimate missing dimensions",
+            "To understand complete component relationships",
+            "To avoid checking drawing revisions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Comparing multiple drawing views helps reveal relationships that cannot be understood from a single image alone."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which source should be used if a written dimension and the picture appear different?",
+          "options": [
+            "The picture",
+            "The written dimension",
+            "An estimated average"
+          ],
+          "answerIndex": 1,
+          "explanation": "Written dimensions and notes are authoritative, while appearance should never override documented drawing information."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What may a sectional view reveal that an outside view cannot?",
+          "options": [
+            "Workshop assessment marks",
+            "Internal or hidden relationships",
+            "Material costs"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sectional views expose hidden features and relationships that are not visible from external views alone."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "A feature shown on one component controls the fit of another. What does this demonstrate?",
+          "options": [
+            "Components form an interconnected system",
+            "Each drawing is independent",
+            "Only detail drawings matter"
+          ],
+          "answerIndex": 0,
+          "explanation": "A change to one component can influence another because the product operates as an interconnected system."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Before marking or machining begins, what should students confirm?",
+          "options": [
+            "Estimated dimensions",
+            "Workshop schedules",
+            "Information controlling position, movement or fit"
+          ],
+          "answerIndex": 2,
+          "explanation": "Students should identify the information that governs position, movement and fit before practical work begins."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Besides dimensions, what should be checked to ensure production uses the correct drawing?",
+          "options": [
+            "Component identity and drawing revision",
+            "Estimated manufacturing time",
+            "Personal drawing preferences"
+          ],
+          "answerIndex": 0,
+          "explanation": "Checking component identity and revision helps ensure production follows the current approved drawing version."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "If drawing information is conflicting or unclear, what is the correct action?",
+          "options": [
+            "Choose the most detailed image",
+            "Record the issue and refer it to the teacher",
+            "Scale the drawing to fill the gap"
+          ],
+          "answerIndex": 1,
+          "explanation": "Recording uncertainties and referring them creates an evidence trail and avoids unsupported assumptions."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should students avoid scaling an image?",
+          "options": [
+            "Scaled drawings always match measurements",
+            "Scaled images simplify production",
+            "Written dimensions and notes are the authoritative source"
+          ],
+          "answerIndex": 2,
+          "explanation": "Drawing appearance can mislead, so written dimensions and notes remain the authoritative production reference."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Tracing each component across assembly, detail and sectional views before practical work mainly supports what?",
+          "options": [
+            "Reliable production planning based on verified information",
+            "Faster estimation of missing details",
+            "Replacing teacher demonstrations"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tracing components across related views builds a reliable evidence trail from drawing interpretation to production planning."
         },
         {
           "theoryIndex": 1,
-          "question": "Distinguish a product-level dependency from a machine-specific SOP instruction.",
+          "question": "What is the main purpose of a whole-product Work Method Statement (WMS)?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Coordinate the authorised construction processes",
+            "Replace teacher demonstrations",
+            "Create a new production sequence"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "A whole-product WMS records the authorised sequence and links processes rather than inventing new methods or replacing teaching."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, what should a WMS show between construction stages?",
+          "options": [
+            "Estimated completion times",
+            "Dependencies between stages",
+            "Alternative machine settings"
+          ],
+          "answerIndex": 1,
+          "explanation": "Showing dependencies explains why one stage must be completed or checked before later work can continue safely and correctly."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why are quality hold points included in a whole-product WMS?",
+          "options": [
+            "To prevent unverified work progressing",
+            "To reduce the number of processes",
+            "To replace final inspection"
+          ],
+          "answerIndex": 0,
+          "explanation": "Quality hold points stop work continuing until important results have been verified before later stages depend on them."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "How does the whole-product WMS differ from the metal-lathe SOP?",
+          "options": [
+            "The WMS authorises machine use",
+            "The lathe SOP replaces the WMS",
+            "The WMS coordinates the overall project while the SOP covers the lathe process"
+          ],
+          "answerIndex": 2,
+          "explanation": "The WMS explains where lathe work fits into the project, while the SOP governs approved lathe operation."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which information is identified for each stage in the WMS?",
+          "options": [
+            "Task, hazards, controls, permissions and quality hold points",
+            "Machine purchase details",
+            "Student assessment marks"
+          ],
+          "answerIndex": 0,
+          "explanation": "Each WMS stage records the task together with approved safety, permission and quality information needed for that step."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A component has not passed its quality hold point. What should happen next?",
+          "options": [
+            "Continue assembly to save time",
+            "Wait until the result is verified before dependent work continues",
+            "Ignore the hold point if the part looks correct"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hold points exist so later work does not rely on results that have not yet been confirmed."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If teacher-issued drawings or instructions change during the project, what should students do first?",
+          "options": [
+            "Revise the sequence independently",
+            "Continue using the original WMS",
+            "Stop, report the change and update the WMS only with teacher direction"
+          ],
+          "answerIndex": 2,
+          "explanation": "Changes require students to stop, report them and revise the WMS only under teacher direction."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which statement best describes the relationship between the WMS and teacher supervision?",
+          "options": [
+            "Neither replaces teacher demonstration, supervision or authorisation",
+            "The WMS replaces teacher supervision once completed",
+            "Teacher supervision is only needed for lathe work"
+          ],
+          "answerIndex": 0,
+          "explanation": "Written planning supports but never replaces teacher demonstration, supervision and authorisation during practical work."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should dependencies be visible within a whole-product WMS?",
+          "options": [
+            "To estimate project cost",
+            "To show which stages rely on earlier completed and inspected work",
+            "To compare different drawing scales"
+          ],
+          "answerIndex": 1,
+          "explanation": "Visible dependencies help students recognise when later tasks rely on earlier verified results before proceeding."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "When an unresolved process detail is not stated in the WMS, what controls the correct action?",
+          "options": [
+            "Student judgement",
+            "Previous class projects",
+            "The current teacher-issued drawings, SOPs, WMS template and demonstrations"
+          ],
+          "answerIndex": 2,
+          "explanation": "The source boundary states that current authorised documents and demonstrations determine unresolved process and quality details."
         },
         {
           "theoryIndex": 2,
-          "question": "Identify whether a statement is evidence, an assumption or a value judgement about impact.",
+          "question": "Why should societal and environmental impacts be considered before manufacture?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Because some production decisions are difficult to reverse later",
+            "To reduce drawing dimensions",
+            "To replace teacher demonstrations"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Considering impacts early helps identify consequences before production choices become difficult or impractical to change."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which question belongs in a balanced impact framework?",
+          "options": [
+            "Who will assess the report?",
+            "What colour should the product be?",
+            "How durable and repairable is the product expected to be?"
+          ],
+          "answerIndex": 2,
+          "explanation": "Durability and repairability are evidence-based impact criteria that help evaluate long-term product performance and use."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should societal criteria be based on?",
+          "options": [
+            "The confirmed folding-camping-shovel context and reliable evidence",
+            "Personal opinions about useful products",
+            "Assumed customer preferences"
+          ],
+          "answerIndex": 0,
+          "explanation": "Societal claims should reflect the confirmed project context and verified evidence rather than unsupported assumptions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which statement best reflects environmental criteria?",
+          "options": [
+            "Only the product's appearance matters",
+            "Consider resources, waste, maintenance and end-of-life outcomes",
+            "Estimate impacts without evidence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Environmental criteria examine the product's lifecycle, including resource use, waste, maintenance and end-of-life considerations."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should students avoid describing the product as eco-friendly?",
+          "options": [
+            "The term is only suitable after manufacture",
+            "The teacher must approve every environmental statement",
+            "Such claims require verified supporting information"
+          ],
+          "answerIndex": 2,
+          "explanation": "Broad environmental claims need reliable evidence before they can be presented as justified conclusions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which example best shows an evidence-based trade-off?",
+          "options": [
+            "Improving durability may require more resources or processing",
+            "Choosing the fastest option is always best",
+            "Reducing waste always improves service life"
+          ],
+          "answerIndex": 0,
+          "explanation": "Trade-offs recognise that improving one aspect may create costs or disadvantages in another area."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "If evidence about an impact is incomplete, what should the report do?",
+          "options": [
+            "Ignore the issue",
+            "Explain what evidence is still needed before reaching conclusions",
+            "Replace missing evidence with assumptions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Strong reports identify remaining evidence needs instead of presenting uncertain conclusions as established facts."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which claim follows the theory most closely?",
+          "options": [
+            "Longer service life always reduces manufacturing impacts",
+            "Repairability is irrelevant once manufacture begins",
+            "Responsible long-term use should be considered using reliable evidence"
+          ],
+          "answerIndex": 2,
+          "explanation": "Responsible long-term use should be evaluated from verified evidence within the confirmed project context."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which source should resolve uncertain impact details?",
+          "options": [
+            "The teacher-issued brief, drawings, approved research sources and demonstrations",
+            "A student's personal experience",
+            "Estimated manufacturing details"
+          ],
+          "answerIndex": 0,
+          "explanation": "Unresolved impact details must be confirmed using the authorised project sources rather than guesses or assumptions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which pair of factors is specifically identified as a possible trade-off?",
+          "options": [
+            "Drawing title and revision",
+            "Durability and resource use",
+            "Appearance and assessment marks"
+          ],
+          "answerIndex": 1,
+          "explanation": "The theory explains that improving durability may increase resource use or manufacturing effort, requiring balanced judgement."
         }
       ],
       "written": [
@@ -1328,7 +4351,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Translating the shovel-head drawing into a controlled sequence",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-07.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "11.2",
@@ -1348,7 +4372,30 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Material behaviour during forming and shaping",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-08.png"
-          }
+          },
+          "photos": [
+            {
+              "image": "guided/images/metal-tools/bossing-mallet.png",
+              "alt": "Wooden bossing mallet with a smooth rounded pear-shaped head and straight handle",
+              "caption": "Rounded bossing-mallet form: identification reference only; the teacher demonstration controls the forming setup.",
+              "credit": "Generated with OpenAI image generation, 4 August 2026",
+              "source": ""
+            },
+            {
+              "image": "guided/images/metal-tools/tinmans-mallet.png",
+              "alt": "Wooden tinman's mallet with a broad double-faced head mounted across a straight handle",
+              "caption": "Broad-faced tinman's-mallet form: identification reference only; the teacher demonstration controls the forming setup.",
+              "credit": "Generated with OpenAI image generation, 4 August 2026",
+              "source": ""
+            },
+            {
+              "image": "guided/images/metal-tools/ball-pein-hammer.jpg",
+              "alt": "Ball-pein hammer with a flat face and rounded pein on opposite ends of its metal head",
+              "caption": "Ball-pein hammer form: identification reference only; the teacher demonstration controls the forming setup.",
+              "credit": "Connie Posites, CC BY-SA 2.0",
+              "source": "https://commons.wikimedia.org/wiki/File:Hammer_ball_peen_(12640076755).jpg"
+            }
+          ]
         },
         {
           "id": "11.3",
@@ -1369,42 +4416,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Checking head geometry, edges and assembly readiness",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-09.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Select the best hold point before a head feature becomes difficult to correct.",
+          "question": "What should students identify before planning manufacture of the shovel head?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The correct component and current drawing revision",
+            "The fastest machining method",
+            "The cheapest production process"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Correct planning begins by confirming the approved drawing information before any production decisions are made."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should the drawing be read together with the teacher demonstration?",
+          "options": [
+            "To estimate missing dimensions",
+            "To avoid relying on assumptions about typical shovel construction",
+            "To replace the written production plan"
+          ],
+          "answerIndex": 1,
+          "explanation": "The demonstration supports the authorised interpretation instead of assumptions about how similar products are usually manufactured."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the main purpose of datums during manufacture?",
+          "options": [
+            "To decorate the drawing",
+            "To estimate finished appearance",
+            "To provide consistent reference points for locating and checking features"
+          ],
+          "answerIndex": 2,
+          "explanation": "Datums create reliable references so features can be positioned and checked consistently throughout production."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What do orientation marks help preserve?",
+          "options": [
+            "The relationship between faces, edges and the folding assembly",
+            "The colour of the finished component",
+            "The order of classroom seating"
+          ],
+          "answerIndex": 0,
+          "explanation": "Orientation marks maintain the intended relationship between the component and the rest of the assembly."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should students identify feature dependencies?",
+          "options": [
+            "To avoid recording evidence",
+            "To recognise that some features depend on earlier verified work",
+            "To replace the approved production plan"
+          ],
+          "answerIndex": 1,
+          "explanation": "Understanding dependencies helps students recognise which features rely on earlier verified work without changing the approved sequence."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "When should inspection points be placed?",
+          "options": [
+            "Only after the product is complete",
+            "Only when a mistake is obvious",
+            "Before irreversible stages and before later work depends on the result"
+          ],
+          "answerIndex": 2,
+          "explanation": "Inspection before critical stages helps detect problems before later work depends on inaccurate results."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should students confirm at each inspection point?",
+          "options": [
+            "The component's identity and orientation",
+            "The estimated retail value",
+            "The preferred manufacturing method"
+          ],
+          "answerIndex": 0,
+          "explanation": "Each inspection verifies that the correct component and orientation match the approved drawing before continuing."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should students do if they find uncertainty or a mismatch?",
+          "options": [
+            "Ignore it if most features match",
+            "Refer it to the teacher before continuing",
+            "Correct it using assumptions"
+          ],
+          "answerIndex": 1,
+          "explanation": "Uncertainty must be referred to the teacher so manufacturing continues from verified information rather than assumptions."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What best demonstrates traceability during shovel-head manufacture?",
+          "options": [
+            "Working from memory",
+            "Completing the task without notes",
+            "Using clear labels, photographs and annotated observations"
+          ],
+          "answerIndex": 2,
+          "explanation": "Traceability is strengthened by evidence linking the drawing, production steps and completed component."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which documents should remain connected through traceability?",
+          "options": [
+            "The drawing, production plan, physical component and folio record",
+            "The classroom timetable and attendance roll",
+            "The equipment catalogue and supplier brochure"
+          ],
+          "answerIndex": 0,
+          "explanation": "Traceability links approved planning, the manufactured component and recorded evidence into one verified production history."
         },
         {
           "theoryIndex": 1,
-          "question": "Distinguish a material response from a setup or marking error when evidence is incomplete.",
+          "question": "Which property describes a material's ability to change shape without failing?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Hardness",
+            "Ductility",
+            "Thickness"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ductility describes shape change without failure, helping explain why some materials form more successfully than others."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, hardness mainly affects a material's resistance to what?",
+          "options": [
+            "Indentation, cutting or further deformation",
+            "Springback after forming",
+            "Surface orientation during manufacture"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Hardness influences resistance to indentation, cutting and further deformation rather than describing all forming behaviour."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What may influence how strongly a workpiece resists a change in shape?",
+          "options": [
+            "Drawing title",
+            "Thickness",
+            "Revision number"
+          ],
+          "answerIndex": 1,
+          "explanation": "Thickness can influence resistance during forming, so observations should be linked to verified material information."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If a confirmed material has a manufacturing direction, what may affect how consistently it forms?",
+          "options": [
+            "Teacher availability",
+            "Surface colour",
+            "Material orientation"
+          ],
+          "answerIndex": 2,
+          "explanation": "Where relevant to the confirmed material, orientation may influence forming consistency and should not be ignored."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is work hardening?",
+          "options": [
+            "A material becoming more resistant to further shaping after repeated deformation",
+            "A material permanently returning to its original shape",
+            "A material becoming softer after repeated deformation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Work hardening occurs after repeated deformation, increasing resistance to further shaping rather than reducing it."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is springback?",
+          "options": [
+            "A surface becoming harder after cutting",
+            "A material partly returning towards its earlier form after shaping force is removed",
+            "A workpiece cracking during forming"
+          ],
+          "answerIndex": 1,
+          "explanation": "Springback is partial recovery towards the earlier shape after the forming force is removed."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A material behaves differently from expected during approved work. What should students do first?",
+          "options": [
+            "Apply greater force immediately",
+            "Assume the material is faulty",
+            "Record the response and refer it to the teacher"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unexpected behaviour should be recorded and referred to the teacher before making further processing decisions."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which combination should students observe during approved work?",
+          "options": [
+            "Changes in shape, resistance and surface condition",
+            "Only the finished dimensions",
+            "Only the colour and appearance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Observing shape, resistance and surface condition provides evidence about how material behaviour influenced the result."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should students avoid assuming the cause of an unexpected material response?",
+          "options": [
+            "Because every unexpected response proves only one cause",
+            "Because an unexpected response does not prove a cause by itself",
+            "Because drawings always explain unexpected behaviour"
+          ],
+          "answerIndex": 1,
+          "explanation": "Evidence must support any explanation because an unexpected response alone does not establish its cause."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the source boundary, what controls unresolved forming, shaping and material-behaviour details?",
+          "options": [
+            "Previous student projects",
+            "General workshop experience",
+            "Teacher-issued material information, workshop drawing, SOP, WMS and demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "Authoritative teacher-issued information controls unresolved details instead of assumptions or previous workshop experience."
         },
         {
           "theoryIndex": 2,
-          "question": "Choose the evidence that best supports “ready for the next operation” rather than “looks right”.",
+          "question": "What should the completed shovel head be compared with during inspection?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Its overall appearance",
+            "The teacher-issued drawing and confirmed quality criteria",
+            "Other completed components"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inspection should be based on confirmed drawings and criteria rather than judging appearance or comparing with other work."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which observation could interfere with later fitting if left unresolved?",
+          "options": [
+            "Unsuitable edge condition",
+            "A neatly labelled photograph",
+            "A completed inspection note"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Edge condition can affect later fitting, so it should be checked against confirmed requirements before assembly proceeds."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should geometry, feature position and edge condition be inspected together?",
+          "options": [
+            "To reduce the number of photographs",
+            "Because these checks can influence one another",
+            "To avoid using approved measurements"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inspection considers related features because a change in one area may affect alignment or later fitting."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should be recorded before suggesting a possible cause of a problem?",
+          "options": [
+            "The observed fault",
+            "The expected correction",
+            "The next assembly step"
+          ],
+          "answerIndex": 0,
+          "explanation": "Describe the observed fault first so later explanations remain evidence-based rather than assumptions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which evidence best supports an inspection record?",
+          "options": [
+            "Memory of the inspection",
+            "Approved measurements, photographs and annotated notes",
+            "An estimate based on appearance"
+          ],
+          "answerIndex": 1,
+          "explanation": "Reliable inspection evidence combines approved measurements, photographs and annotated notes linked to the inspection stage."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "If inspection results are uncertain, what should happen before assembly continues?",
+          "options": [
+            "Continue because later parts are ready",
+            "Ignore the uncertainty if geometry looks acceptable",
+            "Document the doubt and refer it to the teacher"
+          ],
+          "answerIndex": 2,
+          "explanation": "Uncertain results must be documented and reviewed by the teacher before later assembly stages continue."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "A student thinks poor handling caused visible distortion. According to the theory, how should this be reported?",
+          "options": [
+            "State handling definitely caused it",
+            "Describe the distortion before suggesting handling as a possible cause",
+            "Leave the distortion out of the record"
+          ],
+          "answerIndex": 1,
+          "explanation": "Observed evidence comes first, while possible causes should remain tentative unless supported by evidence."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which detail should inspection evidence identify?",
+          "options": [
+            "The component, inspection stage and comparison reference",
+            "The student's preferred correction",
+            "The estimated production time"
+          ],
+          "answerIndex": 0,
+          "explanation": "Inspection records should clearly identify the component, inspection stage and drawing or criterion used for comparison."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should a shovel head not proceed simply because later components are ready?",
+          "options": [
+            "Later components determine geometry",
+            "Assembly readiness depends only on appearance",
+            "Readiness must be confirmed through inspection and teacher review"
+          ],
+          "answerIndex": 2,
+          "explanation": "Progress depends on confirmed inspection results and teacher review, not the readiness of other components."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the source boundary, what controls unresolved inspection, acceptance and correction details?",
+          "options": [
+            "Previous student projects",
+            "General workshop experience",
+            "The teacher-issued drawing, quality criteria, WMS and demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "When details remain unresolved, the authorised drawing, quality criteria, WMS and demonstration provide the controlling evidence."
         }
       ],
       "written": [
@@ -1457,7 +4802,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Metal-lathe SOP evidence for handle and end-plug work",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-10.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "12.2",
@@ -1478,7 +4824,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Functional fits connect dimensions to movement and assembly",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-11.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "12.3",
@@ -1499,42 +4846,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Threads as controlled geometry and evidence",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-12.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Identify what makes an SOP record valid evidence of understanding rather than a generic checklist.",
+          "question": "What should metal-lathe SOP evidence primarily demonstrate?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Understanding of the authorised process",
+            "A copied SOP document",
+            "A completed signature"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Good SOP evidence explains understanding by linking the authorised process to the demonstrated machining task and drawing."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, what should strong SOP evidence identify?",
+          "options": [
+            "Only the drawing revision",
+            "The SOP used, component and recognised control points",
+            "Every machine control setting"
+          ],
+          "answerIndex": 1,
+          "explanation": "Strong evidence identifies the relevant SOP, component or feature, and recognised control points from the teacher demonstration."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Where must exact machining actions come from?",
+          "options": [
+            "Previous workshop experience",
+            "A generic lathe guide",
+            "The current SOP and teacher demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "Exact actions must come from the current authorised SOP and teacher demonstration, not memory or generic procedures."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "A drawing changes after approval. What should happen before machining continues?",
+          "options": [
+            "Report the change and review the process",
+            "Continue because approval already exists",
+            "Ignore the difference if it seems minor"
+          ],
+          "answerIndex": 0,
+          "explanation": "Changed conditions require reporting and review because previous approval cannot automatically apply to a different situation."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which situation means the original approval cannot simply be assumed to continue?",
+          "options": [
+            "The workpiece, setup or instruction changes",
+            "The component name stays the same",
+            "The completed work is photographed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Any change affecting the demonstrated conditions requires review before work continues under the authorised process."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What completes the evidence chain after machining?",
+          "options": [
+            "Collecting another signature",
+            "Inspection against the verified drawing and teacher-controlled criteria",
+            "Starting the next machining task"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inspection confirms whether the machined result matches the verified drawing and approved acceptance criteria before later work."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the main purpose of photographs with concise annotations?",
+          "options": [
+            "Decorate the folio",
+            "Replace the inspection process",
+            "Show observations, applied control points and whether review was needed"
+          ],
+          "answerIndex": 2,
+          "explanation": "Annotated photographs strengthen evidence by showing observations, recognised control points and any need for teacher review."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should students connect the machining purpose to the authorised process and drawing?",
+          "options": [
+            "To demonstrate understanding of the evidence",
+            "To avoid reading the SOP",
+            "To memorise a standard sequence"
+          ],
+          "answerIndex": 0,
+          "explanation": "Connecting purpose, process and drawing demonstrates genuine understanding instead of repeating information without context."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which evidence best reflects the inspection stage?",
+          "options": [
+            "A remembered description of the demonstration",
+            "A comparison with the verified drawing and approved criteria",
+            "An estimate based on appearance alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Inspection evidence should compare the machined result with verified drawing information and approved acceptance criteria."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "If equipment differs from the demonstrated setup, what should students do first?",
+          "options": [
+            "Adapt the process independently",
+            "Continue if the component is unchanged",
+            "Report the changed condition before proceeding"
+          ],
+          "answerIndex": 2,
+          "explanation": "Reporting changed conditions ensures the authorised process is reviewed before machining continues under different circumstances."
         },
         {
           "theoryIndex": 1,
-          "question": "Match a general fit category to its defining relationship, not to an assumed shovel feature.",
+          "question": "What does a functional fit describe?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The surface appearance of a component",
+            "The dimensional relationship between components that assemble or operate together",
+            "The machining sequence for producing a component"
+          ],
+          "answerIndex": 1,
+          "explanation": "A functional fit explains how related components dimensionally interact during assembly or operation, not how they look or were made."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which fit category always requires parts to engage tightly?",
+          "options": [
+            "Interference fit",
+            "Transition fit",
+            "Clearance fit"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "An interference fit requires tight engagement, unlike clearance or transition fits, which may allow some space or slight variation."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should students connect verified dimensions to functional purpose?",
+          "options": [
+            "To understand how dimensions influence movement, alignment and assembly",
+            "To estimate missing drawing information",
+            "To improve the appearance of machined surfaces"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dimensions should be interpreted through their functional role so machining supports correct assembly, movement and long-term performance."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should determine the required fit for the shovel project?",
+          "options": [
+            "The student's preferred fit category",
+            "The teacher-issued drawing and acceptance criteria",
+            "The easiest fit to machine"
+          ],
+          "answerIndex": 1,
+          "explanation": "General fit categories describe possibilities, but the required project fit comes from verified drawings and acceptance criteria."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the theory, what is the purpose of progressive inspection?",
+          "options": [
+            "To confirm the component remains suitable before more material is removed or assembly begins",
+            "To replace the need for final inspection",
+            "To improve the visual finish after machining"
+          ],
+          "answerIndex": 0,
+          "explanation": "Progressive inspection helps identify developing issues early, reducing the risk of removing unnecessary material before assembly."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why is appearance alone insufficient for confirming a functional fit?",
+          "options": [
+            "Because only colour determines fit",
+            "Because functional relationships must be checked against verified drawings and teacher-controlled criteria",
+            "Because polished surfaces always hide defects"
+          ],
+          "answerIndex": 1,
+          "explanation": "A component may appear correct yet still fail functional requirements, so verified drawing information and criteria must be used."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which statement correctly describes a transition fit?",
+          "options": [
+            "It always provides space between components",
+            "It always requires tight engagement",
+            "It may produce either slight clearance or slight interference"
+          ],
+          "answerIndex": 2,
+          "explanation": "A transition fit can result in either slight clearance or slight interference depending on the verified dimensional relationship."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Besides assembly and movement, what else can a suitable fit influence?",
+          "options": [
+            "Wear, maintenance and whether parts can later be separated or serviced",
+            "The colour of the finished component",
+            "The order of workshop activities"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fit selection can affect wear, maintenance and future servicing as well as assembly and movement."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What should a student do if unexpected movement or assembly difficulty is found?",
+          "options": [
+            "Remove more material immediately",
+            "Document the issue and refer it to the teacher before attempting correction",
+            "Ignore the problem if the parts still fit together"
+          ],
+          "answerIndex": 1,
+          "explanation": "Unexpected fit problems should be documented and referred before correction so decisions remain based on verified project requirements."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "According to the key takeaways, dimensional checks should primarily be linked to what?",
+          "options": [
+            "Tool selection and machining speed",
+            "Surface appearance and finish quality",
+            "Movement, alignment and serviceability"
+          ],
+          "answerIndex": 2,
+          "explanation": "Dimensional checks should always be related to how components move, align and can be serviced rather than appearance alone."
         },
         {
           "theoryIndex": 2,
-          "question": "Identify which two thread descriptors must match for compatible engagement.",
+          "question": "What does the pitch of a thread describe?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The distance between corresponding points on neighbouring thread forms",
+            "The largest diameter of the thread",
+            "The lowest area between adjacent crests"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Pitch measures spacing between neighbouring thread forms, helping students interpret the teacher-issued drawing rather than estimate by appearance."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which statement correctly describes an external thread?",
+          "options": [
+            "It is formed within an opening",
+            "It is formed on the outside of a component",
+            "It always has the largest possible diameter"
+          ],
+          "answerIndex": 1,
+          "explanation": "An external thread is formed on the outside of a component. Drawings and teacher-issued information identify the required specification."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should a thread not be judged by appearance alone?",
+          "options": [
+            "Appearance alone cannot confirm the specified form, size or condition",
+            "Threads always look different even when identical",
+            "Appearance determines whether a thread is acceptable"
+          ],
+          "answerIndex": 0,
+          "explanation": "Successful engagement depends on the specified form, size and condition, which must be checked against approved sources and evidence."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which thread feature is the outermost part of the thread form?",
+          "options": [
+            "The root",
+            "The pitch",
+            "The crest"
+          ],
+          "answerIndex": 2,
+          "explanation": "The crest is the outermost part of the thread. Correct vocabulary helps students accurately interpret teacher-issued drawing information."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What is the purpose of using a teacher-approved thread gauge or checking method?",
+          "options": [
+            "To compare the thread with the drawing and acceptance criteria",
+            "To make any thread fit during assembly",
+            "To estimate the thread size by feel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Approved checking methods provide evidence by comparing the thread with the drawing and acceptance criteria instead of relying on judgement."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "If a thread shows resistance during engagement, what should a student do?",
+          "options": [
+            "Force the components together",
+            "Document the issue and refer it to the teacher before assembly",
+            "Replace it with a similar-looking fastener"
+          ],
+          "answerIndex": 1,
+          "explanation": "Resistance may indicate a mismatch or damage. Record the evidence and refer to the teacher before attempting assembly or correction."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What does the major diameter of a thread describe?",
+          "options": [
+            "The distance between adjacent crests",
+            "The largest thread diameter",
+            "The smallest thread diameter"
+          ],
+          "answerIndex": 1,
+          "explanation": "The major diameter is the largest thread diameter. Specific values come from the teacher-issued drawing and approved sources."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should a generic fastener not automatically replace a specified thread?",
+          "options": [
+            "Generic fasteners are always weaker",
+            "Apparently similar threads may not match the required specification",
+            "Generic fasteners cannot have external threads"
+          ],
+          "answerIndex": 1,
+          "explanation": "Matching form, size and condition control engagement. Always confirm the specified thread using teacher-issued drawings and approved checks."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which information should be recorded during thread inspection?",
+          "options": [
+            "Component identity, specified thread information, inspection evidence and any uncertainty",
+            "Only whether the thread looked acceptable",
+            "Only the component name and date"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recording inspection evidence and uncertainties creates a traceable record linked to the drawing and teacher-approved inspection process."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "A drawing specifies an internal thread. What does this tell you?",
+          "options": [
+            "The thread is formed on the outside of the component",
+            "The thread is formed within an opening",
+            "The thread has the largest major diameter"
+          ],
+          "answerIndex": 1,
+          "explanation": "An internal thread is formed within an opening. Use correct terminology to interpret the drawing before checking or assembly."
         }
       ],
       "written": [
@@ -1587,7 +5232,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Pivot parts: centres, alignment and movement path",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-01.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "13.2",
@@ -1608,7 +5254,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Milling as a controlled relationship between tool, work and reference",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-02.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "13.3",
@@ -1629,42 +5276,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Drilling RPM calculations: formula, units and authorised setting",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-03.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Identify why moving one pivot centre can alter both folding path and final alignment.",
+          "question": "What does the pivot centre primarily control in the folding mechanism?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The relative movement path of related components",
+            "The finished surface appearance",
+            "The order of assembly"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "The pivot centre determines how related components move together, so its confirmed position must match the teacher-issued drawing."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Where should the pivot centre information come from?",
+          "options": [
+            "The overall shape of the component",
+            "The teacher-issued drawings",
+            "A similar completed project"
+          ],
+          "answerIndex": 1,
+          "explanation": "The teacher-issued drawings are the authoritative source for pivot details. Do not estimate centres from appearance or examples."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why are consistent datums and orientation marks important when features must align across several parts?",
+          "options": [
+            "They reduce the need for inspection",
+            "They improve the component's appearance",
+            "They help preserve the intended relationship between matching features"
+          ],
+          "answerIndex": 2,
+          "explanation": "Consistent datums and orientation marks help matching features remain correctly related throughout manufacture and assembly."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the main risk if small differences occur between corresponding features on related parts?",
+          "options": [
+            "The differences may accumulate and affect movement during assembly",
+            "The component automatically becomes unsafe",
+            "The drawing revision changes"
+          ],
+          "answerIndex": 0,
+          "explanation": "Small alignment differences can build up across components and influence movement, so matching features should be checked carefully."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why should contact faces be inspected before final assembly?",
+          "options": [
+            "To estimate the required clearance",
+            "Because their condition and alignment may influence how parts sit and move together",
+            "To identify the drawing revision"
+          ],
+          "answerIndex": 1,
+          "explanation": "Contact face condition and alignment affect how components fit and move, making inspection an important evidence-based check."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, how should the required clearance be determined?",
+          "options": [
+            "By adjusting parts until movement feels correct",
+            "By comparing with another student's project",
+            "From the approved drawing and teacher criteria"
+          ],
+          "answerIndex": 2,
+          "explanation": "Clearance must match the approved drawing and teacher criteria rather than being guessed or adjusted without review."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What is the best response if the clearance seems incorrect during inspection?",
+          "options": [
+            "Record the issue and refer it to the teacher",
+            "Modify the parts until they fit",
+            "Ignore it if movement is possible"
+          ],
+          "answerIndex": 0,
+          "explanation": "Uncertain clearance should be recorded and referred to the teacher because approved sources control the correct relationship."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why is dry assembly completed before finishing or final locking?",
+          "options": [
+            "To permanently secure the assembly",
+            "To check identity, orientation, contact, alignment and movement while changes are still reversible",
+            "To remove the need for later inspection"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dry assembly provides a reversible opportunity to diagnose alignment and movement before permanent steps are completed."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "During dry assembly, which observation should be recorded and referred to the teacher?",
+          "options": [
+            "A polished surface",
+            "The component colour",
+            "Binding, unexpected movement or a mismatch"
+          ],
+          "answerIndex": 2,
+          "explanation": "Binding, unexpected movement or mismatched parts are diagnostic evidence that should be recorded and reviewed before proceeding."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "If the movement path appears different from what was expected, what should students use to confirm the correct relationship?",
+          "options": [
+            "The teacher-issued drawings, acceptance criteria, assembly plan and demonstration",
+            "Their memory of a previous project",
+            "The external shape of the assembled parts"
+          ],
+          "answerIndex": 0,
+          "explanation": "The authorised drawings, acceptance criteria, assembly plan and teacher demonstration control unresolved movement and pivot details."
         },
         {
           "theoryIndex": 1,
-          "question": "Recognise which change in setup, sound, work position or result requires stopping and teacher review.",
+          "question": "According to the theory, what does milling primarily control?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The relationship between the rotating cutter and the secured workpiece",
+            "The speed at which material disappears",
+            "The appearance of the finished surface"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Milling depends on controlling the relationship between cutter and workpiece, not simply removing material or improving appearance."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why is a datum or reference surface used during milling?",
+          "options": [
+            "To estimate where features should be located",
+            "To provide a consistent basis for locating and checking the work",
+            "To reduce the number of drawing measurements needed"
+          ],
+          "answerIndex": 1,
+          "explanation": "A consistent datum links the milling operation to the teacher-issued drawing and supports accurate feature location and checking."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If the workpiece shifts during milling, what is the most likely consequence described in the theory?",
+          "options": [
+            "The result may no longer match the intended position or form",
+            "The cutter will automatically correct the error",
+            "The drawing no longer applies"
+          ],
+          "answerIndex": 0,
+          "explanation": "Movement changes the controlled relationship, so the developing feature may no longer match the intended drawing position or form."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A student notices the setup differs from the teacher demonstration. What should they do?",
+          "options": [
+            "Continue if the setup looks similar",
+            "Copy another student's setup instead",
+            "Stop and follow the teacher-approved setup and demonstration"
+          ],
+          "answerIndex": 2,
+          "explanation": "The approved setup and teacher demonstration control unresolved details. Do not substitute another setup or rely on assumptions."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What is the purpose of progressive inspection during milling?",
+          "options": [
+            "To compare the developing feature with verified drawing information before removing more material",
+            "To estimate the finished dimensions by eye",
+            "To replace the need for the teacher-issued drawing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Progressive inspection checks developing work against verified drawing information before further material is removed."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which source should control unresolved milling setup and inspection details?",
+          "options": [
+            "General machine knowledge",
+            "The teacher-issued drawing, milling SOP, approved setup and demonstration",
+            "A similar project completed earlier"
+          ],
+          "answerIndex": 1,
+          "explanation": "The teacher-issued sources are authoritative whenever operating, reference or inspection details are not explicitly stated."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should students avoid copying a milling setup from another job?",
+          "options": [
+            "Every approved setup relates to the confirmed workpiece, drawing and demonstrated process",
+            "Every milling job uses different machine brands",
+            "Different setups always produce identical results"
+          ],
+          "answerIndex": 0,
+          "explanation": "Approved setups are linked to the confirmed drawing and workpiece, so another job's arrangement cannot be assumed suitable."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "During machining, a reference surface changes unexpectedly. What does the theory require?",
+          "options": [
+            "Ignore the change if the feature still appears correct",
+            "Continue until the feature is complete",
+            "Report the changed condition immediately"
+          ],
+          "answerIndex": 2,
+          "explanation": "Unexpected changes must be reported immediately because authorisation applies only to the confirmed setup and reference conditions."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "What best explains why the cutter simply touching the material is not enough?",
+          "options": [
+            "Material removal depends on controlling the authorised relationship between tool and work",
+            "Surface finish alone determines machining quality",
+            "The cutter always follows the drawing automatically"
+          ],
+          "answerIndex": 0,
+          "explanation": "The theory emphasises controlled movement and positioning, not mere cutter contact, as the basis for accurate milling."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "When uncertain about movement paths or reference details during milling, what should a student use?",
+          "options": [
+            "Personal judgement based on previous experience",
+            "The teacher-issued drawing, milling SOP, approved setup and demonstration",
+            "The workpiece appearance alone"
+          ],
+          "answerIndex": 1,
+          "explanation": "Teacher-issued sources control movement paths, references and other unresolved details, so students should rely on those authoritative guides."
         },
         {
           "theoryIndex": 2,
-          "question": "Detect a unit/substitution error and explain why the calculated value is not automatic permission to set the machine.",
+          "question": "Before calculating drilling RPM, where should the cutting-speed and drill-diameter values come from?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "The teacher-provided data table for the nominated operation",
+            "A remembered value from a previous job",
+            "A similar drill size used by another student"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Use only verified teacher-supplied data that applies to the nominated operation before completing the calculation."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should the units be checked before substituting values into the approved RPM formula?",
+          "options": [
+            "To make the calculation look neater",
+            "To ensure the calculation uses consistent, teacher-approved units",
+            "To avoid writing the formula"
+          ],
+          "answerIndex": 1,
+          "explanation": "Matching units helps ensure the approved formula is applied consistently using verified teacher-issued information."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which working best demonstrates that an RPM result came from verified information?",
+          "options": [
+            "Writing only the final RPM answer",
+            "Estimating the answer mentally",
+            "Showing the formula, units, substituted values and working"
+          ],
+          "answerIndex": 2,
+          "explanation": "Complete working provides evidence that verified values and the approved calculation process were followed correctly."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "According to the theory, what does the calculated RPM represent?",
+          "options": [
+            "A theoretical spindle speed that still requires comparison with authorised settings",
+            "The exact drill-press setting to use immediately",
+            "The only acceptable speed for every drill press"
+          ],
+          "answerIndex": 0,
+          "explanation": "A calculated RPM is theoretical and must still be checked against authorised machine settings and teacher guidance."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "A calculated RPM does not exactly match a drill-press speed. What should happen next?",
+          "options": [
+            "Select the closest setting without checking",
+            "Compare the result with available settings using the SOP and teacher demonstration",
+            "Repeat the calculation until the numbers match"
+          ],
+          "answerIndex": 1,
+          "explanation": "The current SOP and teacher demonstration determine the authorised machine setting when an exact match is unavailable."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should a student do if the drill diameter needed for the calculation is missing?",
+          "options": [
+            "Estimate a likely diameter",
+            "Use a value from another material",
+            "Resolve the missing information before calculating or drilling"
+          ],
+          "answerIndex": 2,
+          "explanation": "Missing information must be confirmed from teacher-issued sources before calculation or drilling continues."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should values from another material not be substituted into the RPM calculation?",
+          "options": [
+            "They may not apply to the nominated drilling operation",
+            "They make the formula longer",
+            "They always produce larger RPM values"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only teacher-approved values that apply to the nominated operation provide valid evidence for the calculation."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "When should the RPM result be rounded?",
+          "options": [
+            "Whenever the student thinks it looks reasonable",
+            "Only as directed by the teacher",
+            "Before substituting values into the formula"
+          ],
+          "answerIndex": 1,
+          "explanation": "Follow the teacher's directions for rounding so the calculation remains consistent with authorised expectations."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which record best supports an evidence-first approach to an RPM calculation?",
+          "options": [
+            "Only the final machine setting",
+            "Only the approved formula",
+            "Verified values with units, the formula, substitutions and working"
+          ],
+          "answerIndex": 2,
+          "explanation": "Recording each calculation stage shows the result came from verified data rather than guesswork or memory."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "If there is uncertainty about the formula, data table or machine setting, what should the student do?",
+          "options": [
+            "Refer to the teacher-provided formula, data table, SOP and demonstration before proceeding",
+            "Choose the most common drilling RPM",
+            "Copy another student's completed calculation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Teacher-issued sources control unresolved calculations and authorised settings, so uncertainties must be resolved before continuing."
         }
       ],
       "written": [
@@ -1717,7 +5662,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Handle and pivot assembly as a functional quality gate",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-04.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "14.2",
@@ -1738,7 +5684,8 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for Societal and environmental impact report with evidence",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-05.png"
-          }
+          },
+          "photos": []
         },
         {
           "id": "14.3",
@@ -1759,42 +5706,340 @@ window.COURSE_DATA = {
             "alt": "Illustrative evidence-planning visual for PMI, project report and authentic Task 2 submission",
             "caption": "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.",
             "image": "assets/visuals/folio-card-06.png"
-          }
+          },
+          "photos": []
         }
       ],
       "checks": [
         {
           "theoryIndex": 0,
-          "question": "Choose the strongest response to binding, looseness or unexpected contact during a trial movement.",
+          "question": "Why is the handle and pivot assembly described as a functional quality gate?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "It checks whether completed components work together as required before final completion.",
+            "It permanently locks every component into its final position.",
+            "It replaces the need to compare the assembly with the drawing."
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "The assembly confirms completed parts function together before finishing, using teacher-issued drawings and acceptance criteria as evidence."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Before final finishing or handover, what should students confirm first?",
+          "options": [
+            "That the assembly looks complete from a distance.",
+            "Each part's identity, orientation and intended position.",
+            "That every fastener has been tightened permanently."
+          ],
+          "answerIndex": 1,
+          "explanation": "Checking identity, orientation and intended position ensures the assembly matches the authorised drawing before further decisions are made."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, how should fit be assessed?",
+          "options": [
+            "By applying extra force until parts fit together.",
+            "By judging whether the assembly looks correct.",
+            "By using verified evidence rather than force or appearance."
+          ],
+          "answerIndex": 2,
+          "explanation": "Fit should be supported by verified evidence, not assumptions based on appearance or forcing components together."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "What should students check when assessing the movement of the assembled parts?",
+          "options": [
+            "That the assembly follows its controlled movement path without unexpected resistance, contact or misalignment.",
+            "That the assembly moves as quickly as possible.",
+            "That every moving part feels loose."
+          ],
+          "answerIndex": 0,
+          "explanation": "Movement should match the authorised relationship shown in teacher-issued sources without unexpected resistance, contact or misalignment."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "If thread or fastener engagement is specified on the drawing, what should students do?",
+          "options": [
+            "Ignore it if the parts seem secure.",
+            "Inspect its condition and engagement using the approved method.",
+            "Replace it with any similar fastener."
+          ],
+          "answerIndex": 1,
+          "explanation": "Where specified, thread or fastener engagement must be checked using the approved method described by teacher-controlled sources."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Why is trial assembly completed before final finishing?",
+          "options": [
+            "To permanently join every component.",
+            "To avoid checking the drawing again.",
+            "To keep the work reversible while relationships between parts are checked."
+          ],
+          "answerIndex": 2,
+          "explanation": "Trial assembly allows inspection and adjustment within the demonstrated process before irreversible finishing or handover occurs."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "According to the theory, what makes rework different from trial assembly?",
+          "options": [
+            "Rework changes a manufactured feature and requires teacher review and authorisation.",
+            "Rework is simply another name for trial assembly.",
+            "Rework always happens before any inspection."
+          ],
+          "answerIndex": 0,
+          "explanation": "Changing a manufactured feature is rework and cannot proceed without teacher review and authorisation."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "Which record best provides evidence of an assembly inspection?",
+          "options": [
+            "A verbal statement that everything worked.",
+            "Photographs, annotated observations and recorded checks identifying any uncertainty.",
+            "Only the completed assembly with no written evidence."
+          ],
+          "answerIndex": 1,
+          "explanation": "Inspection evidence should clearly show what was checked and record any uncertainty requiring further review."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "When may a student declare the assembly safe or complete?",
+          "options": [
+            "As soon as all components are fitted together.",
+            "After the assembly looks correct.",
+            "Only after teacher approval using the confirmed acceptance criteria."
+          ],
+          "answerIndex": 2,
+          "explanation": "Teacher approval and confirmed acceptance criteria determine whether the assembly can proceed to finishing or handover."
+        },
+        {
+          "theoryIndex": 0,
+          "question": "If a student is unsure about the correct movement, engagement or approval requirements, what should guide the next decision?",
+          "options": [
+            "The teacher-issued assembly drawing, acceptance criteria, SOP, WMS and demonstration.",
+            "The way a similar assembly was completed previously.",
+            "The student's preferred assembly method."
+          ],
+          "answerIndex": 0,
+          "explanation": "Where details remain unresolved, teacher-issued documents and demonstrations are the authoritative source for assembly decisions."
         },
         {
           "theoryIndex": 1,
-          "question": "Select the strongest impact conclusion: bounded, sourced and acknowledging a trade-off.",
+          "question": "What should be the main basis for judging the completed shovel's impacts?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "Evidence from the completed project and credible referenced sources",
+            "General opinions about similar products",
+            "What usually happens in metalwork projects"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "Impact judgements should come from verified project evidence and acknowledged credible sources, not assumptions or generalisations."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which statement best reflects the relationship between societal and environmental impacts?",
+          "options": [
+            "Evidence for one category automatically proves the other",
+            "The categories are connected but each requires its own supporting evidence",
+            "Only environmental impacts require evidence"
+          ],
+          "answerIndex": 1,
+          "explanation": "Societal and environmental impacts may relate, but each conclusion still needs appropriate supporting evidence."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A student claims the shovel is sustainable without providing supporting evidence. What should the report do instead?",
+          "options": [
+            "State the product is sustainable because it was completed",
+            "Explain benefits, limitations and supporting evidence",
+            "Remove all discussion of impacts"
+          ],
+          "answerIndex": 1,
+          "explanation": "Balanced reports explain strengths, limitations and supporting evidence rather than making unsupported sustainability claims."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which source provides the strongest evidence for resource use in the project?",
+          "options": [
+            "Actual project material records",
+            "A classmate's opinion",
+            "A guess based on the finished product"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recorded project evidence is stronger than opinions or assumptions when judging resource use."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should an impact report discuss trade-offs?",
+          "options": [
+            "Because every production decision has only positive effects",
+            "Because improvements in one area may increase impacts in another",
+            "Because trade-offs are only required for environmental impacts"
+          ],
+          "answerIndex": 1,
+          "explanation": "Production decisions can improve function or serviceability while increasing material use, processing or waste."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "If information needed to support an impact claim is unavailable, what should the report do?",
+          "options": [
+            "Estimate a likely conclusion",
+            "State the limitation instead of inventing a conclusion",
+            "Ignore the missing information"
+          ],
+          "answerIndex": 1,
+          "explanation": "Evidence-first reporting recognises limitations instead of filling gaps with unsupported conclusions."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Which combination represents stronger evidence than assumptions?",
+          "options": [
+            "Production photographs, waste observations and documented quality checks",
+            "Personal beliefs and internet comments",
+            "A description based only on appearance"
+          ],
+          "answerIndex": 0,
+          "explanation": "Recorded project evidence provides stronger support than opinions or observations without documentation."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Where should unresolved impact claims be checked before being included in the report?",
+          "options": [
+            "Teacher-issued requirements, project records and approved referenced sources",
+            "Another student's completed report",
+            "A social media post about metal products"
+          ],
+          "answerIndex": 0,
+          "explanation": "Teacher-issued sources, verified project records and approved references control unresolved impact claims."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "A report argues that durability reduces early replacement. According to the theory, what else is needed?",
+          "options": [
+            "Evidence about construction quality and intended use",
+            "A statement that all metal products last longer",
+            "No further evidence because durability proves the claim"
+          ],
+          "answerIndex": 0,
+          "explanation": "Claims about reduced replacement require supporting evidence linking durability with construction quality and intended use."
+        },
+        {
+          "theoryIndex": 1,
+          "question": "Why should external information be acknowledged correctly in the report?",
+          "options": [
+            "To make the report appear longer",
+            "Because credible external facts must be properly referenced",
+            "Because project evidence cannot be used"
+          ],
+          "answerIndex": 1,
+          "explanation": "Credible external information strengthens the report only when it is properly acknowledged alongside project evidence."
         },
         {
           "theoryIndex": 2,
-          "question": "Identify which final evaluation statement best connects criterion, evidence, cause and future improvement.",
+          "question": "What is the main purpose of the final PMI evaluation and project report?",
           "options": [
-            "Use the verified source, explain the decision and record any unresolved detail.",
-            "Estimate missing details from a similar project so work can continue.",
-            "Rely on appearance and add the evidence after production."
+            "To consolidate the complete evidence chain for the project",
+            "To introduce new production activities",
+            "To replace the production records"
           ],
           "answerIndex": 0,
-          "explanation": "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence."
+          "explanation": "The report brings together verified planning, production and evaluation evidence rather than adding unrelated new material."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which combination of evidence best reflects the report described in this section?",
+          "options": [
+            "Only the finished photographs and final product",
+            "Planning, production, costing, quality and impact evidence",
+            "A personal opinion about the project"
+          ],
+          "answerIndex": 1,
+          "explanation": "The report should connect planning, production, costing, quality checks, impacts and evaluation into one supported evidence chain."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "A photograph in the folio is most useful when it includes a caption that:",
+          "options": [
+            "Explains the production stage, what the image proves and its connection to a decision or criterion",
+            "Only names the tool shown",
+            "States that the work looks good"
+          ],
+          "answerIndex": 0,
+          "explanation": "Strong captions explain the evidence shown and link it directly to project decisions or assessment criteria."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "How should cost evidence and component records be presented?",
+          "options": [
+            "Estimated from similar projects",
+            "Adjusted to match the original plan",
+            "Recorded to reflect what was actually used and made"
+          ],
+          "answerIndex": 2,
+          "explanation": "Authentic records should accurately reflect the completed project rather than estimates or planned values."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which PMI point best follows the guidance in this section?",
+          "options": [
+            "The handle worked well because I liked it",
+            "The assembly was successful because it looked professional",
+            "The folding action was smooth, improving usability, likely due to accurate alignment shown in recorded checks"
+          ],
+          "answerIndex": 2,
+          "explanation": "Each PMI point should describe an effect and, where supported by evidence, identify a likely cause."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "What should you do if faults or missing evidence remain before submission?",
+          "options": [
+            "Hide them so the report appears complete",
+            "Record them honestly as part of the as-built project",
+            "Remove any photographs showing the problem"
+          ],
+          "answerIndex": 1,
+          "explanation": "Authentic submission requires honest reporting of faults, missing evidence and unresolved issues rather than concealing them."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Which statement best reflects authentic submission?",
+          "options": [
+            "Only successful work should be included",
+            "Changes, assistance and unresolved approval should be acknowledged",
+            "Every planned feature must be reported as completed"
+          ],
+          "answerIndex": 1,
+          "explanation": "Authentic submissions accurately acknowledge assistance, changes and unresolved approval instead of presenting an idealised project."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Where should you confirm unresolved assessment details such as submission directions or approval status?",
+          "options": [
+            "The current Task 2 handbook, teacher-issued documents and teacher directions",
+            "Another student's folio",
+            "Internet examples of similar projects"
+          ],
+          "answerIndex": 0,
+          "explanation": "Teacher-issued sources control unresolved assessment details and should always be checked before making assumptions."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "Why should the project report link the brief, drawings, WMS, SOP evidence and production records?",
+          "options": [
+            "To make the report longer",
+            "To show how evidence connects across the completed project",
+            "To replace the final evaluation"
+          ],
+          "answerIndex": 1,
+          "explanation": "Connecting related evidence demonstrates how planning, production and evaluation support the completed project as a whole."
+        },
+        {
+          "theoryIndex": 2,
+          "question": "A report includes the teacher's name, issue date and approval status without checking official sources. According to this section, what should the student do?",
+          "options": [
+            "Leave the information unchanged",
+            "Replace it with estimated details",
+            "Refer to teacher-issued sources because those details remain teacher to confirm until formally verified"
+          ],
+          "answerIndex": 2,
+          "explanation": "Where assessment details remain unresolved, students should rely on teacher-issued sources rather than assumptions or estimates."
         }
       ],
       "written": [

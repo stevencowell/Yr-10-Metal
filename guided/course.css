@@ -218,7 +218,19 @@ textarea { min-height: 135px; resize: vertical; }
   background-color: var(--ink);
 }
 .theory-visual figcaption { margin-top: .6rem; color: var(--muted); font-size: .82rem; line-height: 1.4; }
+.tool-photo-gallery { clear: both; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin: 24px 0; }
+.tool-photo-card { min-width: 0; margin: 0; padding: 10px; border: 1px solid var(--line); border-radius: 13px; background: #f5f8f7; }
+.tool-photo-link { border-radius: 9px; overflow: hidden; background: #e7eceb; }
+.tool-photo-link img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #f3f5f4; }
+.tool-photo-card figcaption { margin-top: 9px; color: var(--muted); font-size: .82rem; line-height: 1.45; }
+.tool-photo-credit { display: block; margin-top: 5px; font-size: .76rem; }
+.tool-photo-credit a { color: var(--steel-dark); font-weight: 750; }
 .callout { margin: 20px 0 0; padding: 16px 18px; border-radius: 12px; background: #e6f1f3; border-left: 5px solid var(--steel); font-weight: 750; }
+.check-group { margin-top: 26px; padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: #f8fbfb; }
+.check-group[id], #knowledge-checks { scroll-margin-top: 92px; }
+.check-group > h3 { margin-top: 4px; color: var(--ink); }
+.check-group .check:first-of-type { margin-top: 12px; }
+.check h4 { margin-bottom: 12px; color: var(--ink); font-size: 1rem; line-height: 1.45; }
 .check { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
 .option { display: block; margin: 9px 0; font-weight: 500; }
 .question-help { margin: 14px 0; }
@@ -313,6 +325,7 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
   .module-nav { flex-direction: column; }
   .module-nav .btn { text-align: center; }
   .written-evidence textarea { min-height: 210px; }
+  .tool-photo-gallery { grid-template-columns: 1fr; }
   .nav-links { gap: 5px; }
   .nav-links a { padding: 7px 3px; font-size: .9rem; }
 }
@@ -323,6 +336,8 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
   .module-hero { color: black; background: white; padding: 20px 0; }
   .module-main, .folio-main { width: 100%; padding: 0; }
   .card { box-shadow: none; break-inside: avoid; border-color: #aaa; }
+  #knowledge-checks, .check-group { break-inside: auto; }
+  .check { break-inside: avoid; }
   textarea { border: 1px solid #777; min-height: 90px; }
   .model-feedback.open { display: block; }
 }

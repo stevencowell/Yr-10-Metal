@@ -52,11 +52,17 @@
     if (text) text.textContent = `${percent}% evidence entered`;
   }
 
+  function toolPhotosHtml(section) {
+    if (!section.photos?.length) return "";
+    return `<div class="tool-photo-gallery" aria-label="Workshop tool identification references">${section.photos.map((photo) => `<figure class="tool-photo-card"><a class="tool-photo-link zoomable-infographic" href="${esc(photo.image)}" target="_blank" rel="noopener" aria-label="Open full-size tool photograph in a new tab: ${esc(photo.alt)}"><img src="${esc(photo.image)}" alt="${esc(photo.alt)}"><span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></a><figcaption>${esc(photo.caption)} <span class="tool-photo-credit">${photo.source ? `<a href="${esc(photo.source)}" target="_blank" rel="noopener">${esc(photo.credit)}</a>` : esc(photo.credit)}</span></figcaption></figure>`).join("")}</div>`;
+  }
+
   function theoryHtml(section, index, moduleNumber) {
     return `<section class="card theory-section" id="theory-${moduleNumber}-${index + 1}" tabindex="-1">
       <p class="eyebrow">Theory ${index + 1}</p><h2>${esc(section.title)}</h2>
       <figure class="theory-visual${index % 2 ? " theory-visual--left" : ""}"><a class="theory-visual__link zoomable-infographic" href="${esc(section.visual.image)}" target="_blank" rel="noopener" aria-label="Open infographic in a new tab: ${esc(section.visual.alt)}"><div class="theory-visual__image" aria-hidden="true" style="background-image:url('${esc(section.visual.image)}')"><span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></div></a><figcaption>${esc(section.visual.caption)}</figcaption></figure>
       <h3 class="theory-chunk-heading">Theory</h3>${section.theory.map((p) => `<p>${esc(p)}</p>`).join("")}
+      ${toolPhotosHtml(section)}
       <h3 class="theory-chunk-heading">Key takeaways</h3><ul>${section.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
       <div class="callout"><strong>Source boundary:</strong> ${esc(section.boundary)}</div>
     </section>`;
@@ -68,7 +74,12 @@
   }
 
   function checksHtml(module, moduleNumber) {
-    return `<section class="card theory-section"><p class="eyebrow">Knowledge checks</p><h2>Check each theory idea</h2>${module.checks.map((check, index) => `<div class="check"><h3>${esc(check.question)}</h3>${check.options.map((option, optionIndex) => `<label class="option"><input data-save data-required type="radio" name="check-${index}" value="${optionIndex}"> ${esc(option)}</label>`).join("")}${helpHtml(`check-${moduleNumber}-${index}`, check.theoryIndex, module, moduleNumber)}<button class="btn ghost" type="button" data-check-button="${index}">Check answer</button><div class="feedback" aria-live="polite" data-check-feedback="${index}"></div></div>`).join("")}</section>`;
+    const indexedChecks = module.checks.map((check, index) => ({ check, index }));
+    const groups = module.sections.map((section, theoryIndex) => {
+      const questions = indexedChecks.filter(({ check }) => check.theoryIndex === theoryIndex);
+      return `<section class="check-group" id="check-group-${moduleNumber}-${theoryIndex}" aria-labelledby="check-group-title-${moduleNumber}-${theoryIndex}"><p class="eyebrow">Theory ${theoryIndex + 1} · 10 questions</p><h3 id="check-group-title-${moduleNumber}-${theoryIndex}">${esc(section.title)}</h3>${questions.map(({ check, index }, questionIndex) => `<div class="check"><h4>${questionIndex + 1}. ${esc(check.question)}</h4>${check.options.map((option, optionIndex) => `<label class="option"><input data-save data-required type="radio" name="check-${index}" value="${optionIndex}"> ${esc(option)}</label>`).join("")}${helpHtml(`check-${moduleNumber}-${index}`, check.theoryIndex, module, moduleNumber)}<button class="btn ghost" type="button" data-check-button="${index}">Check answer</button><div class="feedback" aria-live="polite" data-check-feedback="${index}"></div></div>`).join("")}</section>`;
+    }).join("");
+    return `<section class="card theory-section" id="knowledge-checks"><p class="eyebrow">Knowledge checks</p><h2>Ten questions for every theory section</h2><p>Complete each source-grounded set, use the hints when needed, and check your feedback before moving to the written evidence.</p>${groups}</section>`;
   }
 
   function writtenHtml(module, moduleNumber) {

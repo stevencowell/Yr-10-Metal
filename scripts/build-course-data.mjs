@@ -6,8 +6,10 @@ const sourceRoot = path.resolve(repo, "..", "..");
 const theoryPath = path.join(sourceRoot, "..", "task-8a-year-10-metal-theory", "outputs", "YEAR-10-METAL-THEORY-INPUTS.md");
 const briefPath = path.join(sourceRoot, "work", "workstreams", "content", "THEORY-BRIEFS.md");
 const outputPath = path.join(repo, "guided", "data.js");
+const questionBankPath = path.join(repo, "source-notes", "QUESTION-BANK.json");
 const theoryText = fs.readFileSync(theoryPath, "utf8");
 const briefText = fs.readFileSync(briefPath, "utf8");
+const questionBank = JSON.parse(fs.readFileSync(questionBankPath, "utf8"));
 
 function parseFields(block) {
   const field = (name) => block.match(new RegExp(`- \\*\\*${name}:\\*\\*\\s*([^\\r\\n]+)`, "i"))?.[1].trim() || "";
@@ -26,6 +28,35 @@ const authored = new Map([...theoryText.matchAll(sectionPattern)].map((match) =>
 }]));
 
 if (authored.size !== 42) throw new Error(`Expected 42 authored theory sections, found ${authored.size}.`);
+if (questionBank.authoredVia !== "Signed-in ChatGPT in the in-app browser, one named theory section at a time") throw new Error("Question bank authoring provenance is missing.");
+if (questionBank.sections?.length !== 42) throw new Error(`Expected 42 question-bank sections, found ${questionBank.sections?.length ?? 0}.`);
+
+const questionSections = new Map(questionBank.sections.map((section) => [section.id, section]));
+briefs.forEach((brief) => {
+  const bankSection = questionSections.get(brief.id);
+  if (!bankSection || bankSection.title !== brief.title) throw new Error(`Question bank does not match theory section ${brief.id}.`);
+  if (bankSection.questions?.length !== 10) throw new Error(`Expected 10 authored questions for ${brief.id}.`);
+  bankSection.questions.forEach((question, index) => {
+    if (!question.question?.trim() || question.options?.length !== 3 || ![0, 1, 2].includes(question.answerIndex) || !question.feedback?.trim()) {
+      throw new Error(`Invalid question ${index + 1} in ${brief.id}.`);
+    }
+  });
+});
+
+const sectionPhotos = {
+  "2.3": [
+    { image: "guided/images/metal-tools/jenny-calipers.jpg", alt: "Two examples of Jenny callipers, each with one straight leg and one inward-pointing marking leg", caption: "Jenny callipers: identification reference beside datum-controlled marking. Tool selection remains teacher-directed.", credit: "Glenn McKechnie, CC BY-SA 3.0", source: "https://commons.wikimedia.org/wiki/File:OddlegCalipers.jpg" },
+    { image: "guided/images/metal-tools/scribers.jpg", alt: "Assortment of straight and bent metalworking scribes with pointed steel tips", caption: "Metalworking scribes: identification reference only; the teacher demonstration controls selection and use.", credit: "Glenn McKechnie, CC BY-SA 3.0", source: "https://commons.wikimedia.org/wiki/File:Scribers.jpg" }
+  ],
+  "3.1": [
+    { image: "guided/images/metal-tools/centre-punch.jpg", alt: "Single steel centre punch with a knurled body and pointed end", caption: "Centre punch example. This does not mean every hole is centre-punched; teacher-issued procedures control the process.", credit: "Luke Milburn, CC BY 2.0", source: "https://commons.wikimedia.org/wiki/File:Centre_Punch.jpg" }
+  ],
+  "11.2": [
+    { image: "guided/images/metal-tools/bossing-mallet.png", alt: "Wooden bossing mallet with a smooth rounded pear-shaped head and straight handle", caption: "Rounded bossing-mallet form: identification reference only; the teacher demonstration controls the forming setup.", credit: "Generated with OpenAI image generation, 4 August 2026", source: "" },
+    { image: "guided/images/metal-tools/tinmans-mallet.png", alt: "Wooden tinman's mallet with a broad double-faced head mounted across a straight handle", caption: "Broad-faced tinman's-mallet form: identification reference only; the teacher demonstration controls the forming setup.", credit: "Generated with OpenAI image generation, 4 August 2026", source: "" },
+    { image: "guided/images/metal-tools/ball-pein-hammer.jpg", alt: "Ball-pein hammer with a flat face and rounded pein on opposite ends of its metal head", caption: "Ball-pein hammer form: identification reference only; the teacher demonstration controls the forming setup.", credit: "Connie Posites, CC BY-SA 2.0", source: "https://commons.wikimedia.org/wiki/File:Hammer_ball_peen_(12640076755).jpg" }
+  ]
+};
 
 const moduleMeta = [
   ["1–2", "Brief, evidence and materials", "Translate the approved brief into a safe, source-backed production and folio plan."],
@@ -50,17 +81,17 @@ const modules = moduleMeta.map((meta, moduleIndex) => {
     const section = authored.get(brief.id);
     if (!section) throw new Error(`Missing authored section ${brief.id}.`);
     const visualNumber = String(((moduleIndex * 3 + sectionIndex) % 12) + 1).padStart(2, "0");
-    return { ...section, visual: { alt: `Illustrative evidence-planning visual for ${brief.title}`, caption: "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.", image: `assets/visuals/folio-card-${visualNumber}.png` } };
+    return { ...section, visual: { alt: `Illustrative evidence-planning visual for ${brief.title}`, caption: "Illustrative, non-dimensional evidence prompt. Teacher-issued project sources control practical details.", image: `assets/visuals/folio-card-${visualNumber}.png` }, photos: sectionPhotos[brief.id] || [] };
   });
   return {
     project: moduleIndex < 9 ? "Project 1 · BBQ and Case" : "Project 2 · Folding Camping Shovel",
     projectModule: moduleIndex < 9 ? moduleIndex + 1 : moduleIndex - 8,
     weeks: meta[0], title: meta[1], summary: meta[2], sections,
-    checks: moduleBriefs.map((brief, theoryIndex) => ({ theoryIndex, question: brief.check, options: ["Use the verified source, explain the decision and record any unresolved detail.", "Estimate missing details from a similar project so work can continue.", "Rely on appearance and add the evidence after production."], answerIndex: 0, explanation: "Year 10 decisions must remain traceable to verified sources, teacher approval and recorded evidence." })),
+    checks: sections.flatMap((section, theoryIndex) => questionSections.get(section.id).questions.map((question) => ({ theoryIndex, question: question.question, options: question.options, answerIndex: question.answerIndex, explanation: question.feedback }))),
     written: moduleBriefs.map((brief, theoryIndex) => ({ theoryIndex, title: `Evidence task · ${brief.id}`, prompt: brief.written, clarification: "Use your own project evidence. Name the source or checkpoint, explain the decision and identify anything still requiring teacher confirmation.", model: "A suitable response identifies the verified requirement or observation, names the evidence source, explains why the decision follows from it, and labels unresolved details as Teacher to confirm." }))
   };
 });
 
 const output = `window.COURSE_DATA = ${JSON.stringify({ shortTitle: "Year 10 Metalwork", storagePrefix: "year10-metal", modules }, null, 2)};\n`;
 fs.writeFileSync(outputPath, output, "utf8");
-console.log(`Built ${modules.length} modules with ${authored.size} ChatGPT-authored sections.`);
+console.log(`Built ${modules.length} modules with ${authored.size} ChatGPT-authored sections and ${modules.flatMap((module) => module.checks).length} section-specific questions.`);
