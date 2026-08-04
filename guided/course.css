@@ -190,6 +190,24 @@ textarea { min-height: 135px; resize: vertical; }
   box-shadow: 0 10px 24px rgba(17, 46, 52, .1);
 }
 .theory-visual--left { float: left; margin: .25rem 1.35rem 1rem 0; }
+.zoomable-infographic { position: relative; display: block; color: white; text-decoration: none; cursor: zoom-in; }
+.zoomable-infographic:focus-visible { outline: 4px solid var(--amber); outline-offset: 4px; }
+.zoomable-infographic:hover .infographic-open-label,
+.zoomable-infographic:focus-visible .infographic-open-label { background: var(--amber); color: #172022; }
+.infographic-open-label {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  z-index: 2;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(6, 28, 34, .9);
+  color: white;
+  font-size: .78rem;
+  font-weight: 850;
+  line-height: 1.2;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .24);
+}
 .theory-visual__image {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -240,6 +258,7 @@ textarea { min-height: 135px; resize: vertical; }
 .folio-card h2 { font-size: 1.35rem; }
 .folio-card h2::before { content: counter(folio, decimal-leading-zero) " "; color: var(--amber); }
 .folio-visual {
+  display: block;
   aspect-ratio: 16 / 9;
   margin: -4px -4px 18px;
   border: 1px solid var(--line);
@@ -299,7 +318,7 @@ footer { background: var(--steel-dark); color: #dce8e9; padding: 34px 16px; text
 }
 
 @media print {
-  .site-header, .hero-actions, .button-row, .clarification-button, .question-help, .module-nav, footer { display: none !important; }
+  .site-header, .hero-actions, .button-row, .clarification-button, .question-help, .module-nav, .infographic-open-label, footer { display: none !important; }
   body { background: white; font-size: 11pt; }
   .module-hero { color: black; background: white; padding: 20px 0; }
   .module-main, .folio-main { width: 100%; padding: 0; }

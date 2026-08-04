@@ -55,7 +55,7 @@
   function theoryHtml(section, index, moduleNumber) {
     return `<section class="card theory-section" id="theory-${moduleNumber}-${index + 1}" tabindex="-1">
       <p class="eyebrow">Theory ${index + 1}</p><h2>${esc(section.title)}</h2>
-      <figure class="theory-visual${index % 2 ? " theory-visual--left" : ""}"><div class="theory-visual__image" role="img" aria-label="${esc(section.visual.alt)}" style="background-image:url('${esc(section.visual.image)}')"></div><figcaption>${esc(section.visual.caption)}</figcaption></figure>
+      <figure class="theory-visual${index % 2 ? " theory-visual--left" : ""}"><a class="theory-visual__link zoomable-infographic" href="${esc(section.visual.image)}" target="_blank" rel="noopener" aria-label="Open infographic in a new tab: ${esc(section.visual.alt)}"><div class="theory-visual__image" aria-hidden="true" style="background-image:url('${esc(section.visual.image)}')"><span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span></div></a><figcaption>${esc(section.visual.caption)}</figcaption></figure>
       <h3 class="theory-chunk-heading">Theory</h3>${section.theory.map((p) => `<p>${esc(p)}</p>`).join("")}
       <h3 class="theory-chunk-heading">Key takeaways</h3><ul>${section.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
       <div class="callout"><strong>Source boundary:</strong> ${esc(section.boundary)}</div>
@@ -96,6 +96,16 @@
     if (!root) return;
     const cards = [...root.querySelectorAll(".folio-card")];
     cards.forEach((card, index) => {
+      const visual = card.querySelector(".folio-visual");
+      const visualLink = document.createElement("a");
+      const visualPath = `assets/visuals/folio-card-${String(index + 1).padStart(2, "0")}.png`;
+      visualLink.className = `${visual.className} zoomable-infographic`;
+      visualLink.href = visualPath;
+      visualLink.target = "_blank";
+      visualLink.rel = "noopener";
+      visualLink.setAttribute("aria-label", `Open infographic in a new tab: ${visual.getAttribute("aria-label")}`);
+      visualLink.innerHTML = '<span class="infographic-open-label">Open larger <span aria-hidden="true">↗</span></span>';
+      visual.replaceWith(visualLink);
       const select = card.querySelector("select");
       select.dataset.required = "";
       select.dataset.projectControl = String(index);

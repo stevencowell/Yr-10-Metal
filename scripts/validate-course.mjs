@@ -33,6 +33,11 @@ const folio = read("folio.html");
 must((folio.match(/class="card folio-card"/g) || []).length === 12, "Folio must contain exactly 12 cards.");
 must((folio.match(/<select data-save name="folio-/g) || []).length === 12, "Every folio card must include a project selector.");
 
+const courseScript = read("guided/course.js");
+must(courseScript.includes("zoomable-infographic"), "Detailed teaching visuals must provide an enlarged-image link.");
+must(courseScript.includes('target="_blank"') && courseScript.includes('visualLink.target = "_blank"'), "Module and folio infographics must open their full-resolution source in a new tab.");
+must(courseScript.includes("Open infographic in a new tab"), "Enlarged-image links must have an accessible name.");
+
 const examSandbox = { window: {} };
 vm.runInNewContext(read("guided/exam-data.js"), examSandbox);
 const exam = examSandbox.window.EXAM_DATA;
