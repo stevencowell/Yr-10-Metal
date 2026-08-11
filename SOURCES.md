@@ -15,7 +15,7 @@ The verified project drawing locations, sheet-by-sheet checks, integrated assets
 
 - Historical 30% project weightings are not used.
 - Historical examination year and Life Skills outcome mapping are not used for the mainstream course.
-- Exact issue/due dates, sessions, teacher, submission details, component marks, formal assessed outcome subsets, approval/version and exam password remain Teacher to confirm.
+- Exact issue/due dates, sessions, teacher, submission details, component marks, formal assessed outcome subsets and approval/version remain Teacher to confirm. The classroom exam password was confirmed by Steve as `8142` on 12 August 2026.
 
 ## Authorship and visual provenance
 

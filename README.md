@@ -15,7 +15,7 @@ Student responses autosave locally in the browser and can be printed or backed u
 - Task 2: Project 2 and Folio · Term 3 Week 10 · 35%
 - Task 3: Practical/theory examination · Term 4 Week 3 · 20%
 
-The notices remain clearly labelled as drafts wherever teacher-controlled details are not supplied. The formal exam stays locked until an approved classroom password is entered in `guided/exam-config.js`.
+The notices remain clearly labelled as drafts wherever teacher-controlled details are not supplied. The formal exam uses the teacher-approved classroom password configured in `guided/exam-config.js`; the static client-side gate is ordinary classroom access control, not strong security.
 
 ## Validation
 
