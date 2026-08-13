@@ -1,0 +1,6 @@
+/* Task 34: home page = start point, explanation and the two real project paths. */
+.course-family-hero figcaption,
+#outcomes,
+#assessment,
+#resources { display:none!important; }
+#pathway .module-map:last-child .module-card:last-child { display:none!important; }
