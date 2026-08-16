@@ -3,6 +3,13 @@
 
   const course = window.COURSE_DATA;
   if (!course) return;
+  const sectionVideos = {
+    "bbq:1:From hazard review to a task-specific WMS": { videoId: "XOkPcLD5Soo", title: "The Hierarchy of Controls", channel: "Healthier Workforce Center", watchFor: "Notice why elimination, substitution and engineering controls are considered before administrative controls or PPE." },
+    "bbq:2:Turning drawings into freehand sketches and a spreadsheet cutting list": { videoId: "BiwmJ4t2KWM", title: "Introduction to orthographic drawing", channel: "Riaan Meeser", watchFor: "Track how the same object is represented consistently across front, top and side views; do not copy the example dimensions." },
+    "bbq:2:Datums, orientation and quality gates for rails and end caps": { videoId: "bByYRFZYAIA", title: "N5 D&M - Marking Out (Metal)", channel: "LHS Technologies", watchFor: "Identify the reference edge used for each mark and where a check occurs before material is processed." },
+    "bbq:7:Surface condition controls finish performance": { videoId: "q0CAfXV-YdY", title: "What is Corrosion and How to Stop it", channel: "Cognito", watchFor: "Listen for the conditions that allow rusting and explain why damaged or incomplete coating weakens protection." },
+    "shovel:2:Material behaviour during forming and shaping": { videoId: "CIBXoYaM7Fw", title: "Malleability and Ductility-Physical Properties", channel: "MooMooMath and Science", watchFor: "Distinguish malleability from ductility, then connect that distinction to changing shape without inventing the shovel process." }
+  };
   const esc = (value) => String(value ?? "").replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
   const key = (scope) => `${course.storagePrefix}:${scope}:v1`;
   const load = (scope) => { try { return JSON.parse(localStorage.getItem(key(scope)) || "{}"); } catch (_) { return {}; } };
@@ -65,6 +72,21 @@
     return `<section class="plan-guidance" aria-labelledby="${id}"><p class="eyebrow">Verified project plans</p><h3 id="${id}">${esc(guidance.heading)}</h3>${guidance.paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join("")}<h4>Plan-reading takeaways</h4><ul>${guidance.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul><div class="callout"><strong>Drawing source boundary:</strong> ${esc(guidance.boundary)}</div><div class="plan-sheet-gallery">${sheets}</div></section>`;
   }
 
+  function projectKey(module) {
+    return module.project.includes("BBQ") ? "bbq" : "shovel";
+  }
+
+  function presentationHref(module) {
+    const slug = projectKey(module) === "bbq" ? "bbq-case" : "folding-camping-shovel";
+    return `presentations/${slug}-module-${module.projectModule}.pptx`;
+  }
+
+  function videoHtml(video) {
+    if (!video) return "";
+    const url = `https://www.youtube.com/watch?v=${encodeURIComponent(video.videoId)}`;
+    return `<aside class="section-video" aria-label="Video learning"><div><p class="eyebrow">Video learning</p><h3>${esc(video.title)}</h3><p><strong>Watch for:</strong> ${esc(video.watchFor)}</p><p class="video-source">YouTube · ${esc(video.channel)}</p></div><button class="video-shell" type="button" data-video-id="${esc(video.videoId)}" data-video-title="${esc(video.title)}" aria-label="Play ${esc(video.title)}"><img src="https://i.ytimg.com/vi/${encodeURIComponent(video.videoId)}/hqdefault.jpg" alt="" loading="lazy"><span>Play video</span></button><a class="video-fallback" href="${url}" target="_blank" rel="noopener">Open in YouTube</a></aside>`;
+  }
+
   function theoryHtml(section, index, moduleNumber) {
     return `<section class="card theory-section" id="theory-${moduleNumber}-${index + 1}" tabindex="-1">
       <p class="eyebrow">Theory ${index + 1}</p><h2>${esc(section.title)}</h2>
@@ -74,6 +96,7 @@
       ${toolPhotosHtml(section)}
       <h3 class="theory-chunk-heading">Key takeaways</h3><ul>${section.takeaways.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
       <div class="callout"><strong>Source boundary:</strong> ${esc(section.boundary)}</div>
+      ${videoHtml(sectionVideos[`${projectKey(course.modules[moduleNumber - 1])}:${course.modules[moduleNumber - 1].projectModule}:${section.title}`])}
     </section>${checksHtml(course.modules[moduleNumber - 1], moduleNumber, index)}${writtenHtml(course.modules[moduleNumber - 1], moduleNumber, index)}`;
   }
 
@@ -106,8 +129,9 @@
     document.querySelector("[data-module-kicker]").textContent = `${module.project} · Module ${module.projectModule} · Weeks ${module.weeks}`;
     document.querySelector("[data-module-title]").textContent = module.title;
     document.querySelector("[data-module-summary]").textContent = module.summary;
-    host.innerHTML = `<section class="card progress-panel"><strong data-progress-text>0% evidence entered</strong><div class="progress-track"><div class="progress-fill" data-progress-fill></div></div><div class="student-grid"><label>Student name<input data-save data-required name="student-name" type="text" autocomplete="name"></label><label>Class<input data-save data-required name="student-class" type="text"></label></div><p class="save-state" data-save-state>Autosaves on this browser and device.</p></section>${module.sections.map((section, index) => theoryHtml(section, index, number)).join("")}${checksHtml(module, number)}${writtenHtml(module, number)}<section class="card theory-section completion-box"><h2>Module completion</h2><label class="option"><input data-save type="checkbox" name="module-complete"> I have completed the theory, checks and written evidence, then saved or printed it as directed.</label><button class="btn" type="button" onclick="window.print()">Print / Save PDF</button></section><nav class="module-nav" aria-label="Module navigation">${number > 1 ? `<a class="btn ghost" href="module.html?module=${number - 1}">← Previous module</a>` : `<a class="btn ghost" href="index.html">← Course home</a>`}${number < course.modules.length ? `<a class="btn" href="module.html?module=${number + 1}">Next module →</a>` : `<a class="btn" href="folio.html">Open folio →</a>`}</nav>`;
+    host.innerHTML = `<section class="card module-overview"><div><p class="eyebrow">Module presentation</p><h2>Preview, learn and save evidence</h2><p>${esc(module.summary)}</p><p class="fine">Work through the presentation, theory, guided checks and written response in order.</p></div><a class="btn presentation-link" href="${presentationHref(module)}" download>Download presentation</a></section><section class="card progress-panel student-evidence" aria-labelledby="student-evidence-title"><div><p class="eyebrow">Student evidence</p><h2 id="student-evidence-title">Your details and progress</h2></div><strong data-progress-text>0% evidence entered</strong><div class="progress-track"><div class="progress-fill" data-progress-fill></div></div><div class="student-grid"><label>Student name<input data-save data-required name="student-name" type="text" autocomplete="name"></label><label>Class<input data-save data-required name="student-class" type="text"></label></div><p class="save-state" data-save-state>Autosaves on this browser and device.</p></section>${module.sections.map((section, index) => theoryHtml(section, index, number)).join("")}${checksHtml(module, number)}${writtenHtml(module, number)}<section class="card theory-section completion-box"><h2>Module completion</h2><label class="option"><input data-save type="checkbox" name="module-complete"> I have completed the theory, checks and written evidence, then saved or printed it as directed.</label><button class="btn" type="button" onclick="window.print()">Print / Save PDF</button></section><nav class="module-nav" aria-label="Module navigation">${number > 1 ? `<a class="btn ghost" href="module.html?module=${number - 1}">← Previous module</a>` : `<a class="btn ghost" href="index.html">← Course home</a>`}${number < course.modules.length ? `<a class="btn" href="module.html?module=${number + 1}">Next module →</a>` : `<a class="btn" href="folio.html">Open folio →</a>`}</nav>`;
     module.checks.forEach((check, index) => host.querySelector(`[data-check-button="${index}"]`).addEventListener("click", () => { const selected = host.querySelector(`input[name="check-${index}"]:checked`); const feedback = host.querySelector(`[data-check-feedback="${index}"]`); if (!selected) { feedback.className = "feedback bad"; feedback.textContent = "Choose an answer first."; return; } const correct = Number(selected.value) === check.answerIndex; feedback.className = `feedback ${correct ? "good" : "bad"}`; feedback.textContent = `${correct ? "Correct. " : "Not yet. "}${check.explanation}`; }));
+    host.querySelectorAll("[data-video-id]").forEach((button) => button.addEventListener("click", () => { const iframe = document.createElement("iframe"); iframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(button.dataset.videoId)}?autoplay=1&rel=0`; iframe.title = button.dataset.videoTitle; iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"; iframe.allowFullscreen = true; button.replaceWith(iframe); }, { once: true }));
     host.querySelectorAll("[data-toggle]").forEach((button) => button.addEventListener("click", () => { const panel = host.querySelector(`#${CSS.escape(button.dataset.toggle)}`); panel.hidden = !panel.hidden; button.setAttribute("aria-expanded", String(!panel.hidden)); }));
     host.querySelectorAll("[data-model-toggle]").forEach((button) => button.addEventListener("click", () => { const panel = host.querySelector(`#${CSS.escape(button.dataset.modelToggle)}`); panel.classList.toggle("open"); button.setAttribute("aria-expanded", String(panel.classList.contains("open"))); }));
     bindAutosave(`module-${number}`, host);
