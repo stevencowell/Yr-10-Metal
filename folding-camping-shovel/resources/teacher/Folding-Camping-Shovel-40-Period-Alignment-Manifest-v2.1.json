@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.2",
+  "schema_version": "1.1",
   "program_id": "folding-camping-shovel",
   "version": "v2.1",
   "course": {
@@ -7,13 +7,19 @@
     "stage_or_year": "Stage 5",
     "project": "Folding Camping Shovel",
     "status": "faculty-ready-default",
-    "authority_boundary": "Teacher to confirm local timetable, assessment and practical authority before delivery."
+    "authority_boundary": "Teacher to confirm local timetable, assessment and practical authority before delivery.",
+    "classification": "Stage 5 elective — Industrial Technology – Metal industry",
+    "delivery_year": 2027
   },
   "site": {
     "title": "Folding Camping Shovel",
     "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/index.html",
     "repository": "year10-metal",
-    "syllabus_learning_url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
+    "syllabus_learning_url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
+    "name": "Folding Camping Shovel",
+    "reference": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/index.html",
+    "inspection_date": "2026-08-29",
+    "state": "mixed"
   },
   "syllabus": {
     "title": "Industrial Technology 7-10 Syllabus",
@@ -22,7 +28,11 @@
     "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/overview/course",
     "outcomes_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
     "source_pack": "official-source-pack/stage5-metal-200-hour-official-source-pack.json",
-    "source_pack_sha256": "72485E0540F1C1A4FBA581A2AC46ABDEEBF40780F5B8CACCE4B86A99EF9B130F"
+    "source_pack_sha256": "72485E0540F1C1A4FBA581A2AC46ABDEEBF40780F5B8CACCE4B86A99EF9B130F",
+    "mandatory_from": "2028",
+    "early_implementation": "permitted",
+    "steve_decision": "use-new-early",
+    "implementation_status": "early-adoption-confirmed"
   },
   "timetable": {
     "periods": 40,
@@ -33,62 +43,73 @@
       "Site/theory": 8,
       "Project/folio": 8,
       "Practical": 24
-    }
+    },
+    "total_periods": 40,
+    "period_minutes": 60
   },
   "outcomes": [
     {
       "code": "INT5-SAF-01",
       "statement": "applies risk management and safe work practices in industrial technology contexts",
       "stable_id": "oc1b39b243",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-COM-01",
       "statement": "communicates ideas and processes in industrial technology contexts",
       "stable_id": "ocd3d9588f",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-ENV-01",
       "statement": "assesses the impact of industrial activities and practices on society and the environment",
       "stable_id": "oc1ce9eab1",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-DES-01",
       "statement": "selects and applies design, project management and technical skills in project production",
       "stable_id": "oc1dc9a662",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-USE-01",
       "statement": "selects and justifies the use of materials, tools and equipment to undertake projects",
       "stable_id": "occadcefd9",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-EVL-01",
       "statement": "evaluates the functional, aesthetic, economic and environmental qualities of products",
       "stable_id": "oc4240814c",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-INP-01",
       "statement": "analyses and applies a range of industrial processes in production contexts",
       "stable_id": "occ07f3563",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-PRO-01",
       "statement": "demonstrates practical skills in the production of projects",
       "stable_id": "ocf9f2dfdc",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     },
     {
       "code": "INT5-IND-01",
       "statement": "investigates and explains a range of industry careers, enterprise opportunities and practices",
       "stable_id": "oc81fed1e1",
-      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes"
+      "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/outcomes",
+      "source_id": "S1"
     }
   ],
   "official_content": {
@@ -119,49 +140,356 @@
   "source_register": [
     {
       "id": "S1",
-      "title": "Stage 5 Metal 200-hour official source pack",
-      "authority": "official-syllabus-extraction",
-      "location": "official-source-pack/stage5-metal-200-hour-official-source-pack.json",
+      "title": "Industrial Technology 7–10 Syllabus (2025) — Stage 5 Metal",
+      "authority": "official-syllabus",
+      "location": "https://curriculum.nsw.edu.au/learning-areas/tas/industrial-technology-7-10-2025/overview/course",
+      "revision": "verified 2026-08-29",
+      "use": "Exact outcomes, course requirements and official Stage 5 Metal content",
       "sha256": "72485E0540F1C1A4FBA581A2AC46ABDEEBF40780F5B8CACCE4B86A99EF9B130F"
     },
     {
       "id": "S2",
-      "title": "Stage 5 Metal content allocation v2.1",
-      "authority": "faculty-ready master allocation",
+      "title": "Stage 5 Metal master content allocation v2.1",
+      "authority": "local-program",
       "location": "stage5-metal-content-allocation-v2.1.json",
+      "revision": "v2.1 verified 2026-08-29",
+      "use": "Content allocation across the four connected project programs",
       "sha256": "867177C18EEDDA88C8ED695BAEF0625540788F84A4829ED02223FA4154DA6385"
     },
     {
       "id": "S3",
-      "title": "Folding Camping Shovel real course data",
-      "authority": "current course website",
-      "location": "work/stage5-metal-alignment/repositories/year10-metal/folding-camping-shovel/data.js",
+      "title": "Current Stage 5 Metal course website and project sequence",
+      "authority": "website",
+      "location": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/index.html",
+      "revision": "repository and routes inspected 2026-08-29",
+      "use": "Named theory, checks, project, folio and evidence destinations",
       "sha256": "35AA479B8022DFCB5EDE446A4371B6C6DFA66BDB39E58068ADE578D41D24080F"
     }
   ],
-  "website_learning_inventory": {
-    "course_data_path": "work/stage5-metal-alignment/repositories/year10-metal/folding-camping-shovel/data.js",
-    "course_data_sha256": "35AA479B8022DFCB5EDE446A4371B6C6DFA66BDB39E58068ADE578D41D24080F",
-    "module_count": 5,
-    "section_count": 15,
-    "website_learning_ids": [
-      "folding-camping-shovel-m1-s1",
-      "folding-camping-shovel-m1-s2",
-      "folding-camping-shovel-m1-s3",
-      "folding-camping-shovel-m2-s1",
-      "folding-camping-shovel-m2-s2",
-      "folding-camping-shovel-m2-s3",
-      "folding-camping-shovel-m3-s1",
-      "folding-camping-shovel-m3-s2",
-      "folding-camping-shovel-m3-s3",
-      "folding-camping-shovel-m4-s1",
-      "folding-camping-shovel-m4-s2",
-      "folding-camping-shovel-m4-s3",
-      "folding-camping-shovel-m5-s1",
-      "folding-camping-shovel-m5-s2",
-      "folding-camping-shovel-m5-s3"
-    ]
-  },
+  "website_learning_inventory": [
+    {
+      "id": "folding-camping-shovel-m1-s1",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-1",
+      "theory_section": "Theory: Reading the folding-shovel system through its drawings",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 1: Reading the folding-shovel system through its drawings; WMS planning for a multi-process product",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m1-s2",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-2",
+      "theory_section": "Theory: WMS planning for a multi-process product",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 1: Reading the folding-shovel system through its drawings; WMS planning for a multi-process product",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-003",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks",
+      "theory_section": "Knowledge check: Brief, modifications and job planning",
+      "quiz_or_check": "Knowledge check: Brief, modifications and job planning",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        1
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 1: Reading the folding-shovel system through its drawings; WMS planning for a multi-process product",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m1-s3",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-3",
+      "theory_section": "Theory: Societal and environmental criteria before manufacture",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 1: Societal and environmental criteria before manufacture",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-008",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks-1-3",
+      "theory_section": "Knowledge check: Brief, modifications and job planning",
+      "quiz_or_check": "Knowledge check: Brief, modifications and job planning",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        6
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 1: Societal and environmental criteria before manufacture",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m2-s1",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-1",
+      "theory_section": "Theory: Translating the shovel-head drawing into a controlled sequence",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        11
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 2: Translating the shovel-head drawing into a controlled sequence; Material behaviour during forming and…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m2-s2",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-2",
+      "theory_section": "Theory: Material behaviour during forming and shaping",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        11
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 2: Translating the shovel-head drawing into a controlled sequence; Material behaviour during forming and…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-011",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks",
+      "theory_section": "Knowledge check: Risk, WMS and time/action planning",
+      "quiz_or_check": "Knowledge check: Risk, WMS and time/action planning",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        11
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 2: Translating the shovel-head drawing into a controlled sequence; Material behaviour during forming and…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m2-s3",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-3",
+      "theory_section": "Theory: Checking head geometry, edges and assembly readiness",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        16
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 2: Checking head geometry, edges and assembly readiness",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-013",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks-2-3",
+      "theory_section": "Knowledge check: Risk, WMS and time/action planning",
+      "quiz_or_check": "Knowledge check: Risk, WMS and time/action planning",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        16
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 2: Checking head geometry, edges and assembly readiness",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m3-s1",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-1",
+      "theory_section": "Theory: Metal-lathe SOP evidence for handle and end-plug work",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        21
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 3: Metal-lathe SOP evidence for handle and end-plug work; Functional fits connect dimensions to movement…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m3-s2",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-2",
+      "theory_section": "Theory: Functional fits connect dimensions to movement and assembly",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        21
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 3: Metal-lathe SOP evidence for handle and end-plug work; Functional fits connect dimensions to movement…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-016",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks",
+      "theory_section": "Knowledge check: Alloys and shovel-head production",
+      "quiz_or_check": "Knowledge check: Alloys and shovel-head production",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        21
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 3: Metal-lathe SOP evidence for handle and end-plug work; Functional fits connect dimensions to movement…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m3-s3",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-3",
+      "theory_section": "Theory: Threads as controlled geometry and evidence",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        26
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 3: Threads as controlled geometry and evidence",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-018",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks-3-3",
+      "theory_section": "Knowledge check: Alloys and shovel-head production",
+      "quiz_or_check": "Knowledge check: Alloys and shovel-head production",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        26
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 3: Threads as controlled geometry and evidence",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m4-s1",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-1",
+      "theory_section": "Theory: Pivot parts: centres, alignment and movement path",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        31
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 4: Pivot parts: centres, alignment and movement path; Milling as a controlled relationship between tool…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m4-s2",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-2",
+      "theory_section": "Theory: Milling as a controlled relationship between tool, work and…",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        31
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 4: Pivot parts: centres, alignment and movement path; Milling as a controlled relationship between tool…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m4-s3",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-3",
+      "theory_section": "Theory: Drilling RPM calculations: formula, units and authorised…",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        31
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 4: Pivot parts: centres, alignment and movement path; Milling as a controlled relationship between tool…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-022",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#knowledge-checks",
+      "theory_section": "Knowledge check: Fits, threads and machining",
+      "quiz_or_check": "Knowledge check: Fits, threads and machining",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        31
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 4: Pivot parts: centres, alignment and movement path; Milling as a controlled relationship between tool…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m5-s1",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-1",
+      "theory_section": "Theory: Handle and pivot assembly as a functional quality gate",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        36
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 5: Handle and pivot assembly as a functional quality gate; Societal and environmental impact report with…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m5-s2",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-2",
+      "theory_section": "Theory: Societal and environmental impact report with evidence",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        36
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 5: Handle and pivot assembly as a functional quality gate; Societal and environmental impact report with…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "folding-camping-shovel-m5-s3",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-3",
+      "theory_section": "Theory: PMI, project report and authentic Task 2 submission",
+      "quiz_or_check": "none",
+      "question_count": 0,
+      "scaffolded_response_count": 0,
+      "period_numbers": [
+        36
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 5: Handle and pivot assembly as a functional quality gate; Societal and environmental impact report with…",
+      "teacher_to_confirm_ids": []
+    },
+    {
+      "id": "CHECK-027",
+      "route": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#knowledge-checks",
+      "theory_section": "Knowledge check: Pivot, RPM, assembly and evaluation",
+      "quiz_or_check": "Knowledge check: Pivot, RPM, assembly and evaluation",
+      "question_count": 0,
+      "scaffolded_response_count": 1,
+      "period_numbers": [
+        36
+      ],
+      "coverage_state": "scheduled",
+      "evidence": "Named theory/check record — Module 5: Handle and pivot assembly as a functional quality gate; Societal and environmental impact report with…",
+      "teacher_to_confirm_ids": []
+    }
+  ],
   "periods": [
     {
       "number": 1,
@@ -178,49 +506,17 @@
         "INT5-IND-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-1",
-          "label": "Theory: Reading the folding-shovel system through its drawings",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 1,
-          "section_number": 1
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-2",
-          "label": "Theory: WMS planning for a multi-process product",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 1,
-          "section_number": 2
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks",
-          "label": "Knowledge check: Brief, modifications and job planning",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 1,
-          "related_theory_sections": [
-            1,
-            2
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-1",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-2",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
         "folding-camping-shovel-m1-s1",
-        "folding-camping-shovel-m1-s2"
+        "folding-camping-shovel-m1-s2",
+        "CHECK-003"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -346,13 +642,18 @@
         "Describe new and emerging technologies and their influence on the metal industry",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Outline the principles of risk management and implement risk-reduction procedures | Describe first aid procedures and outline the procedure to follow after particular incidents | Describe new and emerging technologies and their influence on the metal industry | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Outline the principles of risk management and implement risk-reduction procedures",
+        "Describe first aid procedures and outline the procedure to follow after particular incidents",
+        "Describe new and emerging technologies and their influence on the metal industry",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "ci691cf158",
-        "ci2205366d",
-        "ci06f5e8d1",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 2,
@@ -367,23 +668,10 @@
         "INT5-EVL-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 1",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -467,11 +755,16 @@
         "Use Australian regulations, standards and codes of practice when designing and producing",
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Use Australian regulations, standards and codes of practice when designing and producing | Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Use Australian regulations, standards and codes of practice when designing and producing",
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "ciaf8f2893",
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 3,
@@ -487,33 +780,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Project production evidence",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -596,11 +866,16 @@
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
         "Select and use appropriate metal and metal profiles for specific applications in the construction of metal…"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects | Select and use appropriate metal and metal profiles for specific applications in the construction of metal…",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+        "Select and use appropriate metal and metal profiles for specific applications in the construction of metal…"
+      ],
       "source_ids": [
-        "ci71868845",
-        "cif36ae286"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 4,
@@ -616,33 +891,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Project production evidence",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -727,11 +979,16 @@
         "Use and adjust appropriate hand tools, portable power tools or machines for cutting, shaping, forming…",
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Use and adjust appropriate hand tools, portable power tools or machines for cutting, shaping, forming… | Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Use and adjust appropriate hand tools, portable power tools or machines for cutting, shaping, forming…",
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "cid5958960",
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 5,
@@ -747,26 +1004,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -825,10 +1066,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 6,
@@ -842,38 +1088,15 @@
         "INT5-IND-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-3",
-          "label": "Theory: Societal and environmental criteria before manufacture",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 1,
-          "section_number": 3
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks-1-3",
-          "label": "Knowledge check: Brief, modifications and job planning",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 1,
-          "related_theory_sections": [
-            3
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-3",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks-1-3",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
-        "folding-camping-shovel-m1-s3"
+        "folding-camping-shovel-m1-s3",
+        "CHECK-008"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -950,11 +1173,16 @@
         "Discuss the importance of graphical literacy for communication across industries",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Discuss the importance of graphical literacy for communication across industries | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Discuss the importance of graphical literacy for communication across industries",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "cifc92fa39",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 7,
@@ -969,23 +1197,10 @@
         "INT5-EVL-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 2",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -1065,11 +1280,16 @@
         "Evaluate the effectiveness of design on the quality, function and aesthetics of finished products",
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Evaluate the effectiveness of design on the quality, function and aesthetics of finished products | Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Evaluate the effectiveness of design on the quality, function and aesthetics of finished products",
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "ci9c11df86",
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 8,
@@ -1085,26 +1305,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -1163,10 +1367,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 9,
@@ -1182,26 +1391,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -1260,10 +1453,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 10,
@@ -1279,26 +1477,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -1357,10 +1539,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 11,
@@ -1375,49 +1562,17 @@
         "INT5-USE-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-1",
-          "label": "Theory: Translating the shovel-head drawing into a controlled sequence",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 2,
-          "section_number": 1
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-2",
-          "label": "Theory: Material behaviour during forming and shaping",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 2,
-          "section_number": 2
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks",
-          "label": "Knowledge check: Risk, WMS and time/action planning",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 2,
-          "related_theory_sections": [
-            1,
-            2
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-1",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-2",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
         "folding-camping-shovel-m2-s1",
-        "folding-camping-shovel-m2-s2"
+        "folding-camping-shovel-m2-s2",
+        "CHECK-011"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -1494,11 +1649,16 @@
         "Investigate the types and uses of a range of metals in metal projects",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Investigate the types and uses of a range of metals in metal projects | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Investigate the types and uses of a range of metals in metal projects",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "ci29c434fe",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 12,
@@ -1514,23 +1674,10 @@
         "INT5-USE-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 3",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -1612,11 +1759,16 @@
         "Propose, apply and evaluate plans for production, using project management tasks and tools",
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Propose, apply and evaluate plans for production, using project management tasks and tools | Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Propose, apply and evaluate plans for production, using project management tasks and tools",
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "cidd17db69",
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 13,
@@ -1632,26 +1784,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -1710,10 +1846,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 14,
@@ -1729,26 +1870,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -1807,10 +1932,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 15,
@@ -1826,26 +1956,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -1904,10 +2018,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 16,
@@ -1923,38 +2042,15 @@
         "INT5-USE-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-3",
-          "label": "Theory: Checking head geometry, edges and assembly readiness",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 2,
-          "section_number": 3
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks-2-3",
-          "label": "Knowledge check: Risk, WMS and time/action planning",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 2,
-          "related_theory_sections": [
-            3
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-3",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks-2-3",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
-        "folding-camping-shovel-m2-s3"
+        "folding-camping-shovel-m2-s3",
+        "CHECK-013"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -2035,11 +2131,16 @@
         "Recognise the importance of conservation of materials and recycling in the metal industry",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Recognise the importance of conservation of materials and recycling in the metal industry | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Recognise the importance of conservation of materials and recycling in the metal industry",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "ciff2bb890",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 17,
@@ -2054,23 +2155,10 @@
         "INT5-EVL-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 4",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -2150,11 +2238,16 @@
         "Demonstrate digital literacy and information management skills when working with digital systems and in online…",
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Demonstrate digital literacy and information management skills when working with digital systems and in online… | Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Demonstrate digital literacy and information management skills when working with digital systems and in online…",
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "ci8af306b1",
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 18,
@@ -2170,26 +2263,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -2248,10 +2325,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 19,
@@ -2267,26 +2349,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -2345,10 +2411,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 20,
@@ -2364,26 +2435,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -2442,10 +2497,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 21,
@@ -2461,49 +2521,17 @@
         "INT5-INP-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-1",
-          "label": "Theory: Metal-lathe SOP evidence for handle and end-plug work",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 3,
-          "section_number": 1
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-2",
-          "label": "Theory: Functional fits connect dimensions to movement and assembly",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 3,
-          "section_number": 2
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks",
-          "label": "Knowledge check: Alloys and shovel-head production",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 3,
-          "related_theory_sections": [
-            1,
-            2
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-1",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-2",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
         "folding-camping-shovel-m3-s1",
-        "folding-camping-shovel-m3-s2"
+        "folding-camping-shovel-m3-s2",
+        "CHECK-016"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -2582,11 +2610,16 @@
         "Describe how mechanical properties of metals may be modified by alloying, heat treatment and hot or cold…",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Describe how mechanical properties of metals may be modified by alloying, heat treatment and hot or cold… | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Describe how mechanical properties of metals may be modified by alloying, heat treatment and hot or cold…",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "cif7087b5d",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 22,
@@ -2601,16 +2634,10 @@
         "INT5-EVL-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 5",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -2667,10 +2694,15 @@
       "syllabus_plain_labels": [
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 23,
@@ -2686,26 +2718,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -2764,10 +2780,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 24,
@@ -2783,26 +2804,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -2861,10 +2866,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 25,
@@ -2880,26 +2890,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -2958,10 +2952,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 26,
@@ -2977,38 +2976,15 @@
         "INT5-USE-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-3",
-          "label": "Theory: Threads as controlled geometry and evidence",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 3,
-          "section_number": 3
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks-3-3",
-          "label": "Knowledge check: Alloys and shovel-head production",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 3,
-          "related_theory_sections": [
-            3
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-3",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks-3-3",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
-        "folding-camping-shovel-m3-s3"
+        "folding-camping-shovel-m3-s3",
+        "CHECK-018"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -3091,11 +3067,16 @@
         "Investigate metal ores used by Aboriginal and/or Torres Strait Islander Peoples on-Country",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Investigate metal ores used by Aboriginal and/or Torres Strait Islander Peoples on-Country | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Investigate metal ores used by Aboriginal and/or Torres Strait Islander Peoples on-Country",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "ci689d52ad",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 27,
@@ -3110,16 +3091,10 @@
         "INT5-EVL-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 6",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -3176,10 +3151,15 @@
       "syllabus_plain_labels": [
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 28,
@@ -3195,26 +3175,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -3273,10 +3237,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 29,
@@ -3292,26 +3261,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -3370,10 +3323,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 30,
@@ -3389,26 +3347,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -3467,10 +3409,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 31,
@@ -3486,60 +3433,19 @@
         "INT5-USE-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-1",
-          "label": "Theory: Pivot parts: centres, alignment and movement path",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 4,
-          "section_number": 1
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-2",
-          "label": "Theory: Milling as a controlled relationship between tool, work and…",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 4,
-          "section_number": 2
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-3",
-          "label": "Theory: Drilling RPM calculations: formula, units and authorised…",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 4,
-          "section_number": 3
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#knowledge-checks",
-          "label": "Knowledge check: Fits, threads and machining",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 4,
-          "related_theory_sections": [
-            1,
-            2,
-            3
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-1",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-2",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-3",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#knowledge-checks",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
         "folding-camping-shovel-m4-s1",
         "folding-camping-shovel-m4-s2",
-        "folding-camping-shovel-m4-s3"
+        "folding-camping-shovel-m4-s3",
+        "CHECK-022"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -3620,11 +3526,16 @@
         "Create written texts to explain the practical applications and safety requirements of a range of tools and…",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Create written texts to explain the practical applications and safety requirements of a range of tools and… | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Create written texts to explain the practical applications and safety requirements of a range of tools and…",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "cib24335f8",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 32,
@@ -3639,16 +3550,10 @@
         "INT5-EVL-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 7",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -3705,10 +3610,15 @@
       "syllabus_plain_labels": [
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 33,
@@ -3724,26 +3634,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html#metal-skills-studio",
-          "label": "Metal skills studio: complete lathe operations evidence",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html#metal-skills-studio"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled-metal-skills-studio",
-        "route_does_not_authorise_practical_work": true,
-        "requirements": [
-          "teacher-issued studio task and evidence requirement",
-          "locally approved equipment, materials or samples",
-          "current demonstration, SOPs, SDSs, PPE and supervision",
-          "explicit equipment/process permission and risk controls"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -3828,11 +3722,16 @@
         "Perform metal lathe operations including drilling, facing, knurling and parallel turning",
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Perform metal lathe operations including drilling, facing, knurling and parallel turning | Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Perform metal lathe operations including drilling, facing, knurling and parallel turning",
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci1944eec5",
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 34,
@@ -3848,26 +3747,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html#metal-skills-studio",
-          "label": "Metal skills studio: internal and external thread-cutting evidence",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html#metal-skills-studio"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled-metal-skills-studio",
-        "route_does_not_authorise_practical_work": true,
-        "requirements": [
-          "teacher-issued studio task and evidence requirement",
-          "locally approved equipment, materials or samples",
-          "current demonstration, SOPs, SDSs, PPE and supervision",
-          "explicit equipment/process permission and risk controls"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -3952,11 +3835,16 @@
         "Apply techniques using equipment for the cutting of internal and external screw threads",
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Apply techniques using equipment for the cutting of internal and external screw threads | Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Apply techniques using equipment for the cutting of internal and external screw threads",
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "cifd56aad5",
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 35,
@@ -3972,33 +3860,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Shovel machining: precision measurement evidence",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -4083,11 +3948,16 @@
         "Machine metals with precision, ensuring accuracy by using micrometers and vernier callipers",
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Machine metals with precision, ensuring accuracy by using micrometers and vernier callipers | Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Machine metals with precision, ensuring accuracy by using micrometers and vernier callipers",
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ciebb24a84",
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 36,
@@ -4103,60 +3973,19 @@
         "INT5-USE-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-1",
-          "label": "Theory: Handle and pivot assembly as a functional quality gate",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 5,
-          "section_number": 1
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-2",
-          "label": "Theory: Societal and environmental impact report with evidence",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 5,
-          "section_number": 2
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-3",
-          "label": "Theory: PMI, project report and authentic Task 2 submission",
-          "purpose": "Named theory section",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 5,
-          "section_number": 3
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#knowledge-checks",
-          "label": "Knowledge check: Pivot, RPM, assembly and evaluation",
-          "purpose": "Module knowledge checks and response",
-          "audience": "student",
-          "route_status": "verified-existing",
-          "module_number": 5,
-          "related_theory_sections": [
-            1,
-            2,
-            3
-          ]
-        },
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-          "label": "Syllabus learning",
-          "purpose": "Exact syllabus-content learning or evidence destination",
-          "audience": "student",
-          "route_status": "integration-route"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-1",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-2",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-3",
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#knowledge-checks",
+        "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html"
       ],
       "website_learning_ids": [
         "folding-camping-shovel-m5-s1",
         "folding-camping-shovel-m5-s2",
-        "folding-camping-shovel-m5-s3"
+        "folding-camping-shovel-m5-s3",
+        "CHECK-027"
       ],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [],
       "syllabus_alignments": [
         {
@@ -4237,11 +4066,16 @@
         "Identify ethical, cultural and sustainability practices used in the metal industry",
         "Use subject-specific terminology to communicate industrial technology concepts"
       ],
-      "syllabus_content": "Identify ethical, cultural and sustainability practices used in the metal industry | Use subject-specific terminology to communicate industrial technology concepts",
+      "syllabus_content": [
+        "Identify ethical, cultural and sustainability practices used in the metal industry",
+        "Use subject-specific terminology to communicate industrial technology concepts"
+      ],
       "source_ids": [
-        "ci504c90d9",
-        "ci294d2223"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 37,
@@ -4256,16 +4090,10 @@
         "INT5-EVL-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-          "label": "Project folio: checkpoint 8",
-          "purpose": "Saved project decision and evidence",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": null,
+      "practical_authority": "not-applicable",
       "teacher_to_confirm_ids": [
         "TTC-METAL-02"
       ],
@@ -4322,10 +4150,15 @@
       "syllabus_plain_labels": [
         "Create written texts to document, reflect on and evaluate project development, production and management…"
       ],
-      "syllabus_content": "Create written texts to document, reflect on and evaluate project development, production and management…",
+      "syllabus_content": [
+        "Create written texts to document, reflect on and evaluate project development, production and management…"
+      ],
       "source_ids": [
-        "ci340ed442"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 38,
@@ -4341,26 +4174,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -4419,10 +4236,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 39,
@@ -4438,26 +4260,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -4516,10 +4322,15 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     },
     {
       "number": 40,
@@ -4535,26 +4346,10 @@
         "INT5-PRO-01"
       ],
       "site_destinations": [
-        {
-          "url": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-          "label": "Approved project plan and production evidence",
-          "purpose": "Teacher-controlled plan and project evidence boundary",
-          "audience": "student",
-          "route_status": "verified-existing"
-        }
+        "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html"
       ],
       "website_learning_ids": [],
-      "practical_authority": {
-        "state": "teacher-controlled",
-        "requirements": [
-          "current teacher-issued project plan",
-          "local induction and demonstrated procedure",
-          "applicable SOPs and SDSs",
-          "directed PPE and supervision",
-          "current risk controls and equipment permission"
-        ],
-        "teacher_to_confirm_id": "TTC-METAL-03"
-      },
+      "practical_authority": "teacher-to-confirm",
       "teacher_to_confirm_ids": [
         "TTC-METAL-03"
       ],
@@ -4613,49 +4408,46 @@
       "syllabus_plain_labels": [
         "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
       ],
-      "syllabus_content": "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects",
+      "syllabus_content": [
+        "Demonstrate safe workshop practices and procedures when using materials, tools and equipment in metal projects"
+      ],
       "source_ids": [
-        "ci71868845"
-      ]
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "site_alignment": "mapped"
     }
   ],
   "site_route_map": [
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks",
-      "visible_label": "Knowledge check: Brief, modifications and job planning",
-      "purpose": "Module knowledge checks and response",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        1
-      ]
-    },
-    {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-1",
-      "visible_label": "Theory: Reading the folding-shovel system through its drawings",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         1
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-2",
-      "visible_label": "Theory: WMS planning for a multi-process product",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
+      "period_numbers": [
+        1
+      ]
+    },
+    {
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks",
+      "purpose": "Module knowledge checks and response",
+      "audience": "student",
       "period_numbers": [
         1
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html",
-      "visible_label": "Syllabus learning",
       "purpose": "Exact syllabus-content learning or evidence destination",
       "audience": "student",
-      "route_status": "integration-route",
       "period_numbers": [
         1,
         6,
@@ -4669,33 +4461,23 @@
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 1",
       "purpose": "Saved project decision and evidence",
       "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        2
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio",
-      "purpose": "Exact syllabus-content learning or evidence destination",
-      "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         2,
         7,
         12,
-        17
+        17,
+        22,
+        27,
+        32,
+        37
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-      "visible_label": "Approved project plan and production evidence",
       "purpose": "Teacher-controlled plan and project evidence boundary",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         3,
         4,
@@ -4722,314 +4504,172 @@
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-      "visible_label": "Project production evidence",
-      "purpose": "Exact syllabus-content learning or evidence destination",
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-3",
+      "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        3,
-        4
+        6
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#knowledge-checks-1-3",
-      "visible_label": "Knowledge check: Brief, modifications and job planning",
       "purpose": "Module knowledge checks and response",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         6
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=1#theory-1-3",
-      "visible_label": "Theory: Societal and environmental criteria before manufacture",
-      "purpose": "Named theory section",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        6
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 2",
-      "purpose": "Saved project decision and evidence",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        7
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks",
-      "visible_label": "Knowledge check: Risk, WMS and time/action planning",
-      "purpose": "Module knowledge checks and response",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        11
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-1",
-      "visible_label": "Theory: Translating the shovel-head drawing into a controlled sequence",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         11
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-2",
-      "visible_label": "Theory: Material behaviour during forming and shaping",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         11
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 3",
-      "purpose": "Saved project decision and evidence",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        12
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks-2-3",
-      "visible_label": "Knowledge check: Risk, WMS and time/action planning",
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks",
       "purpose": "Module knowledge checks and response",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        16
+        11
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#theory-2-3",
-      "visible_label": "Theory: Checking head geometry, edges and assembly readiness",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         16
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 4",
-      "purpose": "Saved project decision and evidence",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        17
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks",
-      "visible_label": "Knowledge check: Alloys and shovel-head production",
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=2#knowledge-checks-2-3",
       "purpose": "Module knowledge checks and response",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        21
+        16
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-1",
-      "visible_label": "Theory: Metal-lathe SOP evidence for handle and end-plug work",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         21
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-2",
-      "visible_label": "Theory: Functional fits connect dimensions to movement and assembly",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         21
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 5",
-      "purpose": "Saved project decision and evidence",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        22
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks-3-3",
-      "visible_label": "Knowledge check: Alloys and shovel-head production",
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks",
       "purpose": "Module knowledge checks and response",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        26
+        21
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#theory-3-3",
-      "visible_label": "Theory: Threads as controlled geometry and evidence",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         26
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 6",
-      "purpose": "Saved project decision and evidence",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        27
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#knowledge-checks",
-      "visible_label": "Knowledge check: Fits, threads and machining",
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=3#knowledge-checks-3-3",
       "purpose": "Module knowledge checks and response",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        31
+        26
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-1",
-      "visible_label": "Theory: Pivot parts: centres, alignment and movement path",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         31
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-2",
-      "visible_label": "Theory: Milling as a controlled relationship between tool, work and…",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         31
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#theory-4-3",
-      "visible_label": "Theory: Drilling RPM calculations: formula, units and authorised…",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         31
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 7",
-      "purpose": "Saved project decision and evidence",
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=4#knowledge-checks",
+      "purpose": "Module knowledge checks and response",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        32
+        31
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html#metal-skills-studio",
-      "visible_label": "Metal skills studio: complete lathe operations evidence",
       "purpose": "Exact syllabus-content learning or evidence destination",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        33
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/syllabus-learning.html#metal-skills-studio",
-      "visible_label": "Metal skills studio: internal and external thread-cutting evidence",
-      "purpose": "Exact syllabus-content learning or evidence destination",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
+        33,
         34
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/project-resource.html",
-      "visible_label": "Shovel machining: precision measurement evidence",
-      "purpose": "Exact syllabus-content learning or evidence destination",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        35
-      ]
-    },
-    {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#knowledge-checks",
-      "visible_label": "Knowledge check: Pivot, RPM, assembly and evaluation",
-      "purpose": "Module knowledge checks and response",
-      "audience": "student",
-      "route_status": "verified-existing",
-      "period_numbers": [
-        36
-      ]
-    },
-    {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-1",
-      "visible_label": "Theory: Handle and pivot assembly as a functional quality gate",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         36
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-2",
-      "visible_label": "Theory: Societal and environmental impact report with evidence",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         36
       ]
     },
     {
       "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#theory-5-3",
-      "visible_label": "Theory: PMI, project report and authentic Task 2 submission",
       "purpose": "Named theory section",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
         36
       ]
     },
     {
-      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/folio.html",
-      "visible_label": "Project folio: checkpoint 8",
-      "purpose": "Saved project decision and evidence",
+      "destination": "https://stevencowell.github.io/Yr-10-Metal/folding-camping-shovel/module.html?module=5#knowledge-checks",
+      "purpose": "Module knowledge checks and response",
       "audience": "student",
-      "route_status": "verified-existing",
       "period_numbers": [
-        37
+        36
       ]
     }
   ],
@@ -5044,6 +4684,48 @@
         "fishing-rod-holder",
         "bbq-and-case",
         "folding-camping-shovel"
+      ],
+      "affected_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ]
     },
     {
@@ -5056,6 +4738,48 @@
         "fishing-rod-holder",
         "bbq-and-case",
         "folding-camping-shovel"
+      ],
+      "affected_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ]
     },
     {
@@ -5068,6 +4792,32 @@
         "fishing-rod-holder",
         "bbq-and-case",
         "folding-camping-shovel"
+      ],
+      "affected_periods": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        13,
+        14,
+        15,
+        18,
+        19,
+        20,
+        23,
+        24,
+        25,
+        28,
+        29,
+        30,
+        33,
+        34,
+        35,
+        38,
+        39,
+        40
       ]
     },
     {
@@ -5080,6 +4830,48 @@
         "fishing-rod-holder",
         "bbq-and-case",
         "folding-camping-shovel"
+      ],
+      "affected_periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
       ]
     }
   ],
@@ -5097,13 +4889,13 @@
       "path": "Folding-Camping-Shovel-40-Period-Teaching-Program-v2.1-Network-Benchmark.docx",
       "purpose": "editable-program",
       "version": "v2.1",
-      "sha256": "87A5027C5B382A892382AC0B8083869A595D13A71C8C3A632CACD7F64A29F8C2"
+      "sha256": "DEEA12400676570B36F62D79D1568C9D27C7D0DF0D8A955CB8E89D12206B83F2"
     },
     {
       "path": "Folding-Camping-Shovel-40-Period-Teaching-Program-v2.1-Network-Benchmark.pdf",
       "purpose": "rendered-program",
       "version": "v2.1",
-      "sha256": "1A8EB79EBA3561AA7CFAEEC9AC2DCD731D8B8362B14A7AE639805551112C3A23",
+      "sha256": "4ABE9CBC81A31023644E98C480A6B2E85C3932C5496CB726A3E7DFDC22810337",
       "state": "not-generated-by-staging-validation"
     },
     {
